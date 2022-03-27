@@ -21,5 +21,11 @@ namespace Aquaria_Project
         {
 
         }
+
+        private void CollectionBookOpen_Click(object sender, EventArgs e)
+        {
+            CollectionBookForm CollectionBook = new CollectionBookForm();
+            CollectionBook.ShowDialog();
+        }
     }
 }

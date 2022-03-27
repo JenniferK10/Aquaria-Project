@@ -83,6 +83,7 @@
             this.CollectionBookOpen.TabIndex = 4;
             this.CollectionBookOpen.Text = "Collection Book";
             this.CollectionBookOpen.UseVisualStyleBackColor = true;
+            this.CollectionBookOpen.Click += new System.EventHandler(this.CollectionBookOpen_Click);
             // 
             // BuyFishStore
             // 
