@@ -127,6 +127,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LightSkyBlue;
             this.ClientSize = new System.Drawing.Size(963, 578);
             this.Controls.Add(this.SandColorButton);
             this.Controls.Add(this.DecortationStore);
@@ -138,7 +139,7 @@
             this.Controls.Add(this.FlappyFishStart);
             this.Controls.Add(this.GuessingGameStart);
             this.Name = "Aquarium";
-            this.Text = "Form1";
+            this.Text = "Aquarium";
             this.ResumeLayout(false);
 
         }
