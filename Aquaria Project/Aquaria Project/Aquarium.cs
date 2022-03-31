@@ -25,6 +25,58 @@ namespace Aquaria_Project
         Image lionfishPic = Image.FromFile("lionfish.jpg");
         Image mandarinDragonetPic = Image.FromFile("mandarindragonet.jpg");
 
+
+        public Image getImage(String fish)
+        {
+            if(fish.Equals("clownfish"))
+            {
+                return clownPic;
+            }
+            else if (fish.Equals("goby"))
+            {
+                return gobyPic;
+            }
+            else if (fish.Equals("puffer"))
+            {
+                return pufferPic;
+            }
+            else if (fish.Equals("butterfly"))
+            {
+                return butterflyPic;
+            }
+            else if (fish.Equals("bluetang"))
+            {
+                return blueTangPic;
+            }
+            else if (fish.Equals("royalgramma"))
+            {
+                return royalGrammaPic;
+            }
+            else if (fish.Equals("cardinal"))
+            {
+                return cardinalPic;
+            }
+            else if (fish.Equals("jawfish"))
+            {
+                return jawfishPic;
+            }
+            else if (fish.Equals("seahorse"))
+            {
+                return seahorsePic;
+            }
+            else if (fish.Equals("possumwrasse"))
+            {
+                return possumWrassePic;
+            }
+            else if (fish.Equals("lionfish"))
+            {
+                return lionfishPic;
+            }
+            else
+            {
+                return mandarinDragonetPic;
+            }           
+        }
         public Aquarium()
         {
             InitializeComponent();

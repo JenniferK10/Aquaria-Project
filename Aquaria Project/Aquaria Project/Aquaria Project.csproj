@@ -59,7 +59,6 @@
       <DependentUpon>Aquarium.cs</DependentUpon>
     </Compile>
     <Compile Include="Fish.cs" />
-    <Compile Include="FishList.cs" />
     <Compile Include="GuessingGame.cs" />
     <Compile Include="GuessingGameForm.cs">
       <SubType>Form</SubType>
