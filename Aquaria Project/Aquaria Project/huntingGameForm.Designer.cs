@@ -143,6 +143,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Aqua;
             this.ClientSize = new System.Drawing.Size(1028, 594);
             this.Controls.Add(this.lab_score);
             this.Controls.Add(this.lab_hunt);
