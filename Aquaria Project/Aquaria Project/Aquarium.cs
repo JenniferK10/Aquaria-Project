@@ -12,6 +12,19 @@ namespace Aquaria_Project
 {
     public partial class Aquarium : Form
     {
+        Image clownPic = Image.FromFile("clownfish.jpg");
+        Image gobyPic = Image.FromFile("goby.jpg");
+        Image pufferPic = Image.FromFile("puffer.jpg");
+        Image butterflyPic = Image.FromFile("butterfly.jpg");
+        Image blueTangPic = Image.FromFile("bluetang.jpg");
+        Image royalGrammaPic = Image.FromFile("royalgramma.jpg");
+        Image cardinalPic = Image.FromFile("cardinal.jpg");
+        Image jawfishPic = Image.FromFile("jawfish.jpg");
+        Image seahorsePic = Image.FromFile("seahorse.jpg");
+        Image possumWrassePic = Image.FromFile("possumwrasse.jpg");
+        Image lionfishPic = Image.FromFile("lionfish.jpg");
+        Image mandarinDragonetPic = Image.FromFile("mandarindragonet.jpg");
+
         public Aquarium()
         {
             InitializeComponent();
@@ -33,5 +46,6 @@ namespace Aquaria_Project
             GuessingGameForm GuessingGame = new GuessingGameForm();
             GuessingGame.ShowDialog();
         }
+
     }
 }
