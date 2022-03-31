@@ -33,5 +33,11 @@ namespace Aquaria_Project
             GuessingGameForm GuessingGame = new GuessingGameForm();
             GuessingGame.ShowDialog();
         }
+
+        private void HuntingGameStart_Click(object sender, EventArgs e)
+        {
+            huntingGameForm huntingGameForm = new huntingGameForm();
+            huntingGameForm.ShowDialog();
+        }
     }
 }

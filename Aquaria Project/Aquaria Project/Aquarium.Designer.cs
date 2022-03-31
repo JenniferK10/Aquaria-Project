@@ -66,6 +66,7 @@
             this.HuntingGameStart.TabIndex = 2;
             this.HuntingGameStart.Text = "Hunting Game";
             this.HuntingGameStart.UseVisualStyleBackColor = true;
+            this.HuntingGameStart.Click += new System.EventHandler(this.HuntingGameStart_Click);
             // 
             // TriviaGameStart
             // 
