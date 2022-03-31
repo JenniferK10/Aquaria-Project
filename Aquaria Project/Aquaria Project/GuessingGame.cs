@@ -8,6 +8,7 @@ namespace Aquaria_Project
 {
     internal class GuessingGame
     {
+        
         bool goodBox1 = true;
         bool goodBox2 = true;
         bool goodBox3 = true;

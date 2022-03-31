@@ -12,6 +12,29 @@ namespace Aquaria_Project
 {
     public partial class Aquarium : Form
     {
+        public Aquarium()
+        {
+            InitializeComponent();
+        }
+        /*
+        //Common
+        Fish goby = new Fish("goby");
+        Fish puffer = new Fish("puffer fish");
+        //Uncommon
+        Fish butterfly = new Fish("butterfly fish");
+        Fish blueTang = new Fish("blue tang");
+        Fish royalGramma = new Fish("royal gramma");
+        //Rare
+        Fish cardinal = new Fish("cardinal fish");
+        Fish blueDotJawfish = new Fish("blue dot jawfish");
+        //Epic
+        Fish seahorse = new Fish("seahorse");
+        Fish possumWrasse = new Fish("possum wrasse");
+        //Legendary
+        Fish lionfish = new Fish("lionfish");
+        Fish mandarinDragonet = new Fish("mandarin dragonet");
+        */
+
         Image clownPic = Image.FromFile("clownfish.jpg");
         Image gobyPic = Image.FromFile("goby.jpg");
         Image pufferPic = Image.FromFile("puffer.jpg");
@@ -25,7 +48,7 @@ namespace Aquaria_Project
         Image lionfishPic = Image.FromFile("lionfish.jpg");
         Image mandarinDragonetPic = Image.FromFile("mandarindragonet.jpg");
 
-
+        /*
         public Image getImage(String fish)
         {
             if(fish.Equals("clownfish"))
@@ -77,10 +100,7 @@ namespace Aquaria_Project
                 return mandarinDragonetPic;
             }           
         }
-        public Aquarium()
-        {
-            InitializeComponent();
-        }
+        */
 
         private void button1_Click(object sender, EventArgs e)
         {
