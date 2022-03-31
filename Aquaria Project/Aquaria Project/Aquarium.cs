@@ -48,6 +48,13 @@ namespace Aquaria_Project
         Image lionfishPic = Image.FromFile("lionfish.jpg");
         Image mandarinDragonetPic = Image.FromFile("mandarindragonet.jpg");
 
+        //making array of fish pcitures to pass to collection form
+        Image [] fishPictures = new Image []
+            { Image.FromFile("clownfish.jpg"), Image.FromFile("goby.jpg"), Image.FromFile("puffer.jpg"),
+            Image.FromFile("butterfly.jpg"), Image.FromFile("bluetang.jpg"), Image.FromFile("royalgramma.jpg"),
+            Image.FromFile("cardinal.jpg"), Image.FromFile("jawfish.jpg"), Image.FromFile("seahorse.jpg"), Image.FromFile("possumwrasse.jpg"),
+            Image.FromFile("lionfish.jpg"), Image.FromFile("mandarindragonet.jpg")};
+
         /*
         public Image getImage(String fish)
         {
@@ -109,13 +116,13 @@ namespace Aquaria_Project
 
         private void CollectionBookOpen_Click(object sender, EventArgs e)
         {
-            CollectionBookForm CollectionBook = new CollectionBookForm();
+            CollectionBookForm CollectionBook = new CollectionBookForm(fishPictures);//showing collection box form and sending array of pictures
             CollectionBook.ShowDialog();
         }
 
         private void GuessingGameStart_Click(object sender, EventArgs e)
         {
-            GuessingGameForm GuessingGame = new GuessingGameForm();
+            GuessingGameForm GuessingGame = new GuessingGameForm();//opening guessing game form
             GuessingGame.ShowDialog();
         }
 

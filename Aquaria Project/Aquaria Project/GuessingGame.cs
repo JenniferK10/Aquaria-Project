@@ -6,10 +6,13 @@ using System.Threading.Tasks;
 
 namespace Aquaria_Project
 {
+    /*
+     Jennifer Kalies
+    */
     internal class GuessingGame
     {
         
-        bool goodBox1 = true;
+        bool goodBox1 = true;// booleans to determine if the box is good or bad
         bool goodBox2 = true;
         bool goodBox3 = true;
         bool goodBox4 = true;
@@ -18,9 +21,9 @@ namespace Aquaria_Project
         bool goodBox7 = true;
         bool goodBox8 = true;
         bool goodBox9 = true;
-        string badBox;
-        string badNumber = "";
-        int corrcetGuesses = 0;
+        string badBox; //holds random number to check if box is already bad
+        string badNumber = "";//keeps strack of boxes that are already bad
+        int corrcetGuesses = 0;//counts correct guesses to increase the earned money
         int money;
 
 
@@ -41,10 +44,10 @@ namespace Aquaria_Project
         }
 
 
-        public string DetermineBadBox()
+        public string DetermineBadBox()//function determines a random box to become bad
         {
-            badBox = (rnd.Next(9) + 1).ToString();
-            while (badNumber.Contains(badBox))
+            badBox = (rnd.Next(9) + 1).ToString();//generates random number 1-9
+            while (badNumber.Contains(badBox))//checks if box number is already bad
             {
                 badBox = (rnd.Next(9) + 1).ToString();
             }
@@ -52,7 +55,7 @@ namespace Aquaria_Project
             switch (badBox)
             {
                 case "1":
-                    goodBox1 = false;
+                    goodBox1 = false;//turns box bad
                     badNumber += "1";
                     break;
                 case "2":
@@ -96,7 +99,7 @@ namespace Aquaria_Project
 
         }
 
-        public bool IsGood1()
+        public bool IsGood1()//determines if box is good, adds money when box is good and resets game if player guessed every box
         {
             if (goodBox1)
             {
@@ -148,7 +151,10 @@ namespace Aquaria_Project
                 if (corrcetGuesses == 7)
                     money += 80;
                 if (corrcetGuesses == 8)
+                {
                     money += 90;
+                    ResetGuessingGame();
+                }
 
                 ++corrcetGuesses;
 
@@ -177,7 +183,10 @@ namespace Aquaria_Project
                 if (corrcetGuesses == 7)
                     money += 80;
                 if (corrcetGuesses == 8)
+                {
                     money += 90;
+                    ResetGuessingGame();
+                }
 
                 ++corrcetGuesses;
             }
@@ -205,7 +214,10 @@ namespace Aquaria_Project
                 if (corrcetGuesses == 7)
                     money += 80;
                 if (corrcetGuesses == 8)
+                {
                     money += 90;
+                    ResetGuessingGame();
+                }
 
                 ++corrcetGuesses;
             }
@@ -233,7 +245,10 @@ namespace Aquaria_Project
                 if (corrcetGuesses == 7)
                     money += 80;
                 if (corrcetGuesses == 8)
+                {
                     money += 90;
+                    ResetGuessingGame();
+                }
 
                 ++corrcetGuesses;
             }
@@ -261,7 +276,10 @@ namespace Aquaria_Project
                 if (corrcetGuesses == 7)
                     money += 80;
                 if (corrcetGuesses == 8)
+                {
                     money += 90;
+                    ResetGuessingGame();
+                }
 
                 ++corrcetGuesses;
             }
@@ -289,7 +307,10 @@ namespace Aquaria_Project
                 if (corrcetGuesses == 7)
                     money += 80;
                 if (corrcetGuesses == 8)
+                {
                     money += 90;
+                    ResetGuessingGame();
+                }
 
                 ++corrcetGuesses;
             }
@@ -317,7 +338,10 @@ namespace Aquaria_Project
                 if (corrcetGuesses == 7)
                     money += 80;
                 if (corrcetGuesses == 8)
+                {
                     money += 90;
+                    ResetGuessingGame();
+                }
 
                 ++corrcetGuesses;
             }
@@ -345,7 +369,10 @@ namespace Aquaria_Project
                 if (corrcetGuesses == 7)
                     money += 80;
                 if (corrcetGuesses == 8)
+                {
                     money += 90;
+                    ResetGuessingGame();
+                }
 
                 ++corrcetGuesses;
             }
@@ -353,7 +380,7 @@ namespace Aquaria_Project
             return goodBox9;
         }
 
-        public void ResetGuessingGame()
+        public void ResetGuessingGame()//resets game
         {
             goodBox1 = true;
             goodBox2 = true;

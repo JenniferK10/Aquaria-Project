@@ -7,28 +7,32 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+/*
+ Jennifer Kalies
+*/
 
 namespace Aquaria_Project
 {
     public partial class GuessingGameForm : Form
     {
-        GuessingGame g = new GuessingGame();
+        GuessingGame g = new GuessingGame(); //creating instance of guessing game class
         public GuessingGameForm()
         {
             InitializeComponent();
         }
 
-        private void Box1_Click(object sender, EventArgs e)
+        private void Box1_Click(object sender, EventArgs e)//determines of clicked box is good or bad
         {
             g.DetermineBadBox();
             if (g.IsGood1())
                 MessageBox.Show("Good Box");
             else
             {
-                MessageBox.Show("Bad Box, the game will reset");
-                g.ResetGuessingGame();
+                badGuessForm badGuess = new badGuessForm();//opening guessing game form
+                badGuess.ShowDialog();
+                g.ResetGuessingGame();//resetting game for wrong guess
             }
-            Money.Text = g.GetMoney();
+            Money.Text = g.GetMoney();//updates money label
         }
 
         private void Box2_Click(object sender, EventArgs e)
@@ -38,7 +42,8 @@ namespace Aquaria_Project
                 MessageBox.Show("Good Box");
             else
             {
-                MessageBox.Show("Bad Box, the game will reset");
+                badGuessForm badGuess = new badGuessForm();//opening guessing game form
+                badGuess.ShowDialog();
                 g.ResetGuessingGame();
             }
             Money.Text = g.GetMoney();
@@ -51,7 +56,8 @@ namespace Aquaria_Project
                 MessageBox.Show("Good Box");
             else
             {
-                MessageBox.Show("Bad Box, the game will reset");
+                badGuessForm badGuess = new badGuessForm();//opening guessing game form
+                badGuess.ShowDialog();
                 g.ResetGuessingGame();
             }
             Money.Text = g.GetMoney();
@@ -64,7 +70,8 @@ namespace Aquaria_Project
                 MessageBox.Show("Good Box");
             else
             {
-                MessageBox.Show("Bad Box, the game will reset");
+                badGuessForm badGuess = new badGuessForm();//opening guessing game form
+                badGuess.ShowDialog();
                 g.ResetGuessingGame();
             }
             Money.Text = g.GetMoney();
@@ -77,7 +84,8 @@ namespace Aquaria_Project
                 MessageBox.Show("Good Box");
             else
             {
-                MessageBox.Show("Bad Box, the game will reset");
+                badGuessForm badGuess = new badGuessForm();//opening guessing game form
+                badGuess.ShowDialog();
                 g.ResetGuessingGame();
             }
             Money.Text = g.GetMoney();
@@ -90,7 +98,8 @@ namespace Aquaria_Project
                 MessageBox.Show("Good Box");
             else
             {
-                MessageBox.Show("Bad Box, the game will reset");
+                badGuessForm badGuess = new badGuessForm();//opening guessing game form
+                badGuess.ShowDialog();
                 g.ResetGuessingGame();
             }
             Money.Text = g.GetMoney();
@@ -103,7 +112,8 @@ namespace Aquaria_Project
                 MessageBox.Show("Good Box");
             else
             {
-                MessageBox.Show("Bad Box, the game will reset");
+                badGuessForm badGuess = new badGuessForm();//opening guessing game form
+                badGuess.ShowDialog();
                 g.ResetGuessingGame();
             }
             Money.Text = g.GetMoney();
@@ -116,7 +126,8 @@ namespace Aquaria_Project
                 MessageBox.Show("Good Box");
             else
             {
-                MessageBox.Show("Bad Box, the game will reset");
+                badGuessForm badGuess = new badGuessForm();//opening guessing game form
+                badGuess.ShowDialog();
                 g.ResetGuessingGame();
             }
             Money.Text = g.GetMoney();
@@ -129,7 +140,8 @@ namespace Aquaria_Project
                 MessageBox.Show("Good Box");
             else
             {
-                MessageBox.Show("Bad Box, the game will reset");
+                badGuessForm badGuess = new badGuessForm();//opening guessing game form
+                badGuess.ShowDialog();
                 g.ResetGuessingGame();
             }
             Money.Text = g.GetMoney();

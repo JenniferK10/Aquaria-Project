@@ -17,12 +17,55 @@ namespace Aquaria_Project
 {
     public partial class CollectionBookForm : Form
     {
-        public CollectionBookForm()
+        public CollectionBookForm(Image []fishPictures)
         {
             InitializeComponent();
+            SetFishPicture(fishPictures);
+        }
+        
+        int page = 1;
+        
+        
+        Image clownpic, gobyPic, pufferPic, butterflyPic, blueTangPic, royalGrammaPic, cardinalPic; //variable for each picture
+        Image jawfishPic, seahorsePic, possumWrassePic, lionfishPic, mandarinDragonetPic;
+
+        //creating instances of fish class to get data for the collection book
+        Fish clownCollection = new Fish(1);
+        Fish gobyCollection = new Fish(2);
+        Fish pufferCollection = new Fish(3);
+        Fish butterflyCollection = new Fish(4);
+        Fish blueTangCollection = new Fish(5);
+        Fish royalGrammaCollection = new Fish(6);
+        Fish cardinalCollection = new Fish(7);
+        Fish jawfishCollection = new Fish(8);
+        Fish seahorseCollection = new Fish(9);
+        Fish possumWrasseCollection = new Fish(10);
+        Fish lionfishCollection = new Fish(11);
+        Fish mandarinCollection = new Fish(12);
+        
+        //takes pictures from array and sets them to pictures for collection book
+        public void SetFishPicture(Image[]fishPictures)
+        {
+            clownpic = fishPictures[0];
+            gobyPic = fishPictures[1];
+            pufferPic = fishPictures[2];
+            butterflyPic = fishPictures[3];
+            blueTangPic = fishPictures[4];
+            royalGrammaPic = fishPictures[5];
+            cardinalPic = fishPictures[6];
+            jawfishPic = fishPictures[7];
+            seahorsePic = fishPictures[8];
+            possumWrassePic = fishPictures[9];
+            lionfishPic = fishPictures[10];
+            mandarinDragonetPic = fishPictures[11];
         }
 
-        int page = 1;
+        
+
+        private void fishPicture2_Click(object sender, EventArgs e)
+        {
+
+        }
 
         private void CollectionBookForm_Load(object sender, EventArgs e)
         {
@@ -36,28 +79,31 @@ namespace Aquaria_Project
 
         private void NextButton_Click(object sender, EventArgs e)
         {
-            if(page < 5)
+            if(page < 5)//error cehckin, user can not go beyond page 5
             page++;
             ChangeLabels();
         }
 
-        private void ChangeLabels()
+        private void ChangeLabels()//changes information on picture box to turn to next page
         {
             if(page == 1)
             {
-                RarityLabel.Text = "Common";
+                RarityLabel.Text = "Common";//changes label to show which rarity fish are
 
-                Name1.Text = "Clownfish";
-                Size1.Text = "Size: 4 in";
-                FunFact1.Text = "Fun Fact: All clownfishes are born male. As they mature, the dominant male in the group will become a female.";
+                fishPicture1.Image = clownpic; //chnages image in the picture box
+                Name1.Text = clownCollection.getKind(); //chnages name/kind of the fish
+                Size1.Text = clownCollection.getSize(); //changes size label
+                FunFact1.Text = clownCollection.getFact();//displays appropriate fun fact
 
-                Name2.Text = "Goby fish";
-                Size2.Text = "Size: 4 in";
-                FunFact2.Text = "Fun Fact: Bottom-dwellers have a weak suction cup formed by the fusion of their pelvic fins used to shift sand.";
+                fishPicture2.Image = gobyPic;
+                Name2.Text = gobyCollection.getKind();
+                Size2.Text = gobyCollection.getSize();
+                FunFact2.Text = gobyCollection.getFact();
 
-                Name3.Text = "Puffer Fish";
-                Size3.Text = "Size: 1 in to 2 ft";
-                FunFact3.Text = "Fun Fact: They are the most poisonous fish in the sea. They don’t have scales, and will inflate as a self defense mechanism.";
+                fishPicture3.Image = pufferPic;
+                Name3.Text = pufferCollection.getKind();
+                Size3.Text = pufferCollection.getSize();
+                FunFact3.Text = pufferCollection.getFact();
 
                 
             }
@@ -66,17 +112,20 @@ namespace Aquaria_Project
             {
                 RarityLabel.Text = "Uncommon";
 
-                Name1.Text = "Butterfly Fish";
-                Size1.Text = "Size: 5-9 in";
-                FunFact1.Text = "Fun Fact: They have thin, dish shaped bodies that closely resemble their equally recognizable cousins, the angelfish.";
+                fishPicture1.Image = butterflyPic;
+                Name1.Text = butterflyCollection.getKind();
+                Size1.Text = butterflyCollection.getSize();
+                FunFact1.Text = butterflyCollection.getFact();
 
-                Name2.Text = "Blue Tang";
-                Size2.Text = "Size: 10-12 in";
-                FunFact2.Text = "Fun Fact: Blue tangs are capable of adjusting the intensity of their hue from light blue to deep purple.";
+                fishPicture2.Image = blueTangPic;
+                Name2.Text = blueTangCollection.getKind();
+                Size2.Text = blueTangCollection.getSize();
+                FunFact2.Text = blueTangCollection.getFact();
 
-                Name3.Text = "Royal Gramma";
-                Size3.Text = "Size: 3 in";
-                FunFact3.Text = "Fun Fact: The royal gramma gets its name from its bright “royal purple” front part.";
+                fishPicture3.Image = royalGrammaPic;
+                Name3.Text = royalGrammaCollection.getKind();
+                Size3.Text = royalGrammaCollection.getSize();
+                FunFact3.Text = royalGrammaCollection.getFact();
 
                 
             }
@@ -85,14 +134,17 @@ namespace Aquaria_Project
             {
                 RarityLabel.Text = "Rare";
 
-                Name1.Text = "Cardinal Fish";
-                Size1.Text = "Size: 2-8 in";
-                FunFact1.Text = "Fun Fact: These fish hide among the spines of sea urchins for protection against predators.";
+                fishPicture1.Image = cardinalPic;
+                Name1.Text = cardinalCollection.getKind();
+                Size1.Text = cardinalCollection.getSize();
+                FunFact1.Text = cardinalCollection.getFact();
 
-                Name2.Text = "Jawfish";
-                Size2.Text = "Size: 4-5 in";
-                FunFact2.Text = "Fun Fact: The Spanish name for jawfishes is bocas grandes, meaning big mouths.Jawfishes use their big mouths like scoops as they move sand and rocks while digging their burrows.";
+                fishPicture2.Image = jawfishPic;
+                Name2.Text = jawfishCollection.getKind();
+                Size2.Text = jawfishCollection.getSize();
+                FunFact2.Text = jawfishCollection.getFact();
 
+                fishPicture3.Image = null;
                 Name3.Text = " ";
                 Size3.Text = " ";
                 FunFact3.Text = " ";
@@ -104,14 +156,17 @@ namespace Aquaria_Project
             {
                 RarityLabel.Text = "Epic";
 
-                Name1.Text = "Seahorse";
-                Size1.Text = "Size: 1-14 in";
-                FunFact1.Text = "Fun Fact: Male seahorses will store eggs and give birth to the babies.";
+                fishPicture1.Image = seahorsePic;
+                Name1.Text = seahorseCollection.getKind();
+                Size1.Text = seahorseCollection.getSize();
+                FunFact1.Text = seahorseCollection.getFact();
 
-                Name2.Text = "Possum Wrasse";
-                Size2.Text = "Size: 2-2.6 in";
-                FunFact2.Text = "Fun Fact: They are some of the smallest of the wrasses";
+                fishPicture2.Image = possumWrassePic;
+                Name2.Text = possumWrasseCollection.getKind();
+                Size2.Text = possumWrasseCollection.getSize();
+                FunFact2.Text = possumWrasseCollection.getFact();
 
+                fishPicture3.Image = null;
                 Name3.Text = " ";
                 Size3.Text = " ";
                 FunFact3.Text = " ";
@@ -122,14 +177,17 @@ namespace Aquaria_Project
             {
                 RarityLabel.Text = "Legendary";
 
-                Name1.Text = "Lionfish";
-                Size1.Text = "Size: 18 in";
-                FunFact1.Text = "Fun Fact: The spines of this species can deliver a venomous sting. Lionfish are also nocturnal.";
+                fishPicture1.Image = lionfishPic;
+                Name1.Text = lionfishCollection.getKind();
+                Size1.Text = lionfishCollection.getSize();
+                FunFact1.Text = lionfishCollection.getFact();
 
-                Name2.Text = "Mandarin Dragonet";
-                Size2.Text = "Size: 3 in";
-                FunFact2.Text = "Fun Fact: Mandarin fish are very picky eaters. They eat mainly small worms, protozoans, and small crustaceans";
+                fishPicture2.Image = mandarinDragonetPic;
+                Name2.Text = mandarinCollection.getKind();
+                Size2.Text = mandarinCollection.getSize();
+                FunFact2.Text = mandarinCollection.getFact();
 
+                fishPicture3.Image = null;
                 Name3.Text = " ";
                 Size3.Text = " ";
                 FunFact3.Text = " ";
@@ -140,14 +198,14 @@ namespace Aquaria_Project
 
         private void previousButton_Click(object sender, EventArgs e)
         {
-            if(page > 1)
+            if(page > 1)//error checking, user can not go before page 1
             page--;
             ChangeLabels();
         }
 
         private void CommonButton_Click(object sender, EventArgs e)
         {
-            page = 1;
+            page = 1;//chnages labels based on page pciked by user
             ChangeLabels();
         }
 

@@ -43,6 +43,9 @@
             // Box1
             // 
             this.Box1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(65)))), ((int)(((byte)(0)))));
+            this.Box1.BackgroundImage = global::Aquaria_Project.Properties.Resources.woodGuessingGame;
+            this.Box1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Box1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Box1.Location = new System.Drawing.Point(35, 94);
             this.Box1.Name = "Box1";
             this.Box1.Size = new System.Drawing.Size(120, 120);
@@ -54,6 +57,8 @@
             // Box2
             // 
             this.Box2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(65)))), ((int)(((byte)(0)))));
+            this.Box2.BackgroundImage = global::Aquaria_Project.Properties.Resources.woodGuessingGame;
+            this.Box2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Box2.Location = new System.Drawing.Point(192, 94);
             this.Box2.Name = "Box2";
             this.Box2.Size = new System.Drawing.Size(120, 120);
@@ -65,6 +70,8 @@
             // Box3
             // 
             this.Box3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(65)))), ((int)(((byte)(0)))));
+            this.Box3.BackgroundImage = global::Aquaria_Project.Properties.Resources.woodGuessingGame;
+            this.Box3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Box3.Location = new System.Drawing.Point(354, 94);
             this.Box3.Name = "Box3";
             this.Box3.Size = new System.Drawing.Size(120, 120);
@@ -76,6 +83,8 @@
             // Box4
             // 
             this.Box4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(65)))), ((int)(((byte)(0)))));
+            this.Box4.BackgroundImage = global::Aquaria_Project.Properties.Resources.woodGuessingGame;
+            this.Box4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Box4.Location = new System.Drawing.Point(35, 243);
             this.Box4.Name = "Box4";
             this.Box4.Size = new System.Drawing.Size(120, 120);
@@ -87,6 +96,8 @@
             // Box5
             // 
             this.Box5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(65)))), ((int)(((byte)(0)))));
+            this.Box5.BackgroundImage = global::Aquaria_Project.Properties.Resources.woodGuessingGame;
+            this.Box5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Box5.Location = new System.Drawing.Point(192, 243);
             this.Box5.Name = "Box5";
             this.Box5.Size = new System.Drawing.Size(120, 120);
@@ -98,6 +109,8 @@
             // Box6
             // 
             this.Box6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(65)))), ((int)(((byte)(0)))));
+            this.Box6.BackgroundImage = global::Aquaria_Project.Properties.Resources.woodGuessingGame;
+            this.Box6.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Box6.Location = new System.Drawing.Point(354, 243);
             this.Box6.Name = "Box6";
             this.Box6.Size = new System.Drawing.Size(120, 120);
@@ -109,6 +122,8 @@
             // Box7
             // 
             this.Box7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(65)))), ((int)(((byte)(0)))));
+            this.Box7.BackgroundImage = global::Aquaria_Project.Properties.Resources.woodGuessingGame;
+            this.Box7.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Box7.Location = new System.Drawing.Point(35, 384);
             this.Box7.Name = "Box7";
             this.Box7.Size = new System.Drawing.Size(120, 120);
@@ -120,6 +135,8 @@
             // Box8
             // 
             this.Box8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(65)))), ((int)(((byte)(0)))));
+            this.Box8.BackgroundImage = global::Aquaria_Project.Properties.Resources.woodGuessingGame;
+            this.Box8.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Box8.Location = new System.Drawing.Point(192, 384);
             this.Box8.Name = "Box8";
             this.Box8.Size = new System.Drawing.Size(120, 120);
@@ -131,6 +148,8 @@
             // Box9
             // 
             this.Box9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(65)))), ((int)(((byte)(0)))));
+            this.Box9.BackgroundImage = global::Aquaria_Project.Properties.Resources.woodGuessingGame;
+            this.Box9.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Box9.Location = new System.Drawing.Point(354, 384);
             this.Box9.Name = "Box9";
             this.Box9.Size = new System.Drawing.Size(120, 120);
@@ -142,9 +161,10 @@
             // Money
             // 
             this.Money.AutoSize = true;
+            this.Money.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Money.Location = new System.Drawing.Point(484, 26);
             this.Money.Name = "Money";
-            this.Money.Size = new System.Drawing.Size(27, 20);
+            this.Money.Size = new System.Drawing.Size(34, 25);
             this.Money.TabIndex = 9;
             this.Money.Text = "$0";
             // 
@@ -153,6 +173,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.RoyalBlue;
+            this.BackgroundImage = global::Aquaria_Project.Properties.Resources.waterGuessingGame;
             this.ClientSize = new System.Drawing.Size(580, 526);
             this.Controls.Add(this.Money);
             this.Controls.Add(this.Box9);
