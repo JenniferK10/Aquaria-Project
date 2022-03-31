@@ -30,7 +30,6 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(huntingGameForm));
-            System.Windows.Forms.Timer timer;
             this.fish1 = new System.Windows.Forms.PictureBox();
             this.fish2 = new System.Windows.Forms.PictureBox();
             this.fish3 = new System.Windows.Forms.PictureBox();
@@ -39,7 +38,7 @@
             this.lab_miss = new System.Windows.Forms.Label();
             this.lab_hunt = new System.Windows.Forms.Label();
             this.lab_score = new System.Windows.Forms.Label();
-            timer = new System.Windows.Forms.Timer(this.components);
+            this.timer = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.fish1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fish2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fish3)).BeginInit();
@@ -85,7 +84,7 @@
             // fish4
             // 
             this.fish4.Image = ((System.Drawing.Image)(resources.GetObject("fish4.Image")));
-            this.fish4.Location = new System.Drawing.Point(86, 12);
+            this.fish4.Location = new System.Drawing.Point(84, -11);
             this.fish4.Name = "fish4";
             this.fish4.Size = new System.Drawing.Size(184, 157);
             this.fish4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -108,7 +107,7 @@
             // 
             this.lab_miss.AutoSize = true;
             this.lab_miss.Font = new System.Drawing.Font("Arial", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lab_miss.Location = new System.Drawing.Point(-4, -1);
+            this.lab_miss.Location = new System.Drawing.Point(8, -1);
             this.lab_miss.Name = "lab_miss";
             this.lab_miss.Size = new System.Drawing.Size(245, 56);
             this.lab_miss.TabIndex = 5;
@@ -118,7 +117,7 @@
             // 
             this.lab_hunt.AutoSize = true;
             this.lab_hunt.Font = new System.Drawing.Font("Arial", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lab_hunt.Location = new System.Drawing.Point(257, -1);
+            this.lab_hunt.Location = new System.Drawing.Point(259, -1);
             this.lab_hunt.Name = "lab_hunt";
             this.lab_hunt.Size = new System.Drawing.Size(246, 56);
             this.lab_hunt.TabIndex = 6;
@@ -128,7 +127,7 @@
             // 
             this.lab_score.AutoSize = true;
             this.lab_score.Font = new System.Drawing.Font("Arial", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lab_score.Location = new System.Drawing.Point(495, -1);
+            this.lab_score.Location = new System.Drawing.Point(524, -1);
             this.lab_score.Name = "lab_score";
             this.lab_score.Size = new System.Drawing.Size(215, 56);
             this.lab_score.TabIndex = 7;
@@ -136,8 +135,8 @@
             // 
             // timer
             // 
-            timer.Interval = 30;
-            timer.Tick += new System.EventHandler(this.timer_Tick);
+            this.timer.Interval = 30;
+            this.timer.Tick += new System.EventHandler(this.timer_Tick);
             // 
             // huntingGameForm
             // 
@@ -175,5 +174,6 @@
         private System.Windows.Forms.Label lab_miss;
         private System.Windows.Forms.Label lab_hunt;
         private System.Windows.Forms.Label lab_score;
+        private System.Windows.Forms.Timer timer;
     }
 }

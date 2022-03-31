@@ -26,12 +26,12 @@ namespace Aquaria_Project
             if (lab_miss.Text == "Missed: 5")
             {
                 lab_over.Visible = true;
-                timer_Tick.Stop();
+                timer.Stop();
             } // game over is 5 fish missed
             if (lab_hunt.Text == "Hunted: 10")// game over is 10 fish is hunted
             {
                 lab_over.Visible = true;
-                timer_Tick.Stop();
+                timer.Stop();
             }
         }
 
