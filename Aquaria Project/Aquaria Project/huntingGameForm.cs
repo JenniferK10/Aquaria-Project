@@ -71,7 +71,7 @@ namespace Aquaria_Project
         {
             hunt++;
             lab_hunt.Text = "Hunted: " + hunt;
-            Image fire = Image.FromFile("fire.gif");
+            fish4.Image = Properties.Resources.fire;
             score += 5;
             lab_score.Text = "Score: " + score;
         }
