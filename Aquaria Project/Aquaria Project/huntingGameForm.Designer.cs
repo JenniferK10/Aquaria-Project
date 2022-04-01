@@ -43,10 +43,12 @@
             this.Restart = new System.Windows.Forms.Button();
             this.Exit = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.fish1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fish2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fish3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fish4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // fish1
@@ -180,12 +182,22 @@
             this.timer1.Interval = 1000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(691, 148);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(340, 451);
+            this.pictureBox1.TabIndex = 11;
+            this.pictureBox1.TabStop = false;
+            // 
             // huntingGameForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Aqua;
             this.ClientSize = new System.Drawing.Size(1028, 594);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.Exit);
             this.Controls.Add(this.Restart);
             this.Controls.Add(this.lab_timer);
@@ -205,6 +217,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.fish2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.fish3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.fish4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -225,5 +238,6 @@
         private System.Windows.Forms.Button Restart;
         private System.Windows.Forms.Button Exit;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

@@ -18,14 +18,10 @@ namespace Aquaria_Project
         public huntingGameForm()
         {
             InitializeComponent();
-            //change the cursor
-            /*Bitmap bmp = new Bitmap(Properties.Resources.cursor);
-            Cursor crcs = new Cursor(bmp.GetHbitmap());
-            this.Cursor = crcs;*/
         }
         int miss, hunt, score;
-        private int duration = 50;
-        Random r = new Random();
+        private int duration = 60;
+        //Random r = new Random();
         void game_Status()
         {
             if (lab_miss.Text == "Missed: 5")
@@ -35,13 +31,13 @@ namespace Aquaria_Project
                 Restart.Visible = true;
                 Exit.Visible = true;
             } // game over is 5 fish missed
-            if (lab_hunt.Text == "Hunted: 10")// game over is 10 fish is hunted
+            /*if (lab_hunt.Text == "Hunted: 10")// game over is 10 fish is hunted
             {
                 lab_over.Visible = true;
                 timer.Stop();
                 Restart.Visible=true;
                 Exit.Visible=true;
-            }
+            }*/
         }
 
         private void fish1_Click(object sender, EventArgs e)
@@ -96,16 +92,17 @@ namespace Aquaria_Project
             y = r.Next(100, 300);
             fish1.Location = new Point(x, y);*/
         }
+        //set a secodn timer to make a stop watch
         private void timer1_Tick(object sender, EventArgs e)
         {
-            if (duration == 0)
+            if (duration == 0)// if 0 secodns left 
             {
                 lab_over.Visible = true;
                 timer1.Stop();
                 Restart.Visible = true;
                 Exit.Visible = true;
             }
-            if (duration > 0)
+            if (duration > 0)// if there is still some time
             {
                 duration--;
                 lab_timer.Text = "Time: " + duration.ToString();
@@ -148,7 +145,7 @@ namespace Aquaria_Project
             lab_miss.Text = "Missed: " + miss;
             lab_hunt.Text = "Hunted: " + hunt;
             lab_score.Text = "Score: " + score;
-            duration = 50;
+            duration = 60;
             lab_timer.Text = "Time: " + duration;
             timer.Start();// reset the timer
             timer1.Start();
