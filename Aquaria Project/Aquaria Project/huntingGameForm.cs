@@ -45,7 +45,7 @@ namespace Aquaria_Project
             hunt++;
             lab_hunt.Text = "Hunted: " + hunt;
             Image fire = Image.FromFile("fire.gif");
-            score += 2;
+            score += 1;
             lab_score.Text = "Score: " + score;
         }
 
@@ -54,7 +54,7 @@ namespace Aquaria_Project
             hunt++;
             lab_hunt.Text = "Hunted: " + hunt;
             Image fire = Image.FromFile("fire.gif");
-            score += 5;
+            score += 3;
             lab_score.Text = "Score: " + score;
         }
 
