@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="badGuessForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="badGuessForm.Designer.cs">
+      <DependentUpon>badGuessForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="CollectionBookForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -68,6 +74,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="badGuessForm.resx">
+      <DependentUpon>badGuessForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CollectionBookForm.resx">
       <DependentUpon>CollectionBookForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -85,6 +94,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -98,6 +108,30 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\clownfish.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\goby.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\puffer.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\waterGuessingGame.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\woodGuessingGame.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\sadfish.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\happyfish.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\bookBackground.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

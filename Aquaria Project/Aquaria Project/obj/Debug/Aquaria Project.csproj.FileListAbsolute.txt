@@ -50,3 +50,17 @@ C:\Users\jenni\Desktop\mergingFish\Aquaria Project\Aquaria Project\obj\Debug\Aqu
 C:\Users\jenni\Desktop\mergingFish\Aquaria Project\Aquaria Project\obj\Debug\Aquaria Project.csproj.CoreCompileInputs.cache
 C:\Users\jenni\Desktop\mergingFish\Aquaria Project\Aquaria Project\obj\Debug\Aquaria Project.exe
 C:\Users\jenni\Desktop\mergingFish\Aquaria Project\Aquaria Project\obj\Debug\Aquaria Project.pdb
+C:\Users\jenni\Desktop\WorkingOnColectionBook\Aquaria Project\Aquaria Project\obj\Debug\Aquaria Project.csproj.AssemblyReference.cache
+C:\Users\jenni\Desktop\WorkingOnColectionBook\Aquaria Project\Aquaria Project\obj\Debug\Aquaria Project.csproj.SuggestedBindingRedirects.cache
+C:\Users\jenni\Desktop\WorkingOnColectionBook\Aquaria Project\Aquaria Project\obj\Debug\Aquaria_Project.CollectionBookForm.resources
+C:\Users\jenni\Desktop\WorkingOnColectionBook\Aquaria Project\Aquaria Project\obj\Debug\Aquaria_Project.Aquarium.resources
+C:\Users\jenni\Desktop\WorkingOnColectionBook\Aquaria Project\Aquaria Project\obj\Debug\Aquaria_Project.GuessingGameForm.resources
+C:\Users\jenni\Desktop\WorkingOnColectionBook\Aquaria Project\Aquaria Project\obj\Debug\Aquaria_Project.Properties.Resources.resources
+C:\Users\jenni\Desktop\WorkingOnColectionBook\Aquaria Project\Aquaria Project\obj\Debug\Aquaria Project.csproj.GenerateResource.cache
+C:\Users\jenni\Desktop\WorkingOnColectionBook\Aquaria Project\Aquaria Project\obj\Debug\Aquaria Project.csproj.CoreCompileInputs.cache
+C:\Users\jenni\Desktop\WorkingOnColectionBook\Aquaria Project\Aquaria Project\obj\Debug\Aquaria Project.exe
+C:\Users\jenni\Desktop\WorkingOnColectionBook\Aquaria Project\Aquaria Project\obj\Debug\Aquaria Project.pdb
+C:\Users\jenni\Desktop\WorkingOnColectionBook\Aquaria Project\Aquaria Project\bin\Debug\Aquaria Project.exe.config
+C:\Users\jenni\Desktop\WorkingOnColectionBook\Aquaria Project\Aquaria Project\bin\Debug\Aquaria Project.exe
+C:\Users\jenni\Desktop\WorkingOnColectionBook\Aquaria Project\Aquaria Project\bin\Debug\Aquaria Project.pdb
+C:\Users\jenni\Desktop\WorkingOnColectionBook\Aquaria Project\Aquaria Project\obj\Debug\Aquaria_Project.badGuessForm.resources
