@@ -44,7 +44,7 @@ namespace Aquaria_Project
         {
             hunt++;
             lab_hunt.Text = "Hunted: " + hunt;
-            Image fire = Image.FromFile("fire.gif");
+            fish1.Image = Properties.Resources.fire;
             score += 1;
             lab_score.Text = "Score: " + score;
         }
@@ -53,7 +53,7 @@ namespace Aquaria_Project
         {
             hunt++;
             lab_hunt.Text = "Hunted: " + hunt;
-            Image fire = Image.FromFile("fire.gif");
+            fish2.Image = Properties.Resources.fire;
             score += 3;
             lab_score.Text = "Score: " + score;
         }
@@ -62,7 +62,7 @@ namespace Aquaria_Project
         {
             hunt++;
             lab_hunt.Text = "Hunted: " + hunt;
-            Image fire = Image.FromFile("fire.gif");
+            fish3.Image = Properties.Resources.fire;
             score += 5;
             lab_score.Text = "Score: " + score;
         }
@@ -115,27 +115,27 @@ namespace Aquaria_Project
             if (fish1.Left < 0)
             {
                 fish1.Left = 1000;
-                Image clown = Image.FromFile("clown.gif");
+                fish1.Image = Properties.Resources.clown;
             }
             if (fish2.Left < 0)
             {
                 fish2.Left = 1000;
-                Image fish11 = Image.FromFile("fish11.gif");
+                fish2.Image = Properties.Resources.fish11;
             }
             if (fish3.Left < 0)
             {
                 fish3.Left = 1000;
-                Image crop = Image.FromFile("crop.png");
+                fish3.Image = Properties.Resources.crop;
             }
             if (fish4.Left < 0)
             {
                 fish4.Left = -1000;
-                Image clown = Image.FromFile("fish5.gif");
+                fish4.Image = Properties.Resources.fish5;
             }
             fish1.Left -= 5;
             fish2.Left -= 10;
             fish3.Left -= 15;
-            fish4.Left += 13;
+            fish4.Left -= 13;
         }
         void reset()// reset the game 
         {

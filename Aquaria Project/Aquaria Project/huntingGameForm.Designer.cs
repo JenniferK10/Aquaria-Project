@@ -185,9 +185,10 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(691, 148);
+            this.pictureBox1.Location = new System.Drawing.Point(882, 464);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(340, 451);
+            this.pictureBox1.Size = new System.Drawing.Size(150, 100);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 11;
             this.pictureBox1.TabStop = false;
             // 
@@ -209,7 +210,7 @@
             this.Controls.Add(this.fish3);
             this.Controls.Add(this.fish2);
             this.Controls.Add(this.fish1);
-            this.Cursor = System.Windows.Forms.Cursors.NoMove2D;
+            this.Cursor = System.Windows.Forms.Cursors.Default;
             this.Name = "huntingGameForm";
             this.Text = "huntingGameForm";
             this.MouseClick += new System.Windows.Forms.MouseEventHandler(this.huntingGameForm_MouseClick);

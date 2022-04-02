@@ -111,5 +111,17 @@
   <ItemGroup>
     <None Include="bin\Debug\fire.gif" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\clown.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\crop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\fish5.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\fish11.gif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
