@@ -121,6 +121,7 @@
             this.Exit.Text = "Exit";
             this.Exit.UseVisualStyleBackColor = true;
             this.Exit.Visible = false;
+            this.Exit.Click += new System.EventHandler(this.Exit_Click);
             // 
             // timer
             // 
@@ -194,11 +195,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Aqua;
             this.ClientSize = new System.Drawing.Size(1028, 594);
+            this.Controls.Add(this.Restart);
+            this.Controls.Add(this.Exit);
             this.Controls.Add(this.lab_score);
             this.Controls.Add(this.lab_hunt);
             this.Controls.Add(this.lab_miss);
-            this.Controls.Add(this.Exit);
-            this.Controls.Add(this.Restart);
             this.Controls.Add(this.lab_over);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.fish1);

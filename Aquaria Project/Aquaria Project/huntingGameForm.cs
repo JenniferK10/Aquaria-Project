@@ -12,6 +12,7 @@ namespace Aquaria_Project
 {
     public partial class huntingGameForm : Form
     {
+        Coins c = new Coins();
         public huntingGameForm()
         {
             InitializeComponent();
@@ -129,6 +130,13 @@ namespace Aquaria_Project
         {
             miss++;
             lab_miss.Text = "Missed: " + miss;// if the user miss the target 
+        }
+
+        private void Exit_Click(object sender, EventArgs e)
+        {
+            string[] score = lab_score.Text.Split();
+            c.setCoins(score[1]);
+            this.Close();
         }
 
         private void timer1_Tick(object sender, EventArgs e)

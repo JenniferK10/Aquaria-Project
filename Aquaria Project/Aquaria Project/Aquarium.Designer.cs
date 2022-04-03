@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.GuessingGameStart = new System.Windows.Forms.Button();
             this.FlappyFishStart = new System.Windows.Forms.Button();
             this.HuntingGameStart = new System.Windows.Forms.Button();
@@ -37,6 +38,8 @@
             this.MysteryFishButton = new System.Windows.Forms.Button();
             this.DecortationStore = new System.Windows.Forms.Button();
             this.SandColorButton = new System.Windows.Forms.Button();
+            this.coinLabel = new System.Windows.Forms.Label();
+            this.timer = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // GuessingGameStart
@@ -80,7 +83,7 @@
             // 
             // CollectionBookOpen
             // 
-            this.CollectionBookOpen.Location = new System.Drawing.Point(810, 51);
+            this.CollectionBookOpen.Location = new System.Drawing.Point(1058, 87);
             this.CollectionBookOpen.Name = "CollectionBookOpen";
             this.CollectionBookOpen.Size = new System.Drawing.Size(141, 46);
             this.CollectionBookOpen.TabIndex = 4;
@@ -90,7 +93,7 @@
             // 
             // BuyFishStore
             // 
-            this.BuyFishStore.Location = new System.Drawing.Point(810, 126);
+            this.BuyFishStore.Location = new System.Drawing.Point(1058, 151);
             this.BuyFishStore.Name = "BuyFishStore";
             this.BuyFishStore.Size = new System.Drawing.Size(141, 46);
             this.BuyFishStore.TabIndex = 5;
@@ -100,7 +103,7 @@
             // 
             // MysteryFishButton
             // 
-            this.MysteryFishButton.Location = new System.Drawing.Point(810, 192);
+            this.MysteryFishButton.Location = new System.Drawing.Point(1058, 212);
             this.MysteryFishButton.Name = "MysteryFishButton";
             this.MysteryFishButton.Size = new System.Drawing.Size(141, 46);
             this.MysteryFishButton.TabIndex = 6;
@@ -109,7 +112,7 @@
             // 
             // DecortationStore
             // 
-            this.DecortationStore.Location = new System.Drawing.Point(810, 260);
+            this.DecortationStore.Location = new System.Drawing.Point(1058, 280);
             this.DecortationStore.Name = "DecortationStore";
             this.DecortationStore.Size = new System.Drawing.Size(141, 46);
             this.DecortationStore.TabIndex = 7;
@@ -118,19 +121,35 @@
             // 
             // SandColorButton
             // 
-            this.SandColorButton.Location = new System.Drawing.Point(810, 339);
+            this.SandColorButton.Location = new System.Drawing.Point(1058, 353);
             this.SandColorButton.Name = "SandColorButton";
             this.SandColorButton.Size = new System.Drawing.Size(141, 46);
             this.SandColorButton.TabIndex = 8;
             this.SandColorButton.Text = "Sand Color";
             this.SandColorButton.UseVisualStyleBackColor = true;
             // 
+            // coinLabel
+            // 
+            this.coinLabel.AutoSize = true;
+            this.coinLabel.Font = new System.Drawing.Font("Arial", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.coinLabel.Location = new System.Drawing.Point(1087, 24);
+            this.coinLabel.Name = "coinLabel";
+            this.coinLabel.Size = new System.Drawing.Size(89, 37);
+            this.coinLabel.TabIndex = 9;
+            this.coinLabel.Text = "$100";
+            // 
+            // timer
+            // 
+            this.timer.Enabled = true;
+            this.timer.Tick += new System.EventHandler(this.timer_Tick);
+            // 
             // Aquarium
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.ClientSize = new System.Drawing.Size(963, 578);
+            this.ClientSize = new System.Drawing.Size(1228, 678);
+            this.Controls.Add(this.coinLabel);
             this.Controls.Add(this.SandColorButton);
             this.Controls.Add(this.DecortationStore);
             this.Controls.Add(this.MysteryFishButton);
@@ -142,7 +161,9 @@
             this.Controls.Add(this.GuessingGameStart);
             this.Name = "Aquarium";
             this.Text = "Aquarium";
+            this.Load += new System.EventHandler(this.Aquarium_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -157,6 +178,8 @@
         private System.Windows.Forms.Button MysteryFishButton;
         private System.Windows.Forms.Button DecortationStore;
         private System.Windows.Forms.Button SandColorButton;
+        private System.Windows.Forms.Label coinLabel;
+        private System.Windows.Forms.Timer timer;
     }
 }
 
