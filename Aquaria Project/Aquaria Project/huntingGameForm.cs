@@ -10,6 +10,9 @@ using System.Windows.Forms;
 
 namespace Aquaria_Project
 {
+    /*
+     * Suhali Patel
+     */
     public partial class huntingGameForm : Form
     {
         Coins c = new Coins();

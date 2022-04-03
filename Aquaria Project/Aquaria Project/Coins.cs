@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+/*
+ * Jennifer Kalies
+ */
 namespace Aquaria_Project
 {
     internal class Coins
