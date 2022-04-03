@@ -12,6 +12,8 @@ namespace Aquaria_Project
 {
     public partial class Aquarium : Form
     {
+        Coins c = new Coins();
+        GuessingGame g = new GuessingGame();
         public Aquarium()
         {
             InitializeComponent();
@@ -136,6 +138,16 @@ namespace Aquaria_Project
         {
             huntingGameForm huntingGameForm = new huntingGameForm();
             huntingGameForm.ShowDialog();
+        }
+
+        private void Aquarium_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void timer_Tick(object sender, EventArgs e)
+        {
+            coinLabel.Text = c.getCoins().ToString();
         }
     }
 }

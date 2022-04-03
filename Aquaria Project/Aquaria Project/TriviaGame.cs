@@ -12,6 +12,7 @@ namespace Aquaria_Project
 {
     public partial class TriviaGame : Form
     {
+        Coins c = new Coins();
         Trivia game = new Trivia();
         String currQuestion = "";
         int correct = 0;
@@ -114,6 +115,11 @@ namespace Aquaria_Project
             correct = 0;
             round = 0;
         }
-       
+
+        private void ExitButton_Click(object sender, EventArgs e)
+        {
+            c.setCoins((correct * 10).ToString());
+            this.Close();
+        }
     }
 }

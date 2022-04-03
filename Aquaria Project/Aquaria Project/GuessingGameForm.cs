@@ -16,6 +16,7 @@ namespace Aquaria_Project
     public partial class GuessingGameForm : Form
     {
         GuessingGame g = new GuessingGame(); //creating instance of guessing game class
+        Coins c = new Coins(); //adding coins class to send score to aquarium form
         public GuessingGameForm()
         {
             InitializeComponent();
@@ -32,7 +33,7 @@ namespace Aquaria_Project
                 badGuess.ShowDialog();
                 g.ResetGuessingGame();//resetting game for wrong guess
             }
-            Money.Text = g.GetMoney();//updates money label
+            Score.Text = g.GetScore();//updates money label
         }
 
         private void Box2_Click(object sender, EventArgs e)
@@ -46,7 +47,7 @@ namespace Aquaria_Project
                 badGuess.ShowDialog();
                 g.ResetGuessingGame();
             }
-            Money.Text = g.GetMoney();
+            Score.Text = g.GetScore();
         }
 
         private void Box3_Click(object sender, EventArgs e)
@@ -60,7 +61,7 @@ namespace Aquaria_Project
                 badGuess.ShowDialog();
                 g.ResetGuessingGame();
             }
-            Money.Text = g.GetMoney();
+            Score.Text = g.GetScore();
         }
 
         private void Box4_Click(object sender, EventArgs e)
@@ -74,7 +75,7 @@ namespace Aquaria_Project
                 badGuess.ShowDialog();
                 g.ResetGuessingGame();
             }
-            Money.Text = g.GetMoney();
+            Score.Text = g.GetScore();
         }
 
         private void Box5_Click(object sender, EventArgs e)
@@ -88,7 +89,7 @@ namespace Aquaria_Project
                 badGuess.ShowDialog();
                 g.ResetGuessingGame();
             }
-            Money.Text = g.GetMoney();
+            Score.Text = g.GetScore();
         }
 
         private void Box6_Click(object sender, EventArgs e)
@@ -102,7 +103,7 @@ namespace Aquaria_Project
                 badGuess.ShowDialog();
                 g.ResetGuessingGame();
             }
-            Money.Text = g.GetMoney();
+            Score.Text = g.GetScore();
         }
 
         private void Box7_Click(object sender, EventArgs e)
@@ -116,7 +117,7 @@ namespace Aquaria_Project
                 badGuess.ShowDialog();
                 g.ResetGuessingGame();
             }
-            Money.Text = g.GetMoney();
+            Score.Text = g.GetScore();
         }
 
         private void Box8_Click(object sender, EventArgs e)
@@ -130,7 +131,7 @@ namespace Aquaria_Project
                 badGuess.ShowDialog();
                 g.ResetGuessingGame();
             }
-            Money.Text = g.GetMoney();
+            Score.Text = g.GetScore();
         }
 
         private void Box9_Click(object sender, EventArgs e)
@@ -144,7 +145,19 @@ namespace Aquaria_Project
                 badGuess.ShowDialog();
                 g.ResetGuessingGame();
             }
-            Money.Text = g.GetMoney();
+            Score.Text = g.GetScore();
         }
+
+        private void Money_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ExitButton_Click(object sender, EventArgs e)
+        {
+            c.setCoins(g.GetScore());
+            this.Close();
+        }   
+       
     }
 }

@@ -52,6 +52,7 @@
     <Compile Include="badGuessForm.Designer.cs">
       <DependentUpon>badGuessForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Coins.cs" />
     <Compile Include="CollectionBookForm.cs">
       <SubType>Form</SubType>
     </Compile>

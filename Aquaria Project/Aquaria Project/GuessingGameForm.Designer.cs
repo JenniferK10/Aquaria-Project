@@ -37,7 +37,8 @@
             this.Box7 = new System.Windows.Forms.Button();
             this.Box8 = new System.Windows.Forms.Button();
             this.Box9 = new System.Windows.Forms.Button();
-            this.Money = new System.Windows.Forms.Label();
+            this.Score = new System.Windows.Forms.Label();
+            this.ExitButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Box1
@@ -158,15 +159,28 @@
             this.Box9.UseVisualStyleBackColor = false;
             this.Box9.Click += new System.EventHandler(this.Box9_Click);
             // 
-            // Money
+            // Score
             // 
-            this.Money.AutoSize = true;
-            this.Money.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Money.Location = new System.Drawing.Point(484, 26);
-            this.Money.Name = "Money";
-            this.Money.Size = new System.Drawing.Size(34, 25);
-            this.Money.TabIndex = 9;
-            this.Money.Text = "$0";
+            this.Score.AutoSize = true;
+            this.Score.BackColor = System.Drawing.Color.Transparent;
+            this.Score.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Score.Location = new System.Drawing.Point(492, 9);
+            this.Score.Name = "Score";
+            this.Score.Size = new System.Drawing.Size(35, 37);
+            this.Score.TabIndex = 9;
+            this.Score.Text = "0";
+            this.Score.Click += new System.EventHandler(this.Money_Click);
+            // 
+            // ExitButton
+            // 
+            this.ExitButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ExitButton.Location = new System.Drawing.Point(489, 438);
+            this.ExitButton.Name = "ExitButton";
+            this.ExitButton.Size = new System.Drawing.Size(79, 66);
+            this.ExitButton.TabIndex = 10;
+            this.ExitButton.Text = "Exit";
+            this.ExitButton.UseVisualStyleBackColor = true;
+            this.ExitButton.Click += new System.EventHandler(this.ExitButton_Click);
             // 
             // GuessingGameForm
             // 
@@ -175,7 +189,8 @@
             this.BackColor = System.Drawing.Color.RoyalBlue;
             this.BackgroundImage = global::Aquaria_Project.Properties.Resources.waterGuessingGame;
             this.ClientSize = new System.Drawing.Size(580, 526);
-            this.Controls.Add(this.Money);
+            this.Controls.Add(this.ExitButton);
+            this.Controls.Add(this.Score);
             this.Controls.Add(this.Box9);
             this.Controls.Add(this.Box8);
             this.Controls.Add(this.Box7);
@@ -203,6 +218,7 @@
         private System.Windows.Forms.Button Box7;
         private System.Windows.Forms.Button Box8;
         private System.Windows.Forms.Button Box9;
-        private System.Windows.Forms.Label Money;
+        private System.Windows.Forms.Label Score;
+        private System.Windows.Forms.Button ExitButton;
     }
 }
