@@ -72,6 +72,12 @@
     <Compile Include="GuessingGameForm.Designer.cs">
       <DependentUpon>GuessingGameForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="huntingGameForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="huntingGameForm.Designer.cs">
+      <DependentUpon>huntingGameForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Trivia.cs" />
@@ -92,6 +98,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GuessingGameForm.resx">
       <DependentUpon>GuessingGameForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="huntingGameForm.resx">
+      <DependentUpon>huntingGameForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -142,6 +151,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="bin\Debug\bookBackground.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\fish5.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\crop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\fish11.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\clown.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\background.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\fire.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

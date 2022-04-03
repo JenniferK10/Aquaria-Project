@@ -65,3 +65,19 @@ C:\Users\jenni\Desktop\WorkingOnColectionBook\Aquaria Project\Aquaria Project\bi
 C:\Users\jenni\Desktop\WorkingOnColectionBook\Aquaria Project\Aquaria Project\obj\Debug\Aquaria_Project.badGuessForm.resources
 C:\Users\florencelourdes\CS114\Aquaria Github\Aquaria Project\Aquaria Project\obj\Debug\Aquaria_Project.badGuessForm.resources
 C:\Users\florencelourdes\CS114\Aquaria Github\Aquaria Project\Aquaria Project\obj\Debug\Aquaria_Project.TriviaGame.resources
+C:\Users\jenni\Desktop\new hunting\Aquaria Project\Aquaria Project\bin\Debug\Aquaria Project.exe.config
+C:\Users\jenni\Desktop\new hunting\Aquaria Project\Aquaria Project\bin\Debug\Aquaria Project.exe
+C:\Users\jenni\Desktop\new hunting\Aquaria Project\Aquaria Project\bin\Debug\Aquaria Project.pdb
+C:\Users\jenni\Desktop\new hunting\Aquaria Project\Aquaria Project\obj\Debug\Aquaria Project.csproj.AssemblyReference.cache
+C:\Users\jenni\Desktop\new hunting\Aquaria Project\Aquaria Project\obj\Debug\Aquaria Project.csproj.SuggestedBindingRedirects.cache
+C:\Users\jenni\Desktop\new hunting\Aquaria Project\Aquaria Project\obj\Debug\Aquaria_Project.badGuessForm.resources
+C:\Users\jenni\Desktop\new hunting\Aquaria Project\Aquaria Project\obj\Debug\Aquaria_Project.CollectionBookForm.resources
+C:\Users\jenni\Desktop\new hunting\Aquaria Project\Aquaria Project\obj\Debug\Aquaria_Project.Aquarium.resources
+C:\Users\jenni\Desktop\new hunting\Aquaria Project\Aquaria Project\obj\Debug\Aquaria_Project.GuessingGameForm.resources
+C:\Users\jenni\Desktop\new hunting\Aquaria Project\Aquaria Project\obj\Debug\Aquaria_Project.huntingGameForm.resources
+C:\Users\jenni\Desktop\new hunting\Aquaria Project\Aquaria Project\obj\Debug\Aquaria_Project.Properties.Resources.resources
+C:\Users\jenni\Desktop\new hunting\Aquaria Project\Aquaria Project\obj\Debug\Aquaria_Project.TriviaGame.resources
+C:\Users\jenni\Desktop\new hunting\Aquaria Project\Aquaria Project\obj\Debug\Aquaria Project.csproj.GenerateResource.cache
+C:\Users\jenni\Desktop\new hunting\Aquaria Project\Aquaria Project\obj\Debug\Aquaria Project.csproj.CoreCompileInputs.cache
+C:\Users\jenni\Desktop\new hunting\Aquaria Project\Aquaria Project\obj\Debug\Aquaria Project.exe
+C:\Users\jenni\Desktop\new hunting\Aquaria Project\Aquaria Project\obj\Debug\Aquaria Project.pdb
