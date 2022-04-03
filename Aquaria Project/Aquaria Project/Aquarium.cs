@@ -131,5 +131,11 @@ namespace Aquaria_Project
             TriviaGame TriviaGame = new TriviaGame();//opening trivia game form
             TriviaGame.ShowDialog();
         }
+
+        private void HuntingGameStart_Click(object sender, EventArgs e)
+        {
+            huntingGameForm huntingGameForm = new huntingGameForm();
+            huntingGameForm.ShowDialog();
+        }
     }
 }

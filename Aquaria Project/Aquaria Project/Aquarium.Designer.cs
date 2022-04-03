@@ -41,10 +41,9 @@
             // 
             // GuessingGameStart
             // 
-            this.GuessingGameStart.Location = new System.Drawing.Point(35, 30);
-            this.GuessingGameStart.Margin = new System.Windows.Forms.Padding(4);
+            this.GuessingGameStart.Location = new System.Drawing.Point(26, 24);
             this.GuessingGameStart.Name = "GuessingGameStart";
-            this.GuessingGameStart.Size = new System.Drawing.Size(193, 62);
+            this.GuessingGameStart.Size = new System.Drawing.Size(145, 50);
             this.GuessingGameStart.TabIndex = 0;
             this.GuessingGameStart.Text = "Guessing Game";
             this.GuessingGameStart.UseVisualStyleBackColor = true;
@@ -52,30 +51,28 @@
             // 
             // FlappyFishStart
             // 
-            this.FlappyFishStart.Location = new System.Drawing.Point(35, 125);
-            this.FlappyFishStart.Margin = new System.Windows.Forms.Padding(4);
+            this.FlappyFishStart.Location = new System.Drawing.Point(26, 100);
             this.FlappyFishStart.Name = "FlappyFishStart";
-            this.FlappyFishStart.Size = new System.Drawing.Size(193, 62);
+            this.FlappyFishStart.Size = new System.Drawing.Size(145, 50);
             this.FlappyFishStart.TabIndex = 1;
             this.FlappyFishStart.Text = "Flappy Fish";
             this.FlappyFishStart.UseVisualStyleBackColor = true;
             // 
             // HuntingGameStart
             // 
-            this.HuntingGameStart.Location = new System.Drawing.Point(35, 220);
-            this.HuntingGameStart.Margin = new System.Windows.Forms.Padding(4);
+            this.HuntingGameStart.Location = new System.Drawing.Point(26, 176);
             this.HuntingGameStart.Name = "HuntingGameStart";
-            this.HuntingGameStart.Size = new System.Drawing.Size(193, 62);
+            this.HuntingGameStart.Size = new System.Drawing.Size(145, 50);
             this.HuntingGameStart.TabIndex = 2;
             this.HuntingGameStart.Text = "Hunting Game";
             this.HuntingGameStart.UseVisualStyleBackColor = true;
+            this.HuntingGameStart.Click += new System.EventHandler(this.HuntingGameStart_Click);
             // 
             // TriviaGameStart
             // 
-            this.TriviaGameStart.Location = new System.Drawing.Point(35, 320);
-            this.TriviaGameStart.Margin = new System.Windows.Forms.Padding(4);
+            this.TriviaGameStart.Location = new System.Drawing.Point(26, 256);
             this.TriviaGameStart.Name = "TriviaGameStart";
-            this.TriviaGameStart.Size = new System.Drawing.Size(193, 62);
+            this.TriviaGameStart.Size = new System.Drawing.Size(145, 50);
             this.TriviaGameStart.TabIndex = 3;
             this.TriviaGameStart.Text = "Trivia Game";
             this.TriviaGameStart.UseVisualStyleBackColor = true;
@@ -83,10 +80,9 @@
             // 
             // CollectionBookOpen
             // 
-            this.CollectionBookOpen.Location = new System.Drawing.Point(1080, 64);
-            this.CollectionBookOpen.Margin = new System.Windows.Forms.Padding(4);
+            this.CollectionBookOpen.Location = new System.Drawing.Point(810, 51);
             this.CollectionBookOpen.Name = "CollectionBookOpen";
-            this.CollectionBookOpen.Size = new System.Drawing.Size(188, 58);
+            this.CollectionBookOpen.Size = new System.Drawing.Size(141, 46);
             this.CollectionBookOpen.TabIndex = 4;
             this.CollectionBookOpen.Text = "Collection Book";
             this.CollectionBookOpen.UseVisualStyleBackColor = true;
@@ -94,10 +90,9 @@
             // 
             // BuyFishStore
             // 
-            this.BuyFishStore.Location = new System.Drawing.Point(1080, 158);
-            this.BuyFishStore.Margin = new System.Windows.Forms.Padding(4);
+            this.BuyFishStore.Location = new System.Drawing.Point(810, 126);
             this.BuyFishStore.Name = "BuyFishStore";
-            this.BuyFishStore.Size = new System.Drawing.Size(188, 58);
+            this.BuyFishStore.Size = new System.Drawing.Size(141, 46);
             this.BuyFishStore.TabIndex = 5;
             this.BuyFishStore.Text = "Buy Fish";
             this.BuyFishStore.UseVisualStyleBackColor = true;
@@ -105,40 +100,37 @@
             // 
             // MysteryFishButton
             // 
-            this.MysteryFishButton.Location = new System.Drawing.Point(1080, 240);
-            this.MysteryFishButton.Margin = new System.Windows.Forms.Padding(4);
+            this.MysteryFishButton.Location = new System.Drawing.Point(810, 192);
             this.MysteryFishButton.Name = "MysteryFishButton";
-            this.MysteryFishButton.Size = new System.Drawing.Size(188, 58);
+            this.MysteryFishButton.Size = new System.Drawing.Size(141, 46);
             this.MysteryFishButton.TabIndex = 6;
             this.MysteryFishButton.Text = "Mystery Fish";
             this.MysteryFishButton.UseVisualStyleBackColor = true;
             // 
             // DecortationStore
             // 
-            this.DecortationStore.Location = new System.Drawing.Point(1080, 325);
-            this.DecortationStore.Margin = new System.Windows.Forms.Padding(4);
+            this.DecortationStore.Location = new System.Drawing.Point(810, 260);
             this.DecortationStore.Name = "DecortationStore";
-            this.DecortationStore.Size = new System.Drawing.Size(188, 58);
+            this.DecortationStore.Size = new System.Drawing.Size(141, 46);
             this.DecortationStore.TabIndex = 7;
             this.DecortationStore.Text = "Decoration";
             this.DecortationStore.UseVisualStyleBackColor = true;
             // 
             // SandColorButton
             // 
-            this.SandColorButton.Location = new System.Drawing.Point(1080, 424);
-            this.SandColorButton.Margin = new System.Windows.Forms.Padding(4);
+            this.SandColorButton.Location = new System.Drawing.Point(810, 339);
             this.SandColorButton.Name = "SandColorButton";
-            this.SandColorButton.Size = new System.Drawing.Size(188, 58);
+            this.SandColorButton.Size = new System.Drawing.Size(141, 46);
             this.SandColorButton.TabIndex = 8;
             this.SandColorButton.Text = "Sand Color";
             this.SandColorButton.UseVisualStyleBackColor = true;
             // 
             // Aquarium
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.ClientSize = new System.Drawing.Size(1284, 722);
+            this.ClientSize = new System.Drawing.Size(963, 578);
             this.Controls.Add(this.SandColorButton);
             this.Controls.Add(this.DecortationStore);
             this.Controls.Add(this.MysteryFishButton);
@@ -148,7 +140,6 @@
             this.Controls.Add(this.HuntingGameStart);
             this.Controls.Add(this.FlappyFishStart);
             this.Controls.Add(this.GuessingGameStart);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Aquarium";
             this.Text = "Aquarium";
             this.ResumeLayout(false);
