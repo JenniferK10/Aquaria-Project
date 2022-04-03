@@ -126,5 +126,10 @@ namespace Aquaria_Project
             GuessingGame.ShowDialog();
         }
 
+        private void TriviaGameStart_Click(object sender, EventArgs e)
+        {
+            TriviaGame TriviaGame = new TriviaGame();//opening trivia game form
+            TriviaGame.ShowDialog();
+        }
     }
 }

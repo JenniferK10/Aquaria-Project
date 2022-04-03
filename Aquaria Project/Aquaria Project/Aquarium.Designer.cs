@@ -42,7 +42,7 @@
             // GuessingGameStart
             // 
             this.GuessingGameStart.Location = new System.Drawing.Point(35, 30);
-            this.GuessingGameStart.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.GuessingGameStart.Margin = new System.Windows.Forms.Padding(4);
             this.GuessingGameStart.Name = "GuessingGameStart";
             this.GuessingGameStart.Size = new System.Drawing.Size(193, 62);
             this.GuessingGameStart.TabIndex = 0;
@@ -53,7 +53,7 @@
             // FlappyFishStart
             // 
             this.FlappyFishStart.Location = new System.Drawing.Point(35, 125);
-            this.FlappyFishStart.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.FlappyFishStart.Margin = new System.Windows.Forms.Padding(4);
             this.FlappyFishStart.Name = "FlappyFishStart";
             this.FlappyFishStart.Size = new System.Drawing.Size(193, 62);
             this.FlappyFishStart.TabIndex = 1;
@@ -63,7 +63,7 @@
             // HuntingGameStart
             // 
             this.HuntingGameStart.Location = new System.Drawing.Point(35, 220);
-            this.HuntingGameStart.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.HuntingGameStart.Margin = new System.Windows.Forms.Padding(4);
             this.HuntingGameStart.Name = "HuntingGameStart";
             this.HuntingGameStart.Size = new System.Drawing.Size(193, 62);
             this.HuntingGameStart.TabIndex = 2;
@@ -73,17 +73,18 @@
             // TriviaGameStart
             // 
             this.TriviaGameStart.Location = new System.Drawing.Point(35, 320);
-            this.TriviaGameStart.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TriviaGameStart.Margin = new System.Windows.Forms.Padding(4);
             this.TriviaGameStart.Name = "TriviaGameStart";
             this.TriviaGameStart.Size = new System.Drawing.Size(193, 62);
             this.TriviaGameStart.TabIndex = 3;
             this.TriviaGameStart.Text = "Trivia Game";
             this.TriviaGameStart.UseVisualStyleBackColor = true;
+            this.TriviaGameStart.Click += new System.EventHandler(this.TriviaGameStart_Click);
             // 
             // CollectionBookOpen
             // 
             this.CollectionBookOpen.Location = new System.Drawing.Point(1080, 64);
-            this.CollectionBookOpen.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CollectionBookOpen.Margin = new System.Windows.Forms.Padding(4);
             this.CollectionBookOpen.Name = "CollectionBookOpen";
             this.CollectionBookOpen.Size = new System.Drawing.Size(188, 58);
             this.CollectionBookOpen.TabIndex = 4;
@@ -94,7 +95,7 @@
             // BuyFishStore
             // 
             this.BuyFishStore.Location = new System.Drawing.Point(1080, 158);
-            this.BuyFishStore.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BuyFishStore.Margin = new System.Windows.Forms.Padding(4);
             this.BuyFishStore.Name = "BuyFishStore";
             this.BuyFishStore.Size = new System.Drawing.Size(188, 58);
             this.BuyFishStore.TabIndex = 5;
@@ -105,7 +106,7 @@
             // MysteryFishButton
             // 
             this.MysteryFishButton.Location = new System.Drawing.Point(1080, 240);
-            this.MysteryFishButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MysteryFishButton.Margin = new System.Windows.Forms.Padding(4);
             this.MysteryFishButton.Name = "MysteryFishButton";
             this.MysteryFishButton.Size = new System.Drawing.Size(188, 58);
             this.MysteryFishButton.TabIndex = 6;
@@ -115,7 +116,7 @@
             // DecortationStore
             // 
             this.DecortationStore.Location = new System.Drawing.Point(1080, 325);
-            this.DecortationStore.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.DecortationStore.Margin = new System.Windows.Forms.Padding(4);
             this.DecortationStore.Name = "DecortationStore";
             this.DecortationStore.Size = new System.Drawing.Size(188, 58);
             this.DecortationStore.TabIndex = 7;
@@ -125,7 +126,7 @@
             // SandColorButton
             // 
             this.SandColorButton.Location = new System.Drawing.Point(1080, 424);
-            this.SandColorButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.SandColorButton.Margin = new System.Windows.Forms.Padding(4);
             this.SandColorButton.Name = "SandColorButton";
             this.SandColorButton.Size = new System.Drawing.Size(188, 58);
             this.SandColorButton.TabIndex = 8;
@@ -147,7 +148,7 @@
             this.Controls.Add(this.HuntingGameStart);
             this.Controls.Add(this.FlappyFishStart);
             this.Controls.Add(this.GuessingGameStart);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Aquarium";
             this.Text = "Aquarium";
             this.ResumeLayout(false);
