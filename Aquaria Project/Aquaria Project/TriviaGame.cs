@@ -119,8 +119,13 @@ namespace Aquaria_Project
 
         private void ExitButton_Click(object sender, EventArgs e)
         {
-            c.setCoins((correct * 10).ToString());
+            
             this.Close();
+        }
+
+        private void TriviaGame_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            c.setCoins((correct * 10).ToString());
         }
     }
 }

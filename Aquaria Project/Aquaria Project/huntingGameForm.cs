@@ -139,9 +139,14 @@ namespace Aquaria_Project
 
         private void Exit_Click(object sender, EventArgs e)
         {
+            
+            this.Close();
+        }
+
+        private void huntingGameForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
             string[] score = lab_score.Text.Split();
             c.setCoins(score[1]);
-            this.Close();
         }
 
         private void timer1_Tick(object sender, EventArgs e)

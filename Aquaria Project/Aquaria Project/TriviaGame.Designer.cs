@@ -44,7 +44,7 @@
             // 
             this.questionBox.BackColor = System.Drawing.SystemColors.Control;
             this.questionBox.Location = new System.Drawing.Point(76, 93);
-            this.questionBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.questionBox.Margin = new System.Windows.Forms.Padding(2);
             this.questionBox.Name = "questionBox";
             this.questionBox.Size = new System.Drawing.Size(625, 26);
             this.questionBox.TabIndex = 0;
@@ -54,7 +54,7 @@
             // 
             this.ButtonA.BackColor = System.Drawing.SystemColors.Control;
             this.ButtonA.Location = new System.Drawing.Point(92, 176);
-            this.ButtonA.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ButtonA.Margin = new System.Windows.Forms.Padding(2);
             this.ButtonA.Name = "ButtonA";
             this.ButtonA.Size = new System.Drawing.Size(586, 64);
             this.ButtonA.TabIndex = 1;
@@ -66,7 +66,7 @@
             // 
             this.ButtonB.BackColor = System.Drawing.SystemColors.Control;
             this.ButtonB.Location = new System.Drawing.Point(92, 274);
-            this.ButtonB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ButtonB.Margin = new System.Windows.Forms.Padding(2);
             this.ButtonB.Name = "ButtonB";
             this.ButtonB.Size = new System.Drawing.Size(586, 64);
             this.ButtonB.TabIndex = 2;
@@ -77,7 +77,7 @@
             // button3
             // 
             this.button3.Location = new System.Drawing.Point(0, 0);
-            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(56, 18);
             this.button3.TabIndex = 10;
@@ -86,7 +86,7 @@
             // 
             this.nextButton.BackColor = System.Drawing.SystemColors.Control;
             this.nextButton.Location = new System.Drawing.Point(589, 504);
-            this.nextButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.nextButton.Margin = new System.Windows.Forms.Padding(2);
             this.nextButton.Name = "nextButton";
             this.nextButton.Size = new System.Drawing.Size(164, 54);
             this.nextButton.TabIndex = 4;
@@ -97,7 +97,7 @@
             // quitButton
             // 
             this.quitButton.Location = new System.Drawing.Point(0, 0);
-            this.quitButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.quitButton.Margin = new System.Windows.Forms.Padding(2);
             this.quitButton.Name = "quitButton";
             this.quitButton.Size = new System.Drawing.Size(56, 18);
             this.quitButton.TabIndex = 7;
@@ -106,7 +106,7 @@
             // 
             this.resetButton.BackColor = System.Drawing.SystemColors.Control;
             this.resetButton.Location = new System.Drawing.Point(32, 504);
-            this.resetButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.resetButton.Margin = new System.Windows.Forms.Padding(2);
             this.resetButton.Name = "resetButton";
             this.resetButton.Size = new System.Drawing.Size(164, 54);
             this.resetButton.TabIndex = 6;
@@ -118,7 +118,7 @@
             // 
             this.ButtonC.BackColor = System.Drawing.SystemColors.Control;
             this.ButtonC.Location = new System.Drawing.Point(92, 372);
-            this.ButtonC.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ButtonC.Margin = new System.Windows.Forms.Padding(2);
             this.ButtonC.Name = "ButtonC";
             this.ButtonC.Size = new System.Drawing.Size(586, 64);
             this.ButtonC.TabIndex = 9;
@@ -155,9 +155,10 @@
             this.Controls.Add(this.ButtonB);
             this.Controls.Add(this.ButtonA);
             this.Controls.Add(this.questionBox);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "TriviaGame";
             this.Text = "TriviaGame";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.TriviaGame_FormClosing);
             this.Load += new System.EventHandler(this.TriviaGame_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

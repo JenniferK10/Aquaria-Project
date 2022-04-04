@@ -155,9 +155,13 @@ namespace Aquaria_Project
 
         private void ExitButton_Click(object sender, EventArgs e)
         {
-            c.setCoins(g.GetScore());
+            
             this.Close();
-        }   
-       
+        }
+
+        private void GuessingGameForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            c.setCoins(g.GetScore());
+        }
     }
 }
