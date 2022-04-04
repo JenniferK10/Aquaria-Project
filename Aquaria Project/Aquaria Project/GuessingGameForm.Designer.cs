@@ -202,6 +202,7 @@
             this.Controls.Add(this.Box1);
             this.Name = "GuessingGameForm";
             this.Text = "GuessingGameForm";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.GuessingGameForm_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 

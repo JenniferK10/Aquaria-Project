@@ -209,6 +209,7 @@
             this.Controls.Add(this.lab_timer);
             this.Name = "huntingGameForm";
             this.Text = "huntingGameForm";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.huntingGameForm_FormClosing);
             this.Load += new System.EventHandler(this.huntingGameForm_Load);
             this.MouseClick += new System.Windows.Forms.MouseEventHandler(this.huntingGameForm_MouseClick);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();

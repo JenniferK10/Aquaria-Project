@@ -18,6 +18,8 @@ namespace Aquaria_Project
         Random rnd = new Random();
         int rand = 0;
 
+        Coins c = new Coins();
+
         public FlappyFishForm()
         {
             InitializeComponent();
@@ -173,6 +175,11 @@ namespace Aquaria_Project
                 // if the space key is pressed then the gravity will be set to -15
                 gravity = 13;
             }
+        }
+
+        private void FlappyFishForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            c.setCoins(score.ToString());
         }
     }
 }

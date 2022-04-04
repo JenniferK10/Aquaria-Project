@@ -18,10 +18,11 @@ namespace Aquaria_Project
             money += Int32.Parse(score);
         }
 
-        public string Say()
+        public void loseCoins (string price)
         {
-            return money.ToString();
+            money -= Int32.Parse(price);
         }
+
 
         public int getCoins()
         {
