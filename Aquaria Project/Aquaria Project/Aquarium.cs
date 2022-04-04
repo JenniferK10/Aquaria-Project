@@ -149,5 +149,11 @@ namespace Aquaria_Project
         {
             coinLabel.Text = c.getCoins().ToString();
         }
+
+        private void FlappyFishStart_Click(object sender, EventArgs e)
+        {
+            FlappyFishForm FlappyFishForm = new FlappyFishForm();//opening Flappy Fish form
+            FlappyFishForm.ShowDialog();
+        }
     }
 }

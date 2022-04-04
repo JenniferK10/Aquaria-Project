@@ -66,11 +66,11 @@
       <DependentUpon>Aquarium.cs</DependentUpon>
     </Compile>
     <Compile Include="Fish.cs" />
-    <Compile Include="FlappyFish.cs">
+    <Compile Include="FlappyFishForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FlappyFish.Designer.cs">
-      <DependentUpon>FlappyFish.cs</DependentUpon>
+    <Compile Include="FlappyFishForm.Designer.cs">
+      <DependentUpon>FlappyFishForm.cs</DependentUpon>
     </Compile>
     <Compile Include="GuessingGame.cs" />
     <Compile Include="GuessingGameForm.cs">
@@ -103,8 +103,8 @@
     <EmbeddedResource Include="Aquarium.resx">
       <DependentUpon>Aquarium.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FlappyFish.resx">
-      <DependentUpon>FlappyFish.cs</DependentUpon>
+    <EmbeddedResource Include="FlappyFishForm.resx">
+      <DependentUpon>FlappyFishForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GuessingGameForm.resx">
       <DependentUpon>GuessingGameForm.cs</DependentUpon>

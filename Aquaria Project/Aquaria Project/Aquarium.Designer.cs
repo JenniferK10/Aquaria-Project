@@ -60,6 +60,7 @@
             this.FlappyFishStart.TabIndex = 1;
             this.FlappyFishStart.Text = "Flappy Fish";
             this.FlappyFishStart.UseVisualStyleBackColor = true;
+            this.FlappyFishStart.Click += new System.EventHandler(this.FlappyFishStart_Click);
             // 
             // HuntingGameStart
             // 
