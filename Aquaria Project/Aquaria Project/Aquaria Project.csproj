@@ -66,6 +66,12 @@
       <DependentUpon>Aquarium.cs</DependentUpon>
     </Compile>
     <Compile Include="Fish.cs" />
+    <Compile Include="FlappyFishForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FlappyFishForm.Designer.cs">
+      <DependentUpon>FlappyFishForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="GuessingGame.cs" />
     <Compile Include="GuessingGameForm.cs">
       <SubType>Form</SubType>
@@ -96,6 +102,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Aquarium.resx">
       <DependentUpon>Aquarium.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FlappyFishForm.resx">
+      <DependentUpon>FlappyFishForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GuessingGameForm.resx">
       <DependentUpon>GuessingGameForm.cs</DependentUpon>
@@ -170,6 +179,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="bin\Debug\fire.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\bird.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\ground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\pipe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\pipedown.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
