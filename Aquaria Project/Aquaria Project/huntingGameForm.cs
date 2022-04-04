@@ -74,6 +74,8 @@ namespace Aquaria_Project
 
         private void Restart_Click_1(object sender, EventArgs e)
         {
+            string[] score = lab_score.Text.Split();
+            c.setCoins(score[1]);
             reset();// set the button
         }
 

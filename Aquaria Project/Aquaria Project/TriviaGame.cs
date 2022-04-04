@@ -106,6 +106,7 @@ namespace Aquaria_Project
         //reset function
         private void resetButton_Click(object sender, EventArgs e)
         {
+            c.setCoins((correct * 10).ToString());
             MessageBox.Show("correct answer: " + correct + ". Game is reset.");
             game.reset();
             questionBox.Text = "Question";
