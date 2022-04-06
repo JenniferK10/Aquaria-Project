@@ -14,6 +14,7 @@ namespace Aquaria_Project
     {
         Coins fishStoreCoin = new Coins();
         List<Fish> storeFishList = new List<Fish>();
+        Fish store = new Fish("store");
         //Common
         Fish clownfish = new Fish("clownfish");
         Fish goby = new Fish("goby");
@@ -108,6 +109,7 @@ namespace Aquaria_Project
             if (storeFishList.Count < 9)
             {
                 storeFishList.Add(clownfish);
+                store.setFishList(storeFishList);
             }
             else
             {
@@ -120,6 +122,7 @@ namespace Aquaria_Project
             if (storeFishList.Count < 9)
             {
                 storeFishList.Add(goby);
+                store.setFishList(storeFishList);
             }
             else
             {
@@ -132,6 +135,7 @@ namespace Aquaria_Project
             if (storeFishList.Count < 9)
             {
                 storeFishList.Add(puffer);
+                store.setFishList(storeFishList);
             }
             else
             {
@@ -144,6 +148,7 @@ namespace Aquaria_Project
             if (storeFishList.Count < 9)
             {
                 storeFishList.Add(butterfly);
+                store.setFishList(storeFishList);
             }
             else
             {
@@ -156,6 +161,7 @@ namespace Aquaria_Project
             if (storeFishList.Count < 9)
             {
                 storeFishList.Add(blueTang);
+                store.setFishList(storeFishList);
             }
             else
             {
@@ -168,6 +174,7 @@ namespace Aquaria_Project
             if (storeFishList.Count < 9)
             {
                 storeFishList.Add(royalGramma);
+                store.setFishList(storeFishList);
             }
             else
             {
@@ -180,6 +187,7 @@ namespace Aquaria_Project
             if (storeFishList.Count < 9)
             {
                 storeFishList.Add(cardinal);
+                store.setFishList(storeFishList);
             }
             else
             {
@@ -192,6 +200,7 @@ namespace Aquaria_Project
             if (storeFishList.Count < 9)
             {
                 storeFishList.Add(blueDotJawfish);
+                store.setFishList(storeFishList);
             }
             else
             {
@@ -204,6 +213,7 @@ namespace Aquaria_Project
             if (storeFishList.Count < 9)
             {
                 storeFishList.Add(seahorse);
+                store.setFishList(storeFishList);
             }
             else
             {
@@ -216,6 +226,7 @@ namespace Aquaria_Project
             if (storeFishList.Count < 9)
             {
                 storeFishList.Add(possumWrasse);
+                store.setFishList(storeFishList);
             }
             else
             {
@@ -228,6 +239,7 @@ namespace Aquaria_Project
             if (storeFishList.Count < 9)
             {
                 storeFishList.Add(lionfish);
+                store.setFishList(storeFishList);
             }
             else
             {
@@ -240,6 +252,7 @@ namespace Aquaria_Project
             if (storeFishList.Count < 9)
             {
                 storeFishList.Add(mandarinDragonet);
+                store.setFishList(storeFishList);
             }
             else
             {
