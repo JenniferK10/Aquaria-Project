@@ -113,7 +113,8 @@ namespace Aquaria_Project
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            FishStore fishStore = new FishStore();
+            fishStore.ShowDialog();
         }
 
         private void CollectionBookOpen_Click(object sender, EventArgs e)

@@ -178,8 +178,17 @@ namespace Aquaria_Project
             return name;
         }
 
-        List<Fish> fishList = new List<Fish>();
+        static List<Fish> fishList = new List<Fish>();
 
+        public void setFishList(List<Fish> list)
+        {
+            fishList = list;
+        }
+
+        public List<Fish> getFishList()
+        {
+            return fishList;
+        }
         public void AddFish(Fish fishType)
         {
             fishList.Add(fishType);

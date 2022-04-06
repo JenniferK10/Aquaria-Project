@@ -66,6 +66,12 @@
       <DependentUpon>Aquarium.cs</DependentUpon>
     </Compile>
     <Compile Include="Fish.cs" />
+    <Compile Include="FishStore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FishStore.Designer.cs">
+      <DependentUpon>FishStore.cs</DependentUpon>
+    </Compile>
     <Compile Include="FlappyFishForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -102,6 +108,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Aquarium.resx">
       <DependentUpon>Aquarium.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FishStore.resx">
+      <DependentUpon>FishStore.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FlappyFishForm.resx">
       <DependentUpon>FlappyFishForm.cs</DependentUpon>
