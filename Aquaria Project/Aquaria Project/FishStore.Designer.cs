@@ -60,6 +60,13 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.Timer = new System.Windows.Forms.Timer(this.components);
+            this.pictureBox13 = new System.Windows.Forms.PictureBox();
+            this.buyMystery = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -72,6 +79,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -340,6 +348,71 @@
             this.Timer.Interval = 1000;
             this.Timer.Tick += new System.EventHandler(this.Timer_Tick);
             // 
+            // pictureBox13
+            // 
+            this.pictureBox13.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox13.BackgroundImage")));
+            this.pictureBox13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox13.Location = new System.Drawing.Point(717, 619);
+            this.pictureBox13.Name = "pictureBox13";
+            this.pictureBox13.Size = new System.Drawing.Size(170, 118);
+            this.pictureBox13.TabIndex = 29;
+            this.pictureBox13.TabStop = false;
+            // 
+            // buyMystery
+            // 
+            this.buyMystery.Location = new System.Drawing.Point(741, 761);
+            this.buyMystery.Name = "buyMystery";
+            this.buyMystery.Size = new System.Drawing.Size(123, 43);
+            this.buyMystery.TabIndex = 30;
+            this.buyMystery.Text = "50";
+            this.buyMystery.UseVisualStyleBackColor = true;
+            this.buyMystery.Click += new System.EventHandler(this.buyMystery_Click);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(925, 628);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(152, 25);
+            this.label6.TabIndex = 31;
+            this.label6.Text = "Common: 30%";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(925, 678);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(175, 25);
+            this.label7.TabIndex = 32;
+            this.label7.Text = "Uncommon: 25%";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(925, 732);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(113, 25);
+            this.label8.TabIndex = 33;
+            this.label8.Text = "Rare: 20%";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(1128, 628);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(109, 25);
+            this.label9.TabIndex = 34;
+            this.label9.Text = "Epic: 15%";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(1128, 678);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(169, 25);
+            this.label10.TabIndex = 35;
+            this.label10.Text = "Legendary: 10%";
+            // 
             // FishStore
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
@@ -347,6 +420,13 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1328, 872);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.buyMystery);
+            this.Controls.Add(this.pictureBox13);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -391,6 +471,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -428,5 +509,12 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Timer Timer;
+        private System.Windows.Forms.PictureBox pictureBox13;
+        private System.Windows.Forms.Button buyMystery;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label10;
     }
 }

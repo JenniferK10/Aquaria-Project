@@ -173,13 +173,23 @@ namespace Aquaria_Project
             return fact;
         }
 
-        public String getName()
+        public string getName()
         {
             return name;
         }
 
-        static List<Fish> fishList = new List<Fish>();
+        static List<string> fishList = new List<string>();
 
+        public void setFishList(List<string> list)
+        {
+            fishList = list;
+        }
+
+        public List<string> getFishList()
+        {
+            return fishList;
+        }
+        /*
         public void setFishList(List<Fish> list)
         {
             fishList = list;
@@ -198,5 +208,6 @@ namespace Aquaria_Project
         {
             fishList.Remove(fishType);
         }
+        */
     }
 }

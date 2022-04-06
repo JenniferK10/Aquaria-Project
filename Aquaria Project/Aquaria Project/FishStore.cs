@@ -13,8 +13,13 @@ namespace Aquaria_Project
     public partial class FishStore : Form
     {
         Coins fishStoreCoin = new Coins();
-        List<Fish> storeFishList = new List<Fish>();
+        List<string> storeFishList = new List<string>();
         Fish store = new Fish("store");
+        Random rnd = new Random();
+        int number = 0;
+        int determineFish = 0;
+        string type = "";
+
         //Common
         Fish clownfish = new Fish("clownfish");
         Fish goby = new Fish("goby");
@@ -42,6 +47,97 @@ namespace Aquaria_Project
             storeFishList = store.getFishList();
         }
 
+        public string getMysteryFish()
+        {
+            string fish = "";
+            number = rnd.Next(1, 100);
+            if(number <= 30)
+            {
+                type = "common";
+            }
+            else if(number > 30 & number <= 55)
+            {
+                type = "uncommon";
+            }
+            else if (number > 55 & number <= 75)
+            {
+                type = "rare";
+            }
+            else if (number > 75 & number <= 90)
+            {
+                type = "epic";
+            }
+            else
+            {
+                type = "legendary";
+            }
+
+            determineFish = rnd.Next(1, 30);
+            if (type.Equals("common"))
+            {
+                if(determineFish <= 10)
+                {
+                    fish = clownfish.getName();
+                }
+                else if (determineFish > 10 & determineFish <= 20)
+                {
+                    fish = goby.getName();
+                }
+                else
+                {
+                    fish = puffer.getName();
+                }
+            }
+            else if (type.Equals("uncommon"))
+            {
+                if (determineFish <= 10)
+                {
+                    fish = butterfly.getName();
+                }
+                else if (determineFish > 10 & determineFish <= 20)
+                {
+                    fish = blueTang.getName();
+                }
+                else
+                {
+                    fish = royalGramma.getName();
+                }
+            }
+            else if (type.Equals("rare"))
+            {
+                if (determineFish <= 15)
+                {
+                    fish = cardinal.getName();
+                }
+                else
+                {
+                    fish = blueDotJawfish.getName();
+                }               
+            }
+            else if (type.Equals("epic"))
+            {
+                if (determineFish <= 15)
+                {
+                    fish = seahorse.getName();
+                }
+                else
+                {
+                    fish = possumWrasse.getName();
+                }
+            }
+            else if (type.Equals("legendary"))
+            {
+                if (determineFish <= 15)
+                {
+                    fish = lionfish.getName();
+                }
+                else
+                {
+                    fish = mandarinDragonet.getName();
+                }
+            }
+            return fish;
+        }
         private void Timer_Tick(object sender, EventArgs e)
         {
             if (fishStoreCoin.getCoins() < 20)
@@ -74,11 +170,13 @@ namespace Aquaria_Project
             {
                 buyCardinal.Enabled = false;
                 buyJawfish.Enabled = false;
+                buyMystery.Enabled = false;
             }
             else
             {
                 buyCardinal.Enabled = true;
                 buyJawfish.Enabled = true;
+                buyMystery.Enabled = true;
             }
 
             if (fishStoreCoin.getCoins() < 70)
@@ -108,7 +206,7 @@ namespace Aquaria_Project
         {
             if (storeFishList.Count < 9)
             {
-                storeFishList.Add(clownfish);
+                storeFishList.Add(clownfish.getName());
                 store.setFishList(storeFishList);
                 fishStoreCoin.loseCoins("20");
             }
@@ -122,7 +220,7 @@ namespace Aquaria_Project
         {
             if (storeFishList.Count < 9)
             {
-                storeFishList.Add(goby);
+                storeFishList.Add(goby.getName());
                 store.setFishList(storeFishList);
                 fishStoreCoin.loseCoins("20");
             }
@@ -136,7 +234,7 @@ namespace Aquaria_Project
         {
             if (storeFishList.Count < 9)
             {
-                storeFishList.Add(puffer);
+                storeFishList.Add(puffer.getName());
                 store.setFishList(storeFishList);
                 fishStoreCoin.loseCoins("20");
             }
@@ -150,7 +248,7 @@ namespace Aquaria_Project
         {
             if (storeFishList.Count < 9)
             {
-                storeFishList.Add(butterfly);
+                storeFishList.Add(butterfly.getName());
                 store.setFishList(storeFishList);
                 fishStoreCoin.loseCoins("30");
             }
@@ -164,7 +262,7 @@ namespace Aquaria_Project
         {
             if (storeFishList.Count < 9)
             {
-                storeFishList.Add(blueTang);
+                storeFishList.Add(blueTang.getName());
                 store.setFishList(storeFishList);
                 fishStoreCoin.loseCoins("30");
             }
@@ -178,7 +276,7 @@ namespace Aquaria_Project
         {
             if (storeFishList.Count < 9)
             {
-                storeFishList.Add(royalGramma);
+                storeFishList.Add(royalGramma.getName());
                 store.setFishList(storeFishList);
                 fishStoreCoin.loseCoins("30");
             }
@@ -192,7 +290,7 @@ namespace Aquaria_Project
         {
             if (storeFishList.Count < 9)
             {
-                storeFishList.Add(cardinal);
+                storeFishList.Add(cardinal.getName());
                 store.setFishList(storeFishList);
                 fishStoreCoin.loseCoins("50");
             }
@@ -206,7 +304,7 @@ namespace Aquaria_Project
         {
             if (storeFishList.Count < 9)
             {
-                storeFishList.Add(blueDotJawfish);
+                storeFishList.Add(blueDotJawfish.getName());
                 store.setFishList(storeFishList);
                 fishStoreCoin.loseCoins("50");
             }
@@ -220,7 +318,7 @@ namespace Aquaria_Project
         {
             if (storeFishList.Count < 9)
             {
-                storeFishList.Add(seahorse);
+                storeFishList.Add(seahorse.getName());
                 store.setFishList(storeFishList);
                 fishStoreCoin.loseCoins("70");
             }
@@ -234,7 +332,7 @@ namespace Aquaria_Project
         {
             if (storeFishList.Count < 9)
             {
-                storeFishList.Add(possumWrasse);
+                storeFishList.Add(possumWrasse.getName());
                 store.setFishList(storeFishList);
                 fishStoreCoin.loseCoins("70");
             }
@@ -248,7 +346,7 @@ namespace Aquaria_Project
         {
             if (storeFishList.Count < 9)
             {
-                storeFishList.Add(lionfish);
+                storeFishList.Add(lionfish.getName());
                 store.setFishList(storeFishList);
                 fishStoreCoin.loseCoins("100");
             }
@@ -262,7 +360,7 @@ namespace Aquaria_Project
         {
             if (storeFishList.Count < 9)
             {
-                storeFishList.Add(mandarinDragonet);
+                storeFishList.Add(mandarinDragonet.getName());
                 store.setFishList(storeFishList);
                 fishStoreCoin.loseCoins("100");
             }
@@ -272,5 +370,19 @@ namespace Aquaria_Project
             }
         }
 
+        private void buyMystery_Click(object sender, EventArgs e)
+        {
+            if (storeFishList.Count < 9)
+            {
+                storeFishList.Add(getMysteryFish());
+                store.setFishList(storeFishList);
+                fishStoreCoin.loseCoins("50");
+                MessageBox.Show("You got a " + getMysteryFish());
+            }
+            else
+            {
+                MessageBox.Show("Maximum fishes in the aquarium");
+            }
+        }
     }
 }
