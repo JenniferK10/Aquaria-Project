@@ -39,7 +39,7 @@ namespace Aquaria_Project
 
         private void FishStore_Load(object sender, EventArgs e)
         {
-
+            storeFishList = store.getFishList();
         }
 
         private void Timer_Tick(object sender, EventArgs e)

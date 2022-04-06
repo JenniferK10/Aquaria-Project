@@ -178,7 +178,7 @@ namespace Aquaria_Project
             return name;
         }
 
-        List<Fish> fishList = new List<Fish>();
+        static List<Fish> fishList = new List<Fish>();
 
         public void setFishList(List<Fish> list)
         {
