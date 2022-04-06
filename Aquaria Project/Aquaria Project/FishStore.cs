@@ -110,6 +110,7 @@ namespace Aquaria_Project
             {
                 storeFishList.Add(clownfish);
                 store.setFishList(storeFishList);
+                fishStoreCoin.loseCoins("20");
             }
             else
             {
@@ -123,6 +124,7 @@ namespace Aquaria_Project
             {
                 storeFishList.Add(goby);
                 store.setFishList(storeFishList);
+                fishStoreCoin.loseCoins("20");
             }
             else
             {
@@ -136,6 +138,7 @@ namespace Aquaria_Project
             {
                 storeFishList.Add(puffer);
                 store.setFishList(storeFishList);
+                fishStoreCoin.loseCoins("20");
             }
             else
             {
@@ -149,6 +152,7 @@ namespace Aquaria_Project
             {
                 storeFishList.Add(butterfly);
                 store.setFishList(storeFishList);
+                fishStoreCoin.loseCoins("30");
             }
             else
             {
@@ -162,6 +166,7 @@ namespace Aquaria_Project
             {
                 storeFishList.Add(blueTang);
                 store.setFishList(storeFishList);
+                fishStoreCoin.loseCoins("30");
             }
             else
             {
@@ -175,6 +180,7 @@ namespace Aquaria_Project
             {
                 storeFishList.Add(royalGramma);
                 store.setFishList(storeFishList);
+                fishStoreCoin.loseCoins("30");
             }
             else
             {
@@ -188,6 +194,7 @@ namespace Aquaria_Project
             {
                 storeFishList.Add(cardinal);
                 store.setFishList(storeFishList);
+                fishStoreCoin.loseCoins("50");
             }
             else
             {
@@ -201,6 +208,7 @@ namespace Aquaria_Project
             {
                 storeFishList.Add(blueDotJawfish);
                 store.setFishList(storeFishList);
+                fishStoreCoin.loseCoins("50");
             }
             else
             {
@@ -214,6 +222,7 @@ namespace Aquaria_Project
             {
                 storeFishList.Add(seahorse);
                 store.setFishList(storeFishList);
+                fishStoreCoin.loseCoins("70");
             }
             else
             {
@@ -227,6 +236,7 @@ namespace Aquaria_Project
             {
                 storeFishList.Add(possumWrasse);
                 store.setFishList(storeFishList);
+                fishStoreCoin.loseCoins("70");
             }
             else
             {
@@ -240,6 +250,7 @@ namespace Aquaria_Project
             {
                 storeFishList.Add(lionfish);
                 store.setFishList(storeFishList);
+                fishStoreCoin.loseCoins("100");
             }
             else
             {
@@ -253,6 +264,7 @@ namespace Aquaria_Project
             {
                 storeFishList.Add(mandarinDragonet);
                 store.setFishList(storeFishList);
+                fishStoreCoin.loseCoins("100");
             }
             else
             {
