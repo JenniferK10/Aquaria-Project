@@ -55,9 +55,10 @@ namespace Aquaria_Project
             // Ground
             // 
             this.Ground.Image = global::Aquaria_Project.Properties.Resources.ground;
-            this.Ground.Location = new System.Drawing.Point(-23, 838);
+            this.Ground.Location = new System.Drawing.Point(-15, 545);
+            this.Ground.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Ground.Name = "Ground";
-            this.Ground.Size = new System.Drawing.Size(738, 112);
+            this.Ground.Size = new System.Drawing.Size(492, 73);
             this.Ground.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Ground.TabIndex = 13;
             this.Ground.TabStop = false;
@@ -66,9 +67,10 @@ namespace Aquaria_Project
             // 
             this.PipeTopHigh.BackColor = System.Drawing.Color.Transparent;
             this.PipeTopHigh.Image = global::Aquaria_Project.Properties.Resources.pipedown;
-            this.PipeTopHigh.Location = new System.Drawing.Point(569, -198);
+            this.PipeTopHigh.Location = new System.Drawing.Point(379, -129);
+            this.PipeTopHigh.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.PipeTopHigh.Name = "PipeTopHigh";
-            this.PipeTopHigh.Size = new System.Drawing.Size(118, 352);
+            this.PipeTopHigh.Size = new System.Drawing.Size(79, 229);
             this.PipeTopHigh.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PipeTopHigh.TabIndex = 18;
             this.PipeTopHigh.TabStop = false;
@@ -79,9 +81,10 @@ namespace Aquaria_Project
             this.ExitButton.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.ExitButton.Font = new System.Drawing.Font("Rockwell", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ExitButton.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ExitButton.Location = new System.Drawing.Point(369, 425);
+            this.ExitButton.Location = new System.Drawing.Point(246, 276);
+            this.ExitButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.ExitButton.Name = "ExitButton";
-            this.ExitButton.Size = new System.Drawing.Size(248, 112);
+            this.ExitButton.Size = new System.Drawing.Size(165, 73);
             this.ExitButton.TabIndex = 17;
             this.ExitButton.Text = "Exit";
             this.ExitButton.UseVisualStyleBackColor = false;
@@ -92,9 +95,10 @@ namespace Aquaria_Project
             this.Restart.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.Restart.Font = new System.Drawing.Font("Rockwell", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Restart.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Restart.Location = new System.Drawing.Point(55, 425);
+            this.Restart.Location = new System.Drawing.Point(37, 276);
+            this.Restart.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Restart.Name = "Restart";
-            this.Restart.Size = new System.Drawing.Size(248, 112);
+            this.Restart.Size = new System.Drawing.Size(165, 73);
             this.Restart.TabIndex = 16;
             this.Restart.Text = "Restart";
             this.Restart.UseVisualStyleBackColor = false;
@@ -106,9 +110,10 @@ namespace Aquaria_Project
             this.Fish.BackColor = System.Drawing.Color.Transparent;
             this.Fish.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.Fish.Image = global::Aquaria_Project.Properties.Resources.bird;
-            this.Fish.Location = new System.Drawing.Point(137, 318);
+            this.Fish.Location = new System.Drawing.Point(91, 207);
+            this.Fish.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Fish.Name = "Fish";
-            this.Fish.Size = new System.Drawing.Size(68, 51);
+            this.Fish.Size = new System.Drawing.Size(45, 33);
             this.Fish.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Fish.TabIndex = 12;
             this.Fish.TabStop = false;
@@ -119,7 +124,8 @@ namespace Aquaria_Project
             this.score1.BackColor = System.Drawing.Color.Transparent;
             this.score1.Font = new System.Drawing.Font("Rockwell", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.score1.ForeColor = System.Drawing.Color.Black;
-            this.score1.Location = new System.Drawing.Point(-6, 42);
+            this.score1.Location = new System.Drawing.Point(-4, 27);
+            this.score1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.score1.Name = "score1";
             this.score1.Size = new System.Drawing.Size(222, 59);
             this.score1.TabIndex = 15;
@@ -128,9 +134,10 @@ namespace Aquaria_Project
             // PipeBottomLow
             // 
             this.PipeBottomLow.Image = global::Aquaria_Project.Properties.Resources.pipe;
-            this.PipeBottomLow.Location = new System.Drawing.Point(569, 742);
+            this.PipeBottomLow.Location = new System.Drawing.Point(379, 482);
+            this.PipeBottomLow.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.PipeBottomLow.Name = "PipeBottomLow";
-            this.PipeBottomLow.Size = new System.Drawing.Size(118, 365);
+            this.PipeBottomLow.Size = new System.Drawing.Size(79, 237);
             this.PipeBottomLow.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PipeBottomLow.TabIndex = 21;
             this.PipeBottomLow.TabStop = false;
@@ -140,9 +147,10 @@ namespace Aquaria_Project
             // 
             this.PipeTop.BackColor = System.Drawing.Color.Transparent;
             this.PipeTop.Image = global::Aquaria_Project.Properties.Resources.pipedown;
-            this.PipeTop.Location = new System.Drawing.Point(569, 16);
+            this.PipeTop.Location = new System.Drawing.Point(379, 10);
+            this.PipeTop.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.PipeTop.Name = "PipeTop";
-            this.PipeTop.Size = new System.Drawing.Size(118, 352);
+            this.PipeTop.Size = new System.Drawing.Size(79, 229);
             this.PipeTop.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PipeTop.TabIndex = 11;
             this.PipeTop.TabStop = false;
@@ -151,9 +159,10 @@ namespace Aquaria_Project
             // 
             this.PipeTopLow.BackColor = System.Drawing.Color.Transparent;
             this.PipeTopLow.Image = global::Aquaria_Project.Properties.Resources.pipedown;
-            this.PipeTopLow.Location = new System.Drawing.Point(569, 16);
+            this.PipeTopLow.Location = new System.Drawing.Point(379, 10);
+            this.PipeTopLow.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.PipeTopLow.Name = "PipeTopLow";
-            this.PipeTopLow.Size = new System.Drawing.Size(118, 522);
+            this.PipeTopLow.Size = new System.Drawing.Size(79, 339);
             this.PipeTopLow.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PipeTopLow.TabIndex = 20;
             this.PipeTopLow.TabStop = false;
@@ -162,9 +171,10 @@ namespace Aquaria_Project
             // PipeBottom
             // 
             this.PipeBottom.Image = global::Aquaria_Project.Properties.Resources.pipe;
-            this.PipeBottom.Location = new System.Drawing.Point(569, 573);
+            this.PipeBottom.Location = new System.Drawing.Point(379, 372);
+            this.PipeBottom.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.PipeBottom.Name = "PipeBottom";
-            this.PipeBottom.Size = new System.Drawing.Size(118, 480);
+            this.PipeBottom.Size = new System.Drawing.Size(79, 312);
             this.PipeBottom.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PipeBottom.TabIndex = 19;
             this.PipeBottom.TabStop = false;
@@ -172,9 +182,10 @@ namespace Aquaria_Project
             // PipeBottomHigh
             // 
             this.PipeBottomHigh.Image = global::Aquaria_Project.Properties.Resources.pipe;
-            this.PipeBottomHigh.Location = new System.Drawing.Point(569, 359);
+            this.PipeBottomHigh.Location = new System.Drawing.Point(379, 233);
+            this.PipeBottomHigh.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.PipeBottomHigh.Name = "PipeBottomHigh";
-            this.PipeBottomHigh.Size = new System.Drawing.Size(118, 498);
+            this.PipeBottomHigh.Size = new System.Drawing.Size(79, 324);
             this.PipeBottomHigh.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PipeBottomHigh.TabIndex = 14;
             this.PipeBottomHigh.TabStop = false;
@@ -188,10 +199,10 @@ namespace Aquaria_Project
             // 
             // FlappyFishForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.ClientSize = new System.Drawing.Size(693, 908);
+            this.ClientSize = new System.Drawing.Size(462, 590);
             this.Controls.Add(this.Ground);
             this.Controls.Add(this.PipeTopHigh);
             this.Controls.Add(this.ExitButton);
@@ -203,8 +214,9 @@ namespace Aquaria_Project
             this.Controls.Add(this.PipeTopLow);
             this.Controls.Add(this.PipeBottom);
             this.Controls.Add(this.PipeBottomHigh);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "FlappyFishForm";
-            this.Text = "v";
+            this.Text = "Flappy Fish";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FlappyFishForm_FormClosing);
             this.Load += new System.EventHandler(this.FlappyFishForm_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.SpaceKeyDown);
