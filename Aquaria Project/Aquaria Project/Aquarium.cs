@@ -320,5 +320,10 @@ namespace Aquaria_Project
             CloseButton.Visible = false;
             PlayButton.Visible = true;
         }
+        public List<string> getFishList()
+        {
+            return getFishList();
+        }
+        
     }
 }
