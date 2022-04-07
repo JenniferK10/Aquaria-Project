@@ -417,7 +417,7 @@
             this.location2.Location = new System.Drawing.Point(88, 898);
             this.location2.Margin = new System.Windows.Forms.Padding(2);
             this.location2.Name = "location2";
-            this.location2.Size = new System.Drawing.Size(161, 115);
+            this.location2.Size = new System.Drawing.Size(134, 115);
             this.location2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.location2.TabIndex = 12;
             this.location2.TabStop = false;
