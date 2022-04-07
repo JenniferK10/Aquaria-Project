@@ -86,7 +86,7 @@
             // 
             this.pictureBox1.Image = global::Aquaria_Project.Properties.Resources.clown;
             this.pictureBox1.Location = new System.Drawing.Point(103, 90);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(128, 94);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -97,7 +97,7 @@
             // 
             this.pictureBox2.Image = global::Aquaria_Project.Properties.Resources.goby1;
             this.pictureBox2.Location = new System.Drawing.Point(103, 298);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(128, 94);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -108,7 +108,7 @@
             // 
             this.pictureBox3.Image = global::Aquaria_Project.Properties.Resources.puffer1;
             this.pictureBox3.Location = new System.Drawing.Point(103, 495);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(128, 94);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -119,7 +119,7 @@
             // 
             this.pictureBox4.Image = global::Aquaria_Project.Properties.Resources.butterfly;
             this.pictureBox4.Location = new System.Drawing.Point(277, 90);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(128, 94);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -130,7 +130,7 @@
             // 
             this.pictureBox5.Image = global::Aquaria_Project.Properties.Resources.bluetang;
             this.pictureBox5.Location = new System.Drawing.Point(277, 298);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(128, 94);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -141,7 +141,7 @@
             // 
             this.pictureBox6.Image = global::Aquaria_Project.Properties.Resources.royalgamma;
             this.pictureBox6.Location = new System.Drawing.Point(277, 495);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(128, 94);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -150,62 +150,74 @@
             // 
             // pictureBox7
             // 
+            this.pictureBox7.Image = global::Aquaria_Project.Properties.Resources.cardinal;
             this.pictureBox7.Location = new System.Drawing.Point(449, 90);
-            this.pictureBox7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(128, 94);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox7.TabIndex = 6;
             this.pictureBox7.TabStop = false;
             // 
             // pictureBox8
             // 
+            this.pictureBox8.Image = global::Aquaria_Project.Properties.Resources.jawfish;
             this.pictureBox8.Location = new System.Drawing.Point(449, 298);
-            this.pictureBox8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox8.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(128, 94);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox8.TabIndex = 7;
             this.pictureBox8.TabStop = false;
             // 
             // pictureBox9
             // 
+            this.pictureBox9.Image = global::Aquaria_Project.Properties.Resources.seahorse;
             this.pictureBox9.Location = new System.Drawing.Point(617, 90);
-            this.pictureBox9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox9.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(128, 94);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox9.TabIndex = 8;
             this.pictureBox9.TabStop = false;
             // 
             // pictureBox10
             // 
+            this.pictureBox10.Image = global::Aquaria_Project.Properties.Resources.possumwrasse;
             this.pictureBox10.Location = new System.Drawing.Point(617, 298);
-            this.pictureBox10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox10.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(128, 94);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox10.TabIndex = 9;
             this.pictureBox10.TabStop = false;
             // 
             // pictureBox11
             // 
+            this.pictureBox11.Image = global::Aquaria_Project.Properties.Resources.lionfish;
             this.pictureBox11.Location = new System.Drawing.Point(788, 90);
-            this.pictureBox11.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox11.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox11.Name = "pictureBox11";
             this.pictureBox11.Size = new System.Drawing.Size(128, 94);
+            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox11.TabIndex = 10;
             this.pictureBox11.TabStop = false;
             // 
             // pictureBox12
             // 
+            this.pictureBox12.Image = global::Aquaria_Project.Properties.Resources.mandarindragonet;
             this.pictureBox12.Location = new System.Drawing.Point(788, 298);
-            this.pictureBox12.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox12.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox12.Name = "pictureBox12";
             this.pictureBox12.Size = new System.Drawing.Size(128, 94);
+            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox12.TabIndex = 11;
             this.pictureBox12.TabStop = false;
             // 
             // buyClownfish
             // 
             this.buyClownfish.Location = new System.Drawing.Point(120, 206);
-            this.buyClownfish.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buyClownfish.Margin = new System.Windows.Forms.Padding(2);
             this.buyClownfish.Name = "buyClownfish";
             this.buyClownfish.Size = new System.Drawing.Size(92, 34);
             this.buyClownfish.TabIndex = 12;
@@ -216,7 +228,7 @@
             // buyGoby
             // 
             this.buyGoby.Location = new System.Drawing.Point(120, 415);
-            this.buyGoby.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buyGoby.Margin = new System.Windows.Forms.Padding(2);
             this.buyGoby.Name = "buyGoby";
             this.buyGoby.Size = new System.Drawing.Size(92, 34);
             this.buyGoby.TabIndex = 13;
@@ -227,7 +239,7 @@
             // buyPuffer
             // 
             this.buyPuffer.Location = new System.Drawing.Point(120, 609);
-            this.buyPuffer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buyPuffer.Margin = new System.Windows.Forms.Padding(2);
             this.buyPuffer.Name = "buyPuffer";
             this.buyPuffer.Size = new System.Drawing.Size(92, 34);
             this.buyPuffer.TabIndex = 14;
@@ -238,7 +250,7 @@
             // buyButterfly
             // 
             this.buyButterfly.Location = new System.Drawing.Point(296, 206);
-            this.buyButterfly.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buyButterfly.Margin = new System.Windows.Forms.Padding(2);
             this.buyButterfly.Name = "buyButterfly";
             this.buyButterfly.Size = new System.Drawing.Size(92, 34);
             this.buyButterfly.TabIndex = 15;
@@ -249,7 +261,7 @@
             // buyBlue
             // 
             this.buyBlue.Location = new System.Drawing.Point(296, 415);
-            this.buyBlue.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buyBlue.Margin = new System.Windows.Forms.Padding(2);
             this.buyBlue.Name = "buyBlue";
             this.buyBlue.Size = new System.Drawing.Size(92, 34);
             this.buyBlue.TabIndex = 16;
@@ -260,7 +272,7 @@
             // buyRoyal
             // 
             this.buyRoyal.Location = new System.Drawing.Point(296, 609);
-            this.buyRoyal.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buyRoyal.Margin = new System.Windows.Forms.Padding(2);
             this.buyRoyal.Name = "buyRoyal";
             this.buyRoyal.Size = new System.Drawing.Size(92, 34);
             this.buyRoyal.TabIndex = 17;
@@ -271,7 +283,7 @@
             // buyCardinal
             // 
             this.buyCardinal.Location = new System.Drawing.Point(466, 206);
-            this.buyCardinal.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buyCardinal.Margin = new System.Windows.Forms.Padding(2);
             this.buyCardinal.Name = "buyCardinal";
             this.buyCardinal.Size = new System.Drawing.Size(92, 34);
             this.buyCardinal.TabIndex = 18;
@@ -282,7 +294,7 @@
             // buyJawfish
             // 
             this.buyJawfish.Location = new System.Drawing.Point(466, 415);
-            this.buyJawfish.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buyJawfish.Margin = new System.Windows.Forms.Padding(2);
             this.buyJawfish.Name = "buyJawfish";
             this.buyJawfish.Size = new System.Drawing.Size(92, 34);
             this.buyJawfish.TabIndex = 19;
@@ -293,7 +305,7 @@
             // buySeahorse
             // 
             this.buySeahorse.Location = new System.Drawing.Point(637, 206);
-            this.buySeahorse.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buySeahorse.Margin = new System.Windows.Forms.Padding(2);
             this.buySeahorse.Name = "buySeahorse";
             this.buySeahorse.Size = new System.Drawing.Size(92, 34);
             this.buySeahorse.TabIndex = 20;
@@ -304,7 +316,7 @@
             // buyPossum
             // 
             this.buyPossum.Location = new System.Drawing.Point(637, 415);
-            this.buyPossum.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buyPossum.Margin = new System.Windows.Forms.Padding(2);
             this.buyPossum.Name = "buyPossum";
             this.buyPossum.Size = new System.Drawing.Size(92, 34);
             this.buyPossum.TabIndex = 21;
@@ -315,7 +327,7 @@
             // buyLionfish
             // 
             this.buyLionfish.Location = new System.Drawing.Point(809, 206);
-            this.buyLionfish.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buyLionfish.Margin = new System.Windows.Forms.Padding(2);
             this.buyLionfish.Name = "buyLionfish";
             this.buyLionfish.Size = new System.Drawing.Size(92, 34);
             this.buyLionfish.TabIndex = 22;
@@ -326,7 +338,7 @@
             // buyMandarin
             // 
             this.buyMandarin.Location = new System.Drawing.Point(809, 415);
-            this.buyMandarin.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buyMandarin.Margin = new System.Windows.Forms.Padding(2);
             this.buyMandarin.Name = "buyMandarin";
             this.buyMandarin.Size = new System.Drawing.Size(92, 34);
             this.buyMandarin.TabIndex = 23;
@@ -394,7 +406,7 @@
             this.pictureBox13.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox13.BackgroundImage")));
             this.pictureBox13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox13.Location = new System.Drawing.Point(538, 495);
-            this.pictureBox13.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox13.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox13.Name = "pictureBox13";
             this.pictureBox13.Size = new System.Drawing.Size(128, 94);
             this.pictureBox13.TabIndex = 29;
@@ -403,7 +415,7 @@
             // buyMystery
             // 
             this.buyMystery.Location = new System.Drawing.Point(556, 609);
-            this.buyMystery.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buyMystery.Margin = new System.Windows.Forms.Padding(2);
             this.buyMystery.Name = "buyMystery";
             this.buyMystery.Size = new System.Drawing.Size(92, 34);
             this.buyMystery.TabIndex = 30;
@@ -504,7 +516,7 @@
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FishStore";
             this.Text = "FishStore";
             this.Load += new System.EventHandler(this.FishStore_Load);
