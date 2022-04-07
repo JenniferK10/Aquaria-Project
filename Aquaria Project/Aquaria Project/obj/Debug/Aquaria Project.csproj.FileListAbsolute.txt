@@ -164,3 +164,4 @@ C:\Users\florencelourdes\CS114\Aquarium Github\Aquaria Project\Aquaria Project\o
 C:\Users\florencelourdes\CS114\Aquarium Github\Aquaria Project\Aquaria Project\obj\Debug\Aquaria Project.csproj.CoreCompileInputs.cache
 C:\Users\florencelourdes\CS114\Aquarium Github\Aquaria Project\Aquaria Project\obj\Debug\Aquaria Project.exe
 C:\Users\florencelourdes\CS114\Aquarium Github\Aquaria Project\Aquaria Project\obj\Debug\Aquaria Project.pdb
+C:\Users\socce\CS-114\Aquaria-Project\Aquaria Project\Aquaria Project\obj\Debug\Aquaria_Project.FishStore.resources

@@ -296,5 +296,29 @@ namespace Aquaria_Project
         {
             decorationPanel.Visible = false;
         }
+
+        private void PlayButton_Click(object sender, EventArgs e)
+        {
+            TriviaGameStart.Visible = true;
+            GuessingGameStart.Visible = true;
+            FlappyFishStart.Visible = true;
+            HuntingGameStart.Visible = true;
+            rope1.Visible = true;
+            rope2.Visible = true;
+            CloseButton.Visible = true;
+            PlayButton.Visible = false;
+        }
+
+        private void CloseButton_Click(object sender, EventArgs e)
+        {
+            TriviaGameStart.Visible = false;
+            GuessingGameStart.Visible = false;
+            FlappyFishStart.Visible = false;
+            HuntingGameStart.Visible = false;
+            rope1.Visible = false;
+            rope2.Visible = false;
+            CloseButton.Visible = false;
+            PlayButton.Visible = true;
+        }
     }
 }
