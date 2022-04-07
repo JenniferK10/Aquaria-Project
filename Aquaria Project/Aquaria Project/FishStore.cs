@@ -374,10 +374,11 @@ namespace Aquaria_Project
         {
             if (storeFishList.Count < 9)
             {
-                storeFishList.Add(getMysteryFish());
+                string mysteryFish = getMysteryFish();
+                storeFishList.Add(mysteryFish);
                 store.setFishList(storeFishList);
                 fishStoreCoin.loseCoins("50");
-                MessageBox.Show("You got a " + getMysteryFish());
+                MessageBox.Show("You got a " + mysteryFish);
             }
             else
             {
