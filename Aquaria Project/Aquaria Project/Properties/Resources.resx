@@ -181,4 +181,43 @@
   <data name="rope2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\rope2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="bluetang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\bluetang.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="butterfly" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\butterfly.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cardinal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\cardinal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clown1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\clown.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="crop1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\crop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="goby1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\goby.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jawfish" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\jawfish.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lionfish" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\lionfish.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mandarindragonet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\mandarindragonet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="possumwrasse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\possumwrasse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="puffer1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\puffer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="royalgamma" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\royalgamma.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="seahorse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\seahorse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>
