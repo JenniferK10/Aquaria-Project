@@ -133,11 +133,20 @@
   <data name="sadfish" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\sadfish.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="fish5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\fish5.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="waterGuessingGame" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\waterGuessingGame.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="rope1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\rope1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="crop" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\crop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clownfish" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\clownfish.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="puffer" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\puffer.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -148,31 +157,28 @@
   <data name="pipe" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\pipe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="clownfish" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\clownfish.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pipedown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\pipedown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sandcastle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\sandcastle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="clown" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\clown.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="woodGuessingGame" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\woodGuessingGame.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="background" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\background.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="woodGuessingGame" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\woodGuessingGame.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="happyfish" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\happyfish.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pipedown" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\pipedown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="ground" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\ground.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="fish5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\fish5.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="sandcastle" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\sandcastle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="rope2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\rope2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
