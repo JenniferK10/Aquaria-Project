@@ -62,10 +62,10 @@ namespace Aquaria_Project
         Image clown = Image.FromFile("clown.gif");
         Image gobyfish = Properties.Resources.goby1;
         Image pufferfish = Image.FromFile("puffer.png");
-        Image butterflyfish = Image.FromFile("butterfly.png");
+        Image butterflyfish = Properties.Resources.butterfly;
         Image bluetang = Image.FromFile("bluetangC.png");
-        Image royalgramma = Image.FromFile("royalgamma.png");
-        Image cardinalfish = Image.FromFile("cardinal.png");
+        Image royalgramma = Image.FromFile("royalgamma");
+        Image cardinalfish = Properties.Resources.cardinal;
         Image jawfish = Image.FromFile("jawfish.png");
         Image seaHorse = Image.FromFile("seahorse.png");//variable for each pictures
         Image possumwarsse = Image.FromFile("possumwrasse.png");
@@ -192,7 +192,7 @@ namespace Aquaria_Project
                 {
                     fish1.Image = gobyfish;
                 }
-                if (f.getFishList()[i] == ("puffer"))
+                if (f.getFishList()[i] == ("pufferfish"))
                 {
                     fish1.Image = pufferfish;
                 }
