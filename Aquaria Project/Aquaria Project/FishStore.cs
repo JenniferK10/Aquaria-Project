@@ -27,7 +27,7 @@ namespace Aquaria_Project
         Fish puffer = new Fish("puffer fish");
         //Uncommon
         Fish butterfly = new Fish("butterfly fish");
-        Fish blueTang = new Fish("blue tang");
+        Fish blueTang = new Fish("bluetang");
         Fish royalGramma = new Fish("royal gramma");
         //Rare
         Fish cardinal = new Fish("cardinal fish");

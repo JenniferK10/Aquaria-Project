@@ -84,6 +84,7 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = global::Aquaria_Project.Properties.Resources.clown;
             this.pictureBox1.Location = new System.Drawing.Point(103, 90);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
@@ -95,6 +96,7 @@
             // 
             // pictureBox2
             // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = global::Aquaria_Project.Properties.Resources.goby1;
             this.pictureBox2.Location = new System.Drawing.Point(103, 298);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
@@ -106,6 +108,7 @@
             // 
             // pictureBox3
             // 
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox3.Image = global::Aquaria_Project.Properties.Resources.puffer1;
             this.pictureBox3.Location = new System.Drawing.Point(103, 495);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
@@ -117,6 +120,7 @@
             // 
             // pictureBox4
             // 
+            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox4.Image = global::Aquaria_Project.Properties.Resources.butterfly;
             this.pictureBox4.Location = new System.Drawing.Point(277, 90);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(2);
@@ -128,7 +132,8 @@
             // 
             // pictureBox5
             // 
-            this.pictureBox5.Image = global::Aquaria_Project.Properties.Resources.bluetang;
+            this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
             this.pictureBox5.Location = new System.Drawing.Point(277, 298);
             this.pictureBox5.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox5.Name = "pictureBox5";
@@ -139,6 +144,7 @@
             // 
             // pictureBox6
             // 
+            this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox6.Image = global::Aquaria_Project.Properties.Resources.royalgamma;
             this.pictureBox6.Location = new System.Drawing.Point(277, 495);
             this.pictureBox6.Margin = new System.Windows.Forms.Padding(2);
@@ -150,6 +156,7 @@
             // 
             // pictureBox7
             // 
+            this.pictureBox7.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox7.Image = global::Aquaria_Project.Properties.Resources.cardinal;
             this.pictureBox7.Location = new System.Drawing.Point(449, 90);
             this.pictureBox7.Margin = new System.Windows.Forms.Padding(2);
@@ -161,6 +168,7 @@
             // 
             // pictureBox8
             // 
+            this.pictureBox8.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox8.Image = global::Aquaria_Project.Properties.Resources.jawfish;
             this.pictureBox8.Location = new System.Drawing.Point(449, 298);
             this.pictureBox8.Margin = new System.Windows.Forms.Padding(2);
@@ -172,6 +180,7 @@
             // 
             // pictureBox9
             // 
+            this.pictureBox9.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox9.Image = global::Aquaria_Project.Properties.Resources.seahorse;
             this.pictureBox9.Location = new System.Drawing.Point(617, 90);
             this.pictureBox9.Margin = new System.Windows.Forms.Padding(2);
@@ -183,6 +192,7 @@
             // 
             // pictureBox10
             // 
+            this.pictureBox10.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox10.Image = global::Aquaria_Project.Properties.Resources.possumwrasse;
             this.pictureBox10.Location = new System.Drawing.Point(617, 298);
             this.pictureBox10.Margin = new System.Windows.Forms.Padding(2);
@@ -194,6 +204,7 @@
             // 
             // pictureBox11
             // 
+            this.pictureBox11.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox11.Image = global::Aquaria_Project.Properties.Resources.lionfish;
             this.pictureBox11.Location = new System.Drawing.Point(788, 90);
             this.pictureBox11.Margin = new System.Windows.Forms.Padding(2);
@@ -205,6 +216,7 @@
             // 
             // pictureBox12
             // 
+            this.pictureBox12.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox12.Image = global::Aquaria_Project.Properties.Resources.mandarindragonet;
             this.pictureBox12.Location = new System.Drawing.Point(788, 298);
             this.pictureBox12.Margin = new System.Windows.Forms.Padding(2);

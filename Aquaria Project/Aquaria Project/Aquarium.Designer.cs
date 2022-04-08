@@ -553,9 +553,10 @@
             // 
             // fish1
             // 
-            this.fish1.Location = new System.Drawing.Point(480, 163);
+            this.fish1.Location = new System.Drawing.Point(449, 279);
             this.fish1.Name = "fish1";
             this.fish1.Size = new System.Drawing.Size(148, 128);
+            this.fish1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.fish1.TabIndex = 22;
             this.fish1.TabStop = false;
             // 
