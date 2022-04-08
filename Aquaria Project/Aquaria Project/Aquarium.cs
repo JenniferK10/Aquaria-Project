@@ -71,7 +71,7 @@ namespace Aquaria_Project
         Image possumwarsse = Image.FromFile("possumwrasse.png");
         Image lionFish = Properties.Resources.lionfish;
         Image mandarindragon = Image.FromFile("mandarindragonet.png");
-        void fish()
+        void fish()// fish moving to the left
         {
             if(fish1.Left < 0)
             {
@@ -118,9 +118,10 @@ namespace Aquaria_Project
             fish3.Left -= 10;
             fish4.Left -= 10;
         }
-        void fishRight()
+        void fishRight()// fisah moving to the right
         {
             int width = this.Width;
+            //picturebox5
             if (fish5.Location.X > width - fish5.Width)
             {
                 fish5.Location = new Point(1, fish5.Location.Y);
@@ -128,6 +129,33 @@ namespace Aquaria_Project
             else
             {
                 fish5.Location = new Point(fish5.Location.X + 100, fish5.Location.Y);
+            }
+            //picturebox6
+            if (fish6.Location.X > width - fish6.Width)
+            {
+                fish6.Location = new Point(1, fish6.Location.Y);
+            }
+            else
+            {
+                fish6.Location = new Point(fish6.Location.X + 100, fish6.Location.Y);
+            }
+            //picturebox7
+            if (fish7.Location.X > width - fish7.Width)
+            {
+                fish7.Location = new Point(1, fish7.Location.Y);
+            }
+            else
+            {
+                fish7.Location = new Point(fish7.Location.X + 100, fish7.Location.Y);
+            }
+            //picturebox8
+            if (fish8.Location.X > width - fish8.Width)
+            {
+                fish8.Location = new Point(1, fish8.Location.Y);
+            }
+            else
+            {
+                fish8.Location = new Point(fish8.Location.X + 100, fish8.Location.Y);
             }
         }
         //SP
@@ -306,6 +334,69 @@ namespace Aquaria_Project
                     fish1.Visible = true;
                 }
             }
+            /*for (int i = 0; i < f.getFishList().Count; i++)
+            {
+                if (f.getFishList()[i] == ("clownfish"))
+                {
+                    fish2.Image = clown;
+                    fish2.Visible = true;
+                }
+                if (f.getFishList()[i] == ("goby"))
+                {
+                    fish2.Image = gobyfish;
+                    fish2.Visible = true;
+                }
+                if (f.getFishList()[i] == ("pufferfish"))
+                {
+                    fish2.Image = pufferfish;
+                    fish2.Visible = true;
+                }
+                if (f.getFishList()[i] == ("butterfly fish"))
+                {
+                    fish3.Image = butterflyfish;
+                    fish3.Visible = true;
+                }
+                if (f.getFishList()[i] == ("bluetang"))
+                {
+                    fish4.Image = bluetang;
+                    fish4.Visible = true;
+                }
+                if (f.getFishList()[i] == ("royalgramma"))
+                {
+                    fish5.Image = royalgramma;
+                    fish5.Visible = true;
+                }
+                if (f.getFishList()[i] == ("cardinal"))
+                {
+                    fish6.Image = cardinalfish;
+                    fish6.Visible = true;
+                }
+                if (f.getFishList()[i] == ("jawfish"))
+                {
+                    fish7.Image = bluedotjawfish;
+                    fish7.Visible = true;
+                }
+                if (f.getFishList()[i] == ("seahorse"))
+                {
+                    fish8.Image = seaHorse;
+                    fish8.Visible = true;
+                }
+                if (f.getFishList()[i] == ("possumrasse"))
+                {
+                    fish9.Image = possumwarsse;
+                    fish9.Visible = true;
+                }
+                if (f.getFishList()[i] == ("lionfish"))
+                {
+                    fish1.Image = lionFish;
+                    fish1.Visible = true;
+                }
+                if (f.getFishList()[i] == ("mandarindrogan"))
+                {
+                    fish1.Image = mandarindragon;
+                    fish1.Visible = true;
+                }
+            }*/
             //SP
         }
 
@@ -461,13 +552,15 @@ namespace Aquaria_Project
             PlayButton.Visible = true;
         }
         //SP
-        private void timer1_Tick(object sender, EventArgs e)
+        private void timer1_Tick(object sender, EventArgs e)// timer for left moving fish
         {
             fish();
-            fishRight();
         }
 
-
+        private void timer2_Tick(object sender, EventArgs e)// timer for right moving fish
+        {
+            fishRight();
+        }
         //SP
     }
 }

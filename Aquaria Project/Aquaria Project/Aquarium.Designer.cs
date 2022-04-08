@@ -76,6 +76,7 @@
             this.fish8 = new System.Windows.Forms.PictureBox();
             this.fish9 = new System.Windows.Forms.PictureBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.timer2 = new System.Windows.Forms.Timer(this.components);
             this.decorationPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.decoration6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.decoration5)).BeginInit();
@@ -554,10 +555,11 @@
             // 
             // fish1
             // 
+            this.fish1.BackColor = System.Drawing.Color.Transparent;
             this.fish1.Location = new System.Drawing.Point(435, 130);
             this.fish1.Name = "fish1";
-            this.fish1.Size = new System.Drawing.Size(185, 161);
-            this.fish1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.fish1.Size = new System.Drawing.Size(213, 161);
+            this.fish1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.fish1.TabIndex = 22;
             this.fish1.TabStop = false;
             this.fish1.Visible = false;
@@ -569,6 +571,7 @@
             this.fish2.Size = new System.Drawing.Size(204, 174);
             this.fish2.TabIndex = 23;
             this.fish2.TabStop = false;
+            this.fish2.Visible = false;
             // 
             // fish3
             // 
@@ -577,6 +580,7 @@
             this.fish3.Size = new System.Drawing.Size(196, 133);
             this.fish3.TabIndex = 24;
             this.fish3.TabStop = false;
+            this.fish3.Visible = false;
             // 
             // fish5
             // 
@@ -585,6 +589,7 @@
             this.fish5.Size = new System.Drawing.Size(219, 137);
             this.fish5.TabIndex = 25;
             this.fish5.TabStop = false;
+            this.fish5.Visible = false;
             // 
             // fish7
             // 
@@ -593,6 +598,7 @@
             this.fish7.Size = new System.Drawing.Size(153, 137);
             this.fish7.TabIndex = 26;
             this.fish7.TabStop = false;
+            this.fish7.Visible = false;
             // 
             // fish6
             // 
@@ -601,6 +607,7 @@
             this.fish6.Size = new System.Drawing.Size(153, 137);
             this.fish6.TabIndex = 27;
             this.fish6.TabStop = false;
+            this.fish6.Visible = false;
             // 
             // fish4
             // 
@@ -609,6 +616,7 @@
             this.fish4.Size = new System.Drawing.Size(153, 137);
             this.fish4.TabIndex = 28;
             this.fish4.TabStop = false;
+            this.fish4.Visible = false;
             // 
             // fish8
             // 
@@ -617,6 +625,7 @@
             this.fish8.Size = new System.Drawing.Size(153, 137);
             this.fish8.TabIndex = 29;
             this.fish8.TabStop = false;
+            this.fish8.Visible = false;
             // 
             // fish9
             // 
@@ -625,12 +634,19 @@
             this.fish9.Size = new System.Drawing.Size(133, 127);
             this.fish9.TabIndex = 30;
             this.fish9.TabStop = false;
+            this.fish9.Visible = false;
             // 
             // timer1
             // 
             this.timer1.Enabled = true;
             this.timer1.Interval = 30;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // timer2
+            // 
+            this.timer2.Enabled = true;
+            this.timer2.Interval = 300;
+            this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
             // 
             // Aquarium
             // 
@@ -753,6 +769,7 @@
         private System.Windows.Forms.PictureBox fish8;
         private System.Windows.Forms.PictureBox fish9;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Timer timer2;
     }
 }
 
