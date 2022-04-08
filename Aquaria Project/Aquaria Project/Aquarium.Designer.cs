@@ -564,7 +564,7 @@
             // 
             // fish2
             // 
-            this.fish2.Location = new System.Drawing.Point(720, 62);
+            this.fish2.Location = new System.Drawing.Point(789, 90);
             this.fish2.Name = "fish2";
             this.fish2.Size = new System.Drawing.Size(204, 174);
             this.fish2.TabIndex = 23;
@@ -572,23 +572,23 @@
             // 
             // fish3
             // 
-            this.fish3.Location = new System.Drawing.Point(671, 283);
+            this.fish3.Location = new System.Drawing.Point(960, 295);
             this.fish3.Name = "fish3";
-            this.fish3.Size = new System.Drawing.Size(153, 137);
+            this.fish3.Size = new System.Drawing.Size(196, 133);
             this.fish3.TabIndex = 24;
             this.fish3.TabStop = false;
             // 
             // fish5
             // 
-            this.fish5.Location = new System.Drawing.Point(603, 450);
+            this.fish5.Location = new System.Drawing.Point(447, 450);
             this.fish5.Name = "fish5";
-            this.fish5.Size = new System.Drawing.Size(153, 137);
+            this.fish5.Size = new System.Drawing.Size(219, 137);
             this.fish5.TabIndex = 25;
             this.fish5.TabStop = false;
             // 
             // fish7
             // 
-            this.fish7.Location = new System.Drawing.Point(245, 575);
+            this.fish7.Location = new System.Drawing.Point(158, 547);
             this.fish7.Name = "fish7";
             this.fish7.Size = new System.Drawing.Size(153, 137);
             this.fish7.TabIndex = 26;
@@ -596,7 +596,7 @@
             // 
             // fish6
             // 
-            this.fish6.Location = new System.Drawing.Point(881, 452);
+            this.fish6.Location = new System.Drawing.Point(1273, 593);
             this.fish6.Name = "fish6";
             this.fish6.Size = new System.Drawing.Size(153, 137);
             this.fish6.TabIndex = 27;
@@ -604,7 +604,7 @@
             // 
             // fish4
             // 
-            this.fish4.Location = new System.Drawing.Point(881, 271);
+            this.fish4.Location = new System.Drawing.Point(1273, 433);
             this.fish4.Name = "fish4";
             this.fish4.Size = new System.Drawing.Size(153, 137);
             this.fish4.TabIndex = 28;
@@ -612,7 +612,7 @@
             // 
             // fish8
             // 
-            this.fish8.Location = new System.Drawing.Point(594, 629);
+            this.fish8.Location = new System.Drawing.Point(603, 725);
             this.fish8.Name = "fish8";
             this.fish8.Size = new System.Drawing.Size(153, 137);
             this.fish8.TabIndex = 29;
@@ -620,7 +620,7 @@
             // 
             // fish9
             // 
-            this.fish9.Location = new System.Drawing.Point(1111, 280);
+            this.fish9.Location = new System.Drawing.Point(1273, 137);
             this.fish9.Name = "fish9";
             this.fish9.Size = new System.Drawing.Size(133, 127);
             this.fish9.TabIndex = 30;

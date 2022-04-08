@@ -77,8 +77,58 @@ namespace Aquaria_Project
             {
                 fish1.Left = 1000;
             }
+            if (fish2.Left < 0)
+            {
+                fish2.Left = 1000;
+            }
+            if (fish3.Left < 0)
+            {
+                fish3.Left = 1000;
+            }
+            if (fish4.Left < 0)
+            {
+                fish4.Left = 1000;
+            }
+            if (fish5.Left < 0)
+            {
+                fish5.Left = 1000;
+            }
+            if (fish5.Left < 0)
+            {
+                fish5.Left = 1000;
+            }
+            if (fish6.Left < 0)
+            {
+                fish6.Left = 1000;
+            }
+            if (fish7.Left < 0)
+            {
+                fish7.Left = 1000;
+            }
+            if (fish8.Left < 0)
+            {
+                fish8.Left = 1000;
+            }
+            if (fish9.Left < 0)
+            {
+                fish9.Left = 1000;
+            }
             fish1.Left -= 10;
-
+            fish2.Left -= 10;
+            fish3.Left -= 10;
+            fish4.Left -= 10;
+        }
+        void fishRight()
+        {
+            int width = this.Width;
+            if (fish5.Location.X > width - fish5.Width)
+            {
+                fish5.Location = new Point(1, fish5.Location.Y);
+            }
+            else
+            {
+                fish5.Location = new Point(fish5.Location.X + 100, fish5.Location.Y);
+            }
         }
         //SP
         /*
@@ -414,7 +464,10 @@ namespace Aquaria_Project
         private void timer1_Tick(object sender, EventArgs e)
         {
             fish();
+            fishRight();
         }
+
+
         //SP
     }
 }
