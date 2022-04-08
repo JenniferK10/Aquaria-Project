@@ -14,10 +14,12 @@ namespace Aquaria_Project
     {
         Coins c = new Coins();
         GuessingGame g = new GuessingGame();
+        Fish f = new Fish("aquairum");
         public Aquarium()
         {
             InitializeComponent();
         }
+ 
         /*
         //Common
         Fish goby = new Fish("goby");
@@ -57,6 +59,18 @@ namespace Aquaria_Project
             Image.FromFile("cardinal.jpg"), Image.FromFile("jawfish.jpg"), Image.FromFile("seahorse.jpg"), Image.FromFile("possumwrasse.jpg"),
             Image.FromFile("lionfish.jpg"), Image.FromFile("mandarindragonet.jpg")};
 
+        Image clown = Image.FromFile("clown.gif");
+        Image gobyfish = Image.FromFile("goby.png");
+        Image pufferfish = Image.FromFile("puffer.png");
+        Image butterflyfish = Image.FromFile("butterfly.png");
+        Image bluetang = Image.FromFile("bluetang.png");
+        Image royalgramma = Image.FromFile("royalgamma.png");
+        Image cardinalfish = Image.FromFile("cardinal.png");
+        Image jawfish = Image.FromFile("jawfish.png");
+        Image seaHorse = Image.FromFile("seahorse.png");//variable for each pictures
+        Image possumwarsse = Image.FromFile("possumwrasse.png");
+        Image lionFish = Image.FromFile("lionfish.png");
+        Image mandarindragon = Image.FromFile("mandarindragonet.png");
         /*
         public Image getImage(String fish)
         {
@@ -166,6 +180,58 @@ namespace Aquaria_Project
             {
                 if (Unlock2.Text != "Unlocked")
                  Unlock2.Enabled = true;
+            }
+
+            for(int i = 0; i < f.getFishList().Count; i++)
+            {
+                if (f.getFishList()[i] == ("clownfish"))
+                {
+                    fish1.Image = clown;
+                }
+                if (f.getFishList()[i] == ("gobyfish"))
+                {
+                    fish1.Image = gobyfish;
+                }
+                if (f.getFishList()[i] == ("puffer"))
+                {
+                    fish1.Image = pufferfish;
+                }
+                if (f.getFishList()[i] == ("butterfly"))
+                {
+                    fish1.Image = butterflyfish;
+                }
+                if (f.getFishList()[i] == ("bluetang"))
+                {
+                    fish1.Image = bluetang;
+                }
+                if (f.getFishList()[i] == ("royalgramma"))
+                {
+                    fish1.Image = royalgramma;
+                }
+                if (f.getFishList()[i] == ("cardinal"))
+                {
+                    fish1.Image = cardinalfish;
+                }
+                if (f.getFishList()[i] == ("jawfish"))
+                {
+                    fish1.Image = jawfish;
+                }
+                if (f.getFishList()[i] == ("seahorse"))
+                {
+                    fish1.Image = seaHorse;
+                }
+                if (f.getFishList()[i] == ("possumrasse"))
+                {
+                    fish1.Image = possumwarsse;
+                }
+                if (f.getFishList()[i] == ("lionfish"))
+                {
+                    fish1.Image = lionFish;
+                }
+                if (f.getFishList()[i] == ("mandarindrogan"))
+                {
+                    fish1.Image = mandarindragon;
+                }
             }
         }
 
@@ -320,10 +386,7 @@ namespace Aquaria_Project
             CloseButton.Visible = false;
             PlayButton.Visible = true;
         }
-        public List<string> getFishList()
-        {
-            return getFishList();
-        }
         
+
     }
 }

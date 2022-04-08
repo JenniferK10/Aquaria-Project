@@ -66,6 +66,15 @@
             this.rope2 = new System.Windows.Forms.PictureBox();
             this.rope1 = new System.Windows.Forms.PictureBox();
             this.CloseButton = new System.Windows.Forms.Button();
+            this.fish1 = new System.Windows.Forms.PictureBox();
+            this.fish2 = new System.Windows.Forms.PictureBox();
+            this.fish3 = new System.Windows.Forms.PictureBox();
+            this.fish5 = new System.Windows.Forms.PictureBox();
+            this.fish7 = new System.Windows.Forms.PictureBox();
+            this.fish6 = new System.Windows.Forms.PictureBox();
+            this.fish4 = new System.Windows.Forms.PictureBox();
+            this.fish8 = new System.Windows.Forms.PictureBox();
+            this.fish9 = new System.Windows.Forms.PictureBox();
             this.decorationPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.decoration6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.decoration5)).BeginInit();
@@ -81,6 +90,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.location3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rope2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rope1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fish1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fish2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fish3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fish5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fish7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fish6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fish4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fish8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fish9)).BeginInit();
             this.SuspendLayout();
             // 
             // GuessingGameStart
@@ -533,6 +551,78 @@
             this.CloseButton.Visible = false;
             this.CloseButton.Click += new System.EventHandler(this.CloseButton_Click);
             // 
+            // fish1
+            // 
+            this.fish1.Location = new System.Drawing.Point(480, 163);
+            this.fish1.Name = "fish1";
+            this.fish1.Size = new System.Drawing.Size(148, 128);
+            this.fish1.TabIndex = 22;
+            this.fish1.TabStop = false;
+            // 
+            // fish2
+            // 
+            this.fish2.Location = new System.Drawing.Point(720, 62);
+            this.fish2.Name = "fish2";
+            this.fish2.Size = new System.Drawing.Size(204, 174);
+            this.fish2.TabIndex = 23;
+            this.fish2.TabStop = false;
+            // 
+            // fish3
+            // 
+            this.fish3.Location = new System.Drawing.Point(671, 283);
+            this.fish3.Name = "fish3";
+            this.fish3.Size = new System.Drawing.Size(153, 137);
+            this.fish3.TabIndex = 24;
+            this.fish3.TabStop = false;
+            // 
+            // fish5
+            // 
+            this.fish5.Location = new System.Drawing.Point(603, 450);
+            this.fish5.Name = "fish5";
+            this.fish5.Size = new System.Drawing.Size(153, 137);
+            this.fish5.TabIndex = 25;
+            this.fish5.TabStop = false;
+            // 
+            // fish7
+            // 
+            this.fish7.Location = new System.Drawing.Point(245, 575);
+            this.fish7.Name = "fish7";
+            this.fish7.Size = new System.Drawing.Size(153, 137);
+            this.fish7.TabIndex = 26;
+            this.fish7.TabStop = false;
+            // 
+            // fish6
+            // 
+            this.fish6.Location = new System.Drawing.Point(881, 452);
+            this.fish6.Name = "fish6";
+            this.fish6.Size = new System.Drawing.Size(153, 137);
+            this.fish6.TabIndex = 27;
+            this.fish6.TabStop = false;
+            // 
+            // fish4
+            // 
+            this.fish4.Location = new System.Drawing.Point(881, 271);
+            this.fish4.Name = "fish4";
+            this.fish4.Size = new System.Drawing.Size(153, 137);
+            this.fish4.TabIndex = 28;
+            this.fish4.TabStop = false;
+            // 
+            // fish8
+            // 
+            this.fish8.Location = new System.Drawing.Point(594, 629);
+            this.fish8.Name = "fish8";
+            this.fish8.Size = new System.Drawing.Size(153, 137);
+            this.fish8.TabIndex = 29;
+            this.fish8.TabStop = false;
+            // 
+            // fish9
+            // 
+            this.fish9.Location = new System.Drawing.Point(1111, 280);
+            this.fish9.Name = "fish9";
+            this.fish9.Size = new System.Drawing.Size(133, 127);
+            this.fish9.TabIndex = 30;
+            this.fish9.TabStop = false;
+            // 
             // Aquarium
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -541,6 +631,15 @@
             this.BackgroundImage = global::Aquaria_Project.Properties.Resources.waterGuessingGame;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1898, 1024);
+            this.Controls.Add(this.fish9);
+            this.Controls.Add(this.fish8);
+            this.Controls.Add(this.fish4);
+            this.Controls.Add(this.fish6);
+            this.Controls.Add(this.fish7);
+            this.Controls.Add(this.fish5);
+            this.Controls.Add(this.fish3);
+            this.Controls.Add(this.fish2);
+            this.Controls.Add(this.fish1);
             this.Controls.Add(this.location3);
             this.Controls.Add(this.location4);
             this.Controls.Add(this.location5);
@@ -583,6 +682,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.location3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.rope2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.rope1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fish1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fish2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fish3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fish5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fish7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fish6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fish4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fish8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fish9)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -626,6 +734,15 @@
         private System.Windows.Forms.PictureBox rope2;
         private System.Windows.Forms.PictureBox rope1;
         private System.Windows.Forms.Button CloseButton;
+        private System.Windows.Forms.PictureBox fish1;
+        private System.Windows.Forms.PictureBox fish2;
+        private System.Windows.Forms.PictureBox fish3;
+        private System.Windows.Forms.PictureBox fish5;
+        private System.Windows.Forms.PictureBox fish7;
+        private System.Windows.Forms.PictureBox fish6;
+        private System.Windows.Forms.PictureBox fish4;
+        private System.Windows.Forms.PictureBox fish8;
+        private System.Windows.Forms.PictureBox fish9;
     }
 }
 

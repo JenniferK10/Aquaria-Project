@@ -12,6 +12,7 @@ namespace Aquaria_Project
 {
     public partial class FishStore : Form
     {
+
         Coins fishStoreCoin = new Coins();
         List<string> storeFishList = new List<string>();
         Fish store = new Fish("store");
@@ -209,7 +210,7 @@ namespace Aquaria_Project
                 storeFishList.Add(clownfish.getName());
                 store.setFishList(storeFishList);
                 fishStoreCoin.loseCoins("20");
-            }
+    }
             else
             {
                 MessageBox.Show("Maximum fishes in the aquarium");
