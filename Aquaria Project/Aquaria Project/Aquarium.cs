@@ -58,19 +58,29 @@ namespace Aquaria_Project
             Image.FromFile("butterfly.jpg"), Image.FromFile("bluetang.jpg"), Image.FromFile("royalgramma.jpg"),
             Image.FromFile("cardinal.jpg"), Image.FromFile("jawfish.jpg"), Image.FromFile("seahorse.jpg"), Image.FromFile("possumwrasse.jpg"),
             Image.FromFile("lionfish.jpg"), Image.FromFile("mandarindragonet.jpg")};
-
+        //SP
         Image clown = Image.FromFile("clown.gif");
         Image gobyfish = Properties.Resources.goby1;
-        Image pufferfish = Image.FromFile("crop.png");
+        Image pufferfish = Image.FromFile("cropC.png");
         Image butterflyfish = Properties.Resources.butterfly;
         Image bluetang = Image.FromFile("bluetangC.png");
-        Image royalgramma = Image.FromFile("royalgamma.png");
+        Image royalgramma = Properties.Resources.royalgamma;
         Image cardinalfish = Image.FromFile("cardinal.png");
-        Image jawfish = Image.FromFile("jawfish.png");
+        Image bluedotjawfish = Properties.Resources.jawfish;
         Image seaHorse = Properties.Resources.seahorse;
         Image possumwarsse = Image.FromFile("possumwrasse.png");
         Image lionFish = Properties.Resources.lionfish;
         Image mandarindragon = Image.FromFile("mandarindragonet.png");
+        void fish()
+        {
+            if(fish1.Left < 0)
+            {
+                fish1.Left = 1000;
+            }
+            fish1.Left -= 10;
+
+        }
+        //SP
         /*
         public Image getImage(String fish)
         {
@@ -182,57 +192,71 @@ namespace Aquaria_Project
                  Unlock2.Enabled = true;
             }
 
+            //SP
             for(int i = 0; i < f.getFishList().Count; i++)
             {
                 if (f.getFishList()[i] == ("clownfish"))
                 {
                     fish1.Image = clown;
+                    fish1.Visible = true;
                 }
                 if (f.getFishList()[i] == ("goby"))
                 {
                     fish1.Image = gobyfish;
+                    fish1.Visible=true;
                 }
                 if (f.getFishList()[i] == ("pufferfish"))
                 {
                     fish1.Image = pufferfish;
+                    fish1.Visible = true;
                 }
                 if (f.getFishList()[i] == ("butterfly fish"))
                 {
                     fish1.Image = butterflyfish;
+                    fish1.Visible = true;
                 }
                 if (f.getFishList()[i] == ("bluetang"))
                 {
                     fish1.Image = bluetang;
+                    fish1.Visible = true;
                 }
                 if (f.getFishList()[i] == ("royalgramma"))
                 {
                     fish1.Image = royalgramma;
+                    fish1.Visible = true;
                 }
                 if (f.getFishList()[i] == ("cardinal"))
                 {
                     fish1.Image = cardinalfish;
+                    fish1.Visible = true;
                 }
                 if (f.getFishList()[i] == ("jawfish"))
                 {
-                    fish1.Image = jawfish;
+                    fish1.Image = bluedotjawfish;
+                    fish1.Visible = true;
                 }
                 if (f.getFishList()[i] == ("seahorse"))
                 {
                     fish1.Image = seaHorse;
+                    fish1.Visible = true;
                 }
                 if (f.getFishList()[i] == ("possumrasse"))
                 {
                     fish1.Image = possumwarsse;
+                    fish1.Visible = true;
                 }
                 if (f.getFishList()[i] == ("lionfish"))
                 {
                     fish1.Image = lionFish;
+                    fish1.Visible = true;
                 }
                 if (f.getFishList()[i] == ("mandarindrogan"))
                 {
                     fish1.Image = mandarindragon;
+                    fish1.Visible = true;
                 }
             }
+            //SP
         }
 
         private void FlappyFishStart_Click(object sender, EventArgs e)
@@ -386,7 +410,11 @@ namespace Aquaria_Project
             CloseButton.Visible = false;
             PlayButton.Visible = true;
         }
-        
-
+        //SP
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            fish();
+        }
+        //SP
     }
 }
