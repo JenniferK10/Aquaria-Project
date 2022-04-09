@@ -219,3 +219,4 @@ C:\Users\jenni\Desktop\Decoration and collection book\Aquaria Project\Aquaria Pr
 C:\Users\jenni\Desktop\Decoration and collection book\Aquaria Project\Aquaria Project\obj\Debug\Aquaria Project.csproj.CoreCompileInputs.cache
 C:\Users\jenni\Desktop\Decoration and collection book\Aquaria Project\Aquaria Project\obj\Debug\Aquaria Project.exe
 C:\Users\jenni\Desktop\Decoration and collection book\Aquaria Project\Aquaria Project\obj\Debug\Aquaria Project.pdb
+C:\Users\florencelourdes\CS114\Aquarium Github\Aquaria Project\Aquaria Project\obj\Debug\Aquaria_Project.Adoption.resources

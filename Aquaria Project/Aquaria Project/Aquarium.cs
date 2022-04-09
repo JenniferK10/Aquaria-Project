@@ -255,7 +255,11 @@ namespace Aquaria_Project
             huntingGameForm huntingGameForm = new huntingGameForm();
             huntingGameForm.ShowDialog();
         }
-
+        private void AdoptButton_Click(object sender, EventArgs e)
+        {
+            Adoption adoption = new Adoption();
+            adoption.ShowDialog();
+        }
         private void Aquarium_Load(object sender, EventArgs e)
         {
             location1.AllowDrop = true;//allows for drag and drop
@@ -1189,5 +1193,6 @@ namespace Aquaria_Project
                 e.Effect = DragDropEffects.Copy;
             }
         }
+        
     }
 }

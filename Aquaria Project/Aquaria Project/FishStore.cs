@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+//Florence Lourdes
 
 namespace Aquaria_Project
 {
@@ -21,7 +22,8 @@ namespace Aquaria_Project
         int determineFish = 0;
         string type = "";
 
-        //Common
+        //creates fish objects
+       //Common
         Fish clownfish = new Fish("clownfish");
         Fish goby = new Fish("goby");
         Fish puffer = new Fish("puffer fish");
@@ -45,9 +47,10 @@ namespace Aquaria_Project
 
         private void FishStore_Load(object sender, EventArgs e)
         {
-            storeFishList = store.getFishList();
+            storeFishList = store.getFishList(); //sets a local array to hold fishes
         }
 
+        //method to get mystery fish randomly
         public string getMysteryFish()
         {
             string fish = "";
@@ -139,7 +142,7 @@ namespace Aquaria_Project
             }
             return fish;
         }
-        private void Timer_Tick(object sender, EventArgs e)
+        private void Timer_Tick(object sender, EventArgs e) //enables buttons based on current coins 
         {
             if (fishStoreCoin.getCoins() < 20)
             {
@@ -219,6 +222,7 @@ namespace Aquaria_Project
             }
         }
 
+        //methods to buy fishes and update variables
         private void buyGoby_Click(object sender, EventArgs e)
         {
             if (storeFishList.Count < 9)
