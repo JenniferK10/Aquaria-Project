@@ -35,18 +35,18 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
+            this.clownfishAdopt = new System.Windows.Forms.PictureBox();
+            this.gobyAdopt = new System.Windows.Forms.PictureBox();
+            this.pufferAdopt = new System.Windows.Forms.PictureBox();
+            this.butterflyAdopt = new System.Windows.Forms.PictureBox();
+            this.blueAdopt = new System.Windows.Forms.PictureBox();
+            this.royalAdopt = new System.Windows.Forms.PictureBox();
+            this.cardinalAdopt = new System.Windows.Forms.PictureBox();
+            this.jawfishAdopt = new System.Windows.Forms.PictureBox();
+            this.seahorseAdopt = new System.Windows.Forms.PictureBox();
+            this.possumAdopt = new System.Windows.Forms.PictureBox();
+            this.lionfishAdopt = new System.Windows.Forms.PictureBox();
+            this.mandarinAdopt = new System.Windows.Forms.PictureBox();
             this.sellClownfish = new System.Windows.Forms.Button();
             this.sellGoby = new System.Windows.Forms.Button();
             this.sellPuffer = new System.Windows.Forms.Button();
@@ -60,166 +60,220 @@
             this.sellLionfish = new System.Windows.Forms.Button();
             this.sellMandarin = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clownfishAdopt)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gobyAdopt)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pufferAdopt)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.butterflyAdopt)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blueAdopt)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.royalAdopt)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cardinalAdopt)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.jawfishAdopt)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.seahorseAdopt)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.possumAdopt)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lionfishAdopt)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mandarinAdopt)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(81, 38);
+            this.label1.Location = new System.Drawing.Point(61, 30);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(97, 25);
+            this.label1.Size = new System.Drawing.Size(73, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "Common";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(305, 38);
+            this.label2.Location = new System.Drawing.Point(229, 30);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(120, 25);
+            this.label2.Size = new System.Drawing.Size(91, 20);
             this.label2.TabIndex = 1;
             this.label2.Text = "Uncommon";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(541, 38);
+            this.label3.Location = new System.Drawing.Point(406, 30);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(58, 25);
+            this.label3.Size = new System.Drawing.Size(44, 20);
             this.label3.TabIndex = 2;
             this.label3.Text = "Rare";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(763, 38);
+            this.label4.Location = new System.Drawing.Point(572, 30);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(54, 25);
+            this.label4.Size = new System.Drawing.Size(40, 20);
             this.label4.TabIndex = 3;
             this.label4.Text = "Epic";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(969, 38);
+            this.label5.Location = new System.Drawing.Point(727, 30);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(114, 25);
+            this.label5.Size = new System.Drawing.Size(84, 20);
             this.label5.TabIndex = 4;
             this.label5.Text = "Legendary";
             // 
-            // pictureBox1
+            // clownfishAdopt
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(37, 112);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(182, 130);
-            this.pictureBox1.TabIndex = 5;
-            this.pictureBox1.TabStop = false;
+            this.clownfishAdopt.BackColor = System.Drawing.Color.Transparent;
+            this.clownfishAdopt.Image = global::Aquaria_Project.Properties.Resources.clown;
+            this.clownfishAdopt.Location = new System.Drawing.Point(28, 90);
+            this.clownfishAdopt.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.clownfishAdopt.Name = "clownfishAdopt";
+            this.clownfishAdopt.Size = new System.Drawing.Size(136, 104);
+            this.clownfishAdopt.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.clownfishAdopt.TabIndex = 5;
+            this.clownfishAdopt.TabStop = false;
             // 
-            // pictureBox2
+            // gobyAdopt
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(37, 335);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(182, 130);
-            this.pictureBox2.TabIndex = 6;
-            this.pictureBox2.TabStop = false;
+            this.gobyAdopt.BackColor = System.Drawing.Color.Transparent;
+            this.gobyAdopt.Image = global::Aquaria_Project.Properties.Resources.goby1;
+            this.gobyAdopt.Location = new System.Drawing.Point(28, 268);
+            this.gobyAdopt.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.gobyAdopt.Name = "gobyAdopt";
+            this.gobyAdopt.Size = new System.Drawing.Size(136, 104);
+            this.gobyAdopt.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.gobyAdopt.TabIndex = 6;
+            this.gobyAdopt.TabStop = false;
             // 
-            // pictureBox3
+            // pufferAdopt
             // 
-            this.pictureBox3.Location = new System.Drawing.Point(37, 555);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(182, 130);
-            this.pictureBox3.TabIndex = 7;
-            this.pictureBox3.TabStop = false;
+            this.pufferAdopt.BackColor = System.Drawing.Color.Transparent;
+            this.pufferAdopt.Image = global::Aquaria_Project.Properties.Resources.crop1;
+            this.pufferAdopt.Location = new System.Drawing.Point(28, 444);
+            this.pufferAdopt.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pufferAdopt.Name = "pufferAdopt";
+            this.pufferAdopt.Size = new System.Drawing.Size(136, 104);
+            this.pufferAdopt.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pufferAdopt.TabIndex = 7;
+            this.pufferAdopt.TabStop = false;
             // 
-            // pictureBox4
+            // butterflyAdopt
             // 
-            this.pictureBox4.Location = new System.Drawing.Point(262, 112);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(182, 130);
-            this.pictureBox4.TabIndex = 8;
-            this.pictureBox4.TabStop = false;
+            this.butterflyAdopt.BackColor = System.Drawing.Color.Transparent;
+            this.butterflyAdopt.Image = global::Aquaria_Project.Properties.Resources.butterfly;
+            this.butterflyAdopt.Location = new System.Drawing.Point(196, 90);
+            this.butterflyAdopt.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.butterflyAdopt.Name = "butterflyAdopt";
+            this.butterflyAdopt.Size = new System.Drawing.Size(136, 104);
+            this.butterflyAdopt.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.butterflyAdopt.TabIndex = 8;
+            this.butterflyAdopt.TabStop = false;
             // 
-            // pictureBox5
+            // blueAdopt
             // 
-            this.pictureBox5.Location = new System.Drawing.Point(262, 335);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(182, 130);
-            this.pictureBox5.TabIndex = 9;
-            this.pictureBox5.TabStop = false;
+            this.blueAdopt.BackColor = System.Drawing.Color.Transparent;
+            this.blueAdopt.Image = global::Aquaria_Project.Properties.Resources.bluetang;
+            this.blueAdopt.Location = new System.Drawing.Point(196, 268);
+            this.blueAdopt.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.blueAdopt.Name = "blueAdopt";
+            this.blueAdopt.Size = new System.Drawing.Size(136, 104);
+            this.blueAdopt.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.blueAdopt.TabIndex = 9;
+            this.blueAdopt.TabStop = false;
             // 
-            // pictureBox6
+            // royalAdopt
             // 
-            this.pictureBox6.Location = new System.Drawing.Point(262, 555);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(182, 130);
-            this.pictureBox6.TabIndex = 10;
-            this.pictureBox6.TabStop = false;
+            this.royalAdopt.BackColor = System.Drawing.Color.Transparent;
+            this.royalAdopt.Image = global::Aquaria_Project.Properties.Resources.royalgamma;
+            this.royalAdopt.Location = new System.Drawing.Point(196, 444);
+            this.royalAdopt.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.royalAdopt.Name = "royalAdopt";
+            this.royalAdopt.Size = new System.Drawing.Size(136, 104);
+            this.royalAdopt.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.royalAdopt.TabIndex = 10;
+            this.royalAdopt.TabStop = false;
             // 
-            // pictureBox7
+            // cardinalAdopt
             // 
-            this.pictureBox7.Location = new System.Drawing.Point(482, 112);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(182, 130);
-            this.pictureBox7.TabIndex = 11;
-            this.pictureBox7.TabStop = false;
+            this.cardinalAdopt.BackColor = System.Drawing.Color.Transparent;
+            this.cardinalAdopt.Image = global::Aquaria_Project.Properties.Resources.cardinal;
+            this.cardinalAdopt.Location = new System.Drawing.Point(362, 90);
+            this.cardinalAdopt.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cardinalAdopt.Name = "cardinalAdopt";
+            this.cardinalAdopt.Size = new System.Drawing.Size(136, 104);
+            this.cardinalAdopt.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.cardinalAdopt.TabIndex = 11;
+            this.cardinalAdopt.TabStop = false;
             // 
-            // pictureBox8
+            // jawfishAdopt
             // 
-            this.pictureBox8.Location = new System.Drawing.Point(482, 335);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(182, 130);
-            this.pictureBox8.TabIndex = 12;
-            this.pictureBox8.TabStop = false;
+            this.jawfishAdopt.BackColor = System.Drawing.Color.Transparent;
+            this.jawfishAdopt.Image = global::Aquaria_Project.Properties.Resources.jawfish;
+            this.jawfishAdopt.Location = new System.Drawing.Point(362, 268);
+            this.jawfishAdopt.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.jawfishAdopt.Name = "jawfishAdopt";
+            this.jawfishAdopt.Size = new System.Drawing.Size(136, 104);
+            this.jawfishAdopt.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.jawfishAdopt.TabIndex = 12;
+            this.jawfishAdopt.TabStop = false;
             // 
-            // pictureBox9
+            // seahorseAdopt
             // 
-            this.pictureBox9.Location = new System.Drawing.Point(702, 112);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(182, 130);
-            this.pictureBox9.TabIndex = 13;
-            this.pictureBox9.TabStop = false;
+            this.seahorseAdopt.BackColor = System.Drawing.Color.Transparent;
+            this.seahorseAdopt.Image = global::Aquaria_Project.Properties.Resources.seahorse;
+            this.seahorseAdopt.Location = new System.Drawing.Point(526, 90);
+            this.seahorseAdopt.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.seahorseAdopt.Name = "seahorseAdopt";
+            this.seahorseAdopt.Size = new System.Drawing.Size(136, 104);
+            this.seahorseAdopt.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.seahorseAdopt.TabIndex = 13;
+            this.seahorseAdopt.TabStop = false;
             // 
-            // pictureBox10
+            // possumAdopt
             // 
-            this.pictureBox10.Location = new System.Drawing.Point(702, 335);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(182, 130);
-            this.pictureBox10.TabIndex = 14;
-            this.pictureBox10.TabStop = false;
+            this.possumAdopt.BackColor = System.Drawing.Color.Transparent;
+            this.possumAdopt.Image = global::Aquaria_Project.Properties.Resources.possumwrasse;
+            this.possumAdopt.Location = new System.Drawing.Point(526, 268);
+            this.possumAdopt.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.possumAdopt.Name = "possumAdopt";
+            this.possumAdopt.Size = new System.Drawing.Size(136, 104);
+            this.possumAdopt.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.possumAdopt.TabIndex = 14;
+            this.possumAdopt.TabStop = false;
             // 
-            // pictureBox11
+            // lionfishAdopt
             // 
-            this.pictureBox11.Location = new System.Drawing.Point(918, 112);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(182, 130);
-            this.pictureBox11.TabIndex = 15;
-            this.pictureBox11.TabStop = false;
+            this.lionfishAdopt.BackColor = System.Drawing.Color.Transparent;
+            this.lionfishAdopt.Image = global::Aquaria_Project.Properties.Resources.lionfish;
+            this.lionfishAdopt.Location = new System.Drawing.Point(688, 90);
+            this.lionfishAdopt.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.lionfishAdopt.Name = "lionfishAdopt";
+            this.lionfishAdopt.Size = new System.Drawing.Size(136, 104);
+            this.lionfishAdopt.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.lionfishAdopt.TabIndex = 15;
+            this.lionfishAdopt.TabStop = false;
             // 
-            // pictureBox12
+            // mandarinAdopt
             // 
-            this.pictureBox12.Location = new System.Drawing.Point(918, 335);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(182, 130);
-            this.pictureBox12.TabIndex = 16;
-            this.pictureBox12.TabStop = false;
+            this.mandarinAdopt.BackColor = System.Drawing.Color.Transparent;
+            this.mandarinAdopt.Image = global::Aquaria_Project.Properties.Resources.mandarindragonet;
+            this.mandarinAdopt.Location = new System.Drawing.Point(688, 268);
+            this.mandarinAdopt.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.mandarinAdopt.Name = "mandarinAdopt";
+            this.mandarinAdopt.Size = new System.Drawing.Size(136, 104);
+            this.mandarinAdopt.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.mandarinAdopt.TabIndex = 16;
+            this.mandarinAdopt.TabStop = false;
             // 
             // sellClownfish
             // 
-            this.sellClownfish.Location = new System.Drawing.Point(65, 270);
+            this.sellClownfish.Location = new System.Drawing.Point(49, 216);
+            this.sellClownfish.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.sellClownfish.Name = "sellClownfish";
-            this.sellClownfish.Size = new System.Drawing.Size(126, 34);
+            this.sellClownfish.Size = new System.Drawing.Size(94, 27);
             this.sellClownfish.TabIndex = 17;
             this.sellClownfish.Text = "sell";
             this.sellClownfish.UseVisualStyleBackColor = true;
@@ -227,9 +281,10 @@
             // 
             // sellGoby
             // 
-            this.sellGoby.Location = new System.Drawing.Point(65, 495);
+            this.sellGoby.Location = new System.Drawing.Point(49, 396);
+            this.sellGoby.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.sellGoby.Name = "sellGoby";
-            this.sellGoby.Size = new System.Drawing.Size(126, 34);
+            this.sellGoby.Size = new System.Drawing.Size(94, 27);
             this.sellGoby.TabIndex = 18;
             this.sellGoby.Text = "sell";
             this.sellGoby.UseVisualStyleBackColor = true;
@@ -237,9 +292,10 @@
             // 
             // sellPuffer
             // 
-            this.sellPuffer.Location = new System.Drawing.Point(65, 710);
+            this.sellPuffer.Location = new System.Drawing.Point(49, 568);
+            this.sellPuffer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.sellPuffer.Name = "sellPuffer";
-            this.sellPuffer.Size = new System.Drawing.Size(126, 34);
+            this.sellPuffer.Size = new System.Drawing.Size(94, 27);
             this.sellPuffer.TabIndex = 19;
             this.sellPuffer.Text = "sell";
             this.sellPuffer.UseVisualStyleBackColor = true;
@@ -247,9 +303,10 @@
             // 
             // sellButterfly
             // 
-            this.sellButterfly.Location = new System.Drawing.Point(299, 270);
+            this.sellButterfly.Location = new System.Drawing.Point(218, 216);
+            this.sellButterfly.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.sellButterfly.Name = "sellButterfly";
-            this.sellButterfly.Size = new System.Drawing.Size(126, 34);
+            this.sellButterfly.Size = new System.Drawing.Size(94, 27);
             this.sellButterfly.TabIndex = 20;
             this.sellButterfly.Text = "sell";
             this.sellButterfly.UseVisualStyleBackColor = true;
@@ -257,9 +314,10 @@
             // 
             // sellBlue
             // 
-            this.sellBlue.Location = new System.Drawing.Point(290, 495);
+            this.sellBlue.Location = new System.Drawing.Point(218, 396);
+            this.sellBlue.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.sellBlue.Name = "sellBlue";
-            this.sellBlue.Size = new System.Drawing.Size(126, 34);
+            this.sellBlue.Size = new System.Drawing.Size(94, 27);
             this.sellBlue.TabIndex = 21;
             this.sellBlue.Text = "sell";
             this.sellBlue.UseVisualStyleBackColor = true;
@@ -267,9 +325,10 @@
             // 
             // sellRoyal
             // 
-            this.sellRoyal.Location = new System.Drawing.Point(290, 710);
+            this.sellRoyal.Location = new System.Drawing.Point(218, 568);
+            this.sellRoyal.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.sellRoyal.Name = "sellRoyal";
-            this.sellRoyal.Size = new System.Drawing.Size(126, 34);
+            this.sellRoyal.Size = new System.Drawing.Size(94, 27);
             this.sellRoyal.TabIndex = 22;
             this.sellRoyal.Text = "sell";
             this.sellRoyal.UseVisualStyleBackColor = true;
@@ -277,9 +336,10 @@
             // 
             // sellCardinal
             // 
-            this.sellCardinal.Location = new System.Drawing.Point(512, 270);
+            this.sellCardinal.Location = new System.Drawing.Point(384, 216);
+            this.sellCardinal.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.sellCardinal.Name = "sellCardinal";
-            this.sellCardinal.Size = new System.Drawing.Size(126, 34);
+            this.sellCardinal.Size = new System.Drawing.Size(94, 27);
             this.sellCardinal.TabIndex = 23;
             this.sellCardinal.Text = "sell";
             this.sellCardinal.UseVisualStyleBackColor = true;
@@ -287,9 +347,10 @@
             // 
             // sellJawfish
             // 
-            this.sellJawfish.Location = new System.Drawing.Point(512, 495);
+            this.sellJawfish.Location = new System.Drawing.Point(384, 396);
+            this.sellJawfish.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.sellJawfish.Name = "sellJawfish";
-            this.sellJawfish.Size = new System.Drawing.Size(126, 34);
+            this.sellJawfish.Size = new System.Drawing.Size(94, 27);
             this.sellJawfish.TabIndex = 24;
             this.sellJawfish.Text = "sell";
             this.sellJawfish.UseVisualStyleBackColor = true;
@@ -297,9 +358,10 @@
             // 
             // sellSeahorse
             // 
-            this.sellSeahorse.Location = new System.Drawing.Point(732, 270);
+            this.sellSeahorse.Location = new System.Drawing.Point(549, 216);
+            this.sellSeahorse.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.sellSeahorse.Name = "sellSeahorse";
-            this.sellSeahorse.Size = new System.Drawing.Size(126, 34);
+            this.sellSeahorse.Size = new System.Drawing.Size(94, 27);
             this.sellSeahorse.TabIndex = 25;
             this.sellSeahorse.Text = "sell";
             this.sellSeahorse.UseVisualStyleBackColor = true;
@@ -307,9 +369,10 @@
             // 
             // sellPossum
             // 
-            this.sellPossum.Location = new System.Drawing.Point(732, 505);
+            this.sellPossum.Location = new System.Drawing.Point(549, 404);
+            this.sellPossum.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.sellPossum.Name = "sellPossum";
-            this.sellPossum.Size = new System.Drawing.Size(126, 34);
+            this.sellPossum.Size = new System.Drawing.Size(94, 27);
             this.sellPossum.TabIndex = 26;
             this.sellPossum.Text = "sell";
             this.sellPossum.UseVisualStyleBackColor = true;
@@ -317,9 +380,10 @@
             // 
             // sellLionfish
             // 
-            this.sellLionfish.Location = new System.Drawing.Point(946, 270);
+            this.sellLionfish.Location = new System.Drawing.Point(710, 216);
+            this.sellLionfish.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.sellLionfish.Name = "sellLionfish";
-            this.sellLionfish.Size = new System.Drawing.Size(126, 34);
+            this.sellLionfish.Size = new System.Drawing.Size(94, 27);
             this.sellLionfish.TabIndex = 27;
             this.sellLionfish.Text = "sell";
             this.sellLionfish.UseVisualStyleBackColor = true;
@@ -327,9 +391,10 @@
             // 
             // sellMandarin
             // 
-            this.sellMandarin.Location = new System.Drawing.Point(946, 505);
+            this.sellMandarin.Location = new System.Drawing.Point(710, 404);
+            this.sellMandarin.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.sellMandarin.Name = "sellMandarin";
-            this.sellMandarin.Size = new System.Drawing.Size(126, 34);
+            this.sellMandarin.Size = new System.Drawing.Size(94, 27);
             this.sellMandarin.TabIndex = 28;
             this.sellMandarin.Text = "sell";
             this.sellMandarin.UseVisualStyleBackColor = true;
@@ -343,11 +408,11 @@
             // 
             // Adoption
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1130, 772);
+            this.ClientSize = new System.Drawing.Size(848, 634);
             this.Controls.Add(this.sellMandarin);
             this.Controls.Add(this.sellLionfish);
             this.Controls.Add(this.sellPossum);
@@ -360,38 +425,39 @@
             this.Controls.Add(this.sellPuffer);
             this.Controls.Add(this.sellGoby);
             this.Controls.Add(this.sellClownfish);
-            this.Controls.Add(this.pictureBox12);
-            this.Controls.Add(this.pictureBox11);
-            this.Controls.Add(this.pictureBox10);
-            this.Controls.Add(this.pictureBox9);
-            this.Controls.Add(this.pictureBox8);
-            this.Controls.Add(this.pictureBox7);
-            this.Controls.Add(this.pictureBox6);
-            this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.mandarinAdopt);
+            this.Controls.Add(this.lionfishAdopt);
+            this.Controls.Add(this.possumAdopt);
+            this.Controls.Add(this.seahorseAdopt);
+            this.Controls.Add(this.jawfishAdopt);
+            this.Controls.Add(this.cardinalAdopt);
+            this.Controls.Add(this.royalAdopt);
+            this.Controls.Add(this.blueAdopt);
+            this.Controls.Add(this.butterflyAdopt);
+            this.Controls.Add(this.pufferAdopt);
+            this.Controls.Add(this.gobyAdopt);
+            this.Controls.Add(this.clownfishAdopt);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Adoption";
             this.Text = "Adoption";
             this.Load += new System.EventHandler(this.Adoption_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clownfishAdopt)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gobyAdopt)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pufferAdopt)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.butterflyAdopt)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blueAdopt)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.royalAdopt)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cardinalAdopt)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.jawfishAdopt)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.seahorseAdopt)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.possumAdopt)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lionfishAdopt)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mandarinAdopt)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -404,18 +470,18 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.PictureBox pictureBox8;
-        private System.Windows.Forms.PictureBox pictureBox9;
-        private System.Windows.Forms.PictureBox pictureBox10;
-        private System.Windows.Forms.PictureBox pictureBox11;
-        private System.Windows.Forms.PictureBox pictureBox12;
+        private System.Windows.Forms.PictureBox clownfishAdopt;
+        private System.Windows.Forms.PictureBox gobyAdopt;
+        private System.Windows.Forms.PictureBox pufferAdopt;
+        private System.Windows.Forms.PictureBox butterflyAdopt;
+        private System.Windows.Forms.PictureBox blueAdopt;
+        private System.Windows.Forms.PictureBox royalAdopt;
+        private System.Windows.Forms.PictureBox cardinalAdopt;
+        private System.Windows.Forms.PictureBox jawfishAdopt;
+        private System.Windows.Forms.PictureBox seahorseAdopt;
+        private System.Windows.Forms.PictureBox possumAdopt;
+        private System.Windows.Forms.PictureBox lionfishAdopt;
+        private System.Windows.Forms.PictureBox mandarinAdopt;
         private System.Windows.Forms.Button sellClownfish;
         private System.Windows.Forms.Button sellGoby;
         private System.Windows.Forms.Button sellPuffer;

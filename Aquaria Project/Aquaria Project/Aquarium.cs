@@ -388,6 +388,12 @@ namespace Aquaria_Project
                         fish1.Visible = true;
                     }
                 }
+            else
+            {
+                fish1.Image = null;
+                fish1.Visible = false;
+                
+            }
             
             if (f.getFishList().Count >= 2)
             {
@@ -452,6 +458,13 @@ namespace Aquaria_Project
                     fish2.Visible = true;
                 }
             }
+            else
+            {
+                fish2.Image = null;
+                fish2.Visible = false;
+                
+            }
+
             if (f.getFishList().Count >= 3)
             {
                 if (f.getFishList()[2] == ("clownfish"))
@@ -514,6 +527,12 @@ namespace Aquaria_Project
                     fish3.Image = mandarindragon;
                     fish3.Visible = true;
                 }
+            }
+            else
+            {
+                fish3.Image = null;
+                fish3.Visible = false;
+                
             }
             if (f.getFishList().Count >= 4)
             {
@@ -578,6 +597,12 @@ namespace Aquaria_Project
                     fish4.Visible = true;
                 }
             }
+            else
+            {
+                fish4.Image = null;
+                fish4.Visible = false;
+               
+            }
             if (f.getFishList().Count >= 5)
             {
                 if (f.getFishList()[4] == ("clownfish"))
@@ -640,6 +665,12 @@ namespace Aquaria_Project
                     fish5.Image = mandarindragon;
                     fish5.Visible = true;
                 }
+            }
+            else
+            {
+                fish5.Image = null;
+                fish5.Visible = false;
+                
             }
             if (f.getFishList().Count >= 6)
             {
@@ -704,6 +735,13 @@ namespace Aquaria_Project
                     fish6.Visible = true;
                 }
             }
+            else
+            {
+                fish6.Image = null;
+                fish6.Visible = false;
+                
+            }
+
             if (f.getFishList().Count >= 7)
             {
                 if (f.getFishList()[6] == ("clownfish"))
@@ -766,6 +804,12 @@ namespace Aquaria_Project
                     fish7.Image = mandarindragon;
                     fish7.Visible = true;
                 }
+            }
+            else
+            {
+                fish7.Image = null;
+                fish7.Visible = false;
+                
             }
             if (f.getFishList().Count >= 8)
             {
@@ -830,6 +874,12 @@ namespace Aquaria_Project
                     fish8.Visible = true;
                 }
             }
+            else
+            {
+                fish8.Image = null;
+                fish8.Visible = false;
+                
+            }
             if (f.getFishList().Count >= 9)
             {
                 if (f.getFishList()[8] == ("clownfish"))
@@ -892,6 +942,11 @@ namespace Aquaria_Project
                     fish9.Image = mandarindragon;
                     fish9.Visible = true;
                 }
+            }
+            else
+            {
+                fish9.Image = null;
+                fish9.Visible = false;
             }
 
             /*for (int i = 0; i < f.getFishList().Count; i++)
