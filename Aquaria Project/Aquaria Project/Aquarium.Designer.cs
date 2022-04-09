@@ -36,14 +36,15 @@
             this.TriviaGameStart = new System.Windows.Forms.Button();
             this.CollectionBookOpen = new System.Windows.Forms.Button();
             this.BuyFishStore = new System.Windows.Forms.Button();
-            this.MysteryFishButton = new System.Windows.Forms.Button();
             this.DecortationStore = new System.Windows.Forms.Button();
-            this.SandColorButton = new System.Windows.Forms.Button();
             this.coinLabel = new System.Windows.Forms.Label();
             this.timer = new System.Windows.Forms.Timer(this.components);
             this.decorationPanel = new System.Windows.Forms.Panel();
+            this.decoration8 = new System.Windows.Forms.PictureBox();
+            this.Unlock8 = new System.Windows.Forms.Button();
+            this.Unlock7 = new System.Windows.Forms.Button();
+            this.decoration7 = new System.Windows.Forms.PictureBox();
             this.ExitDecoration = new System.Windows.Forms.Button();
-            this.decoration6 = new System.Windows.Forms.PictureBox();
             this.decoration5 = new System.Windows.Forms.PictureBox();
             this.decoration4 = new System.Windows.Forms.PictureBox();
             this.decoration3 = new System.Windows.Forms.PictureBox();
@@ -59,10 +60,9 @@
             this.location1 = new System.Windows.Forms.PictureBox();
             this.AdoptButton = new System.Windows.Forms.Button();
             this.PlayButton = new System.Windows.Forms.Button();
-            this.location6 = new System.Windows.Forms.PictureBox();
-            this.location5 = new System.Windows.Forms.PictureBox();
-            this.location4 = new System.Windows.Forms.PictureBox();
             this.location3 = new System.Windows.Forms.PictureBox();
+            this.location4 = new System.Windows.Forms.PictureBox();
+            this.sandDecoration = new System.Windows.Forms.PictureBox();
             this.rope2 = new System.Windows.Forms.PictureBox();
             this.rope1 = new System.Windows.Forms.PictureBox();
             this.CloseButton = new System.Windows.Forms.Button();
@@ -77,8 +77,10 @@
             this.fish9 = new System.Windows.Forms.PictureBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.timer2 = new System.Windows.Forms.Timer(this.components);
+            this.decoration6 = new System.Windows.Forms.PictureBox();
             this.decorationPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.decoration6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.decoration8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.decoration7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.decoration5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.decoration4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.decoration3)).BeginInit();
@@ -86,10 +88,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.decoration1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.location2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.location1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.location6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.location5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.location4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.location3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.location4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sandDecoration)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rope2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rope1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fish1)).BeginInit();
@@ -101,6 +102,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.fish4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fish8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fish9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.decoration6)).BeginInit();
             this.SuspendLayout();
             // 
             // GuessingGameStart
@@ -187,45 +189,19 @@
             this.BuyFishStore.UseVisualStyleBackColor = true;
             this.BuyFishStore.Click += new System.EventHandler(this.button1_Click);
             // 
-            // MysteryFishButton
-            // 
-            this.MysteryFishButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.MysteryFishButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("MysteryFishButton.BackgroundImage")));
-            this.MysteryFishButton.Font = new System.Drawing.Font("Rockwell", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MysteryFishButton.ForeColor = System.Drawing.Color.White;
-            this.MysteryFishButton.Location = new System.Drawing.Point(1480, 137);
-            this.MysteryFishButton.Name = "MysteryFishButton";
-            this.MysteryFishButton.Size = new System.Drawing.Size(200, 100);
-            this.MysteryFishButton.TabIndex = 6;
-            this.MysteryFishButton.Text = "Mystery Fish";
-            this.MysteryFishButton.UseVisualStyleBackColor = true;
-            // 
             // DecortationStore
             // 
             this.DecortationStore.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.DecortationStore.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("DecortationStore.BackgroundImage")));
             this.DecortationStore.Font = new System.Drawing.Font("Rockwell", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DecortationStore.ForeColor = System.Drawing.Color.White;
-            this.DecortationStore.Location = new System.Drawing.Point(1687, 241);
+            this.DecortationStore.Location = new System.Drawing.Point(1686, 139);
             this.DecortationStore.Name = "DecortationStore";
             this.DecortationStore.Size = new System.Drawing.Size(200, 100);
             this.DecortationStore.TabIndex = 7;
             this.DecortationStore.Text = "Decoration";
             this.DecortationStore.UseVisualStyleBackColor = true;
             this.DecortationStore.Click += new System.EventHandler(this.DecortationStore_Click);
-            // 
-            // SandColorButton
-            // 
-            this.SandColorButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.SandColorButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("SandColorButton.BackgroundImage")));
-            this.SandColorButton.Font = new System.Drawing.Font("Rockwell", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SandColorButton.ForeColor = System.Drawing.Color.White;
-            this.SandColorButton.Location = new System.Drawing.Point(1480, 243);
-            this.SandColorButton.Name = "SandColorButton";
-            this.SandColorButton.Size = new System.Drawing.Size(200, 100);
-            this.SandColorButton.TabIndex = 8;
-            this.SandColorButton.Text = "Sand Color";
-            this.SandColorButton.UseVisualStyleBackColor = true;
             // 
             // coinLabel
             // 
@@ -247,8 +223,12 @@
             // decorationPanel
             // 
             this.decorationPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.decorationPanel.Controls.Add(this.ExitDecoration);
             this.decorationPanel.Controls.Add(this.decoration6);
+            this.decorationPanel.Controls.Add(this.decoration8);
+            this.decorationPanel.Controls.Add(this.Unlock8);
+            this.decorationPanel.Controls.Add(this.Unlock7);
+            this.decorationPanel.Controls.Add(this.decoration7);
+            this.decorationPanel.Controls.Add(this.ExitDecoration);
             this.decorationPanel.Controls.Add(this.decoration5);
             this.decorationPanel.Controls.Add(this.decoration4);
             this.decorationPanel.Controls.Add(this.decoration3);
@@ -260,17 +240,61 @@
             this.decorationPanel.Controls.Add(this.Unlock3);
             this.decorationPanel.Controls.Add(this.Unlock2);
             this.decorationPanel.Controls.Add(this.Unlock1);
-            this.decorationPanel.Location = new System.Drawing.Point(1491, 358);
+            this.decorationPanel.Location = new System.Drawing.Point(1392, 257);
             this.decorationPanel.Name = "decorationPanel";
-            this.decorationPanel.Size = new System.Drawing.Size(382, 282);
+            this.decorationPanel.Size = new System.Drawing.Size(494, 282);
             this.decorationPanel.TabIndex = 10;
             this.decorationPanel.Visible = false;
+            // 
+            // decoration8
+            // 
+            this.decoration8.Enabled = false;
+            this.decoration8.Image = global::Aquaria_Project.Properties.Resources.sandGreen;
+            this.decoration8.Location = new System.Drawing.Point(352, 145);
+            this.decoration8.Name = "decoration8";
+            this.decoration8.Size = new System.Drawing.Size(93, 85);
+            this.decoration8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.decoration8.TabIndex = 16;
+            this.decoration8.TabStop = false;
+            this.decoration8.Click += new System.EventHandler(this.decoration8_Click);
+            // 
+            // Unlock8
+            // 
+            this.Unlock8.Location = new System.Drawing.Point(352, 236);
+            this.Unlock8.Name = "Unlock8";
+            this.Unlock8.Size = new System.Drawing.Size(93, 32);
+            this.Unlock8.TabIndex = 15;
+            this.Unlock8.Text = "50";
+            this.Unlock8.UseVisualStyleBackColor = true;
+            this.Unlock8.Click += new System.EventHandler(this.Unlock8_Click);
+            // 
+            // Unlock7
+            // 
+            this.Unlock7.Location = new System.Drawing.Point(242, 236);
+            this.Unlock7.Name = "Unlock7";
+            this.Unlock7.Size = new System.Drawing.Size(93, 32);
+            this.Unlock7.TabIndex = 14;
+            this.Unlock7.Text = "50";
+            this.Unlock7.UseVisualStyleBackColor = true;
+            this.Unlock7.Click += new System.EventHandler(this.Unlock7_Click);
+            // 
+            // decoration7
+            // 
+            this.decoration7.Enabled = false;
+            this.decoration7.Image = global::Aquaria_Project.Properties.Resources.sandRed;
+            this.decoration7.Location = new System.Drawing.Point(242, 145);
+            this.decoration7.Name = "decoration7";
+            this.decoration7.Size = new System.Drawing.Size(93, 85);
+            this.decoration7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.decoration7.TabIndex = 13;
+            this.decoration7.TabStop = false;
+            this.decoration7.Click += new System.EventHandler(this.decoration7_Click);
             // 
             // ExitDecoration
             // 
             this.ExitDecoration.BackColor = System.Drawing.Color.Red;
             this.ExitDecoration.ForeColor = System.Drawing.SystemColors.Window;
-            this.ExitDecoration.Location = new System.Drawing.Point(340, 3);
+            this.ExitDecoration.Location = new System.Drawing.Point(451, 3);
             this.ExitDecoration.Name = "ExitDecoration";
             this.ExitDecoration.Size = new System.Drawing.Size(30, 29);
             this.ExitDecoration.TabIndex = 12;
@@ -278,22 +302,11 @@
             this.ExitDecoration.UseVisualStyleBackColor = false;
             this.ExitDecoration.Click += new System.EventHandler(this.ExitDecoration_Click);
             // 
-            // decoration6
-            // 
-            this.decoration6.Enabled = false;
-            this.decoration6.Location = new System.Drawing.Point(242, 145);
-            this.decoration6.Name = "decoration6";
-            this.decoration6.Size = new System.Drawing.Size(93, 85);
-            this.decoration6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.decoration6.TabIndex = 11;
-            this.decoration6.TabStop = false;
-            this.decoration6.Click += new System.EventHandler(this.decoration6_Click);
-            this.decoration6.MouseDown += new System.Windows.Forms.MouseEventHandler(this.decoration6_MouseDown);
-            // 
             // decoration5
             // 
             this.decoration5.Enabled = false;
-            this.decoration5.Location = new System.Drawing.Point(128, 145);
+            this.decoration5.Image = global::Aquaria_Project.Properties.Resources.sandBrown;
+            this.decoration5.Location = new System.Drawing.Point(18, 145);
             this.decoration5.Name = "decoration5";
             this.decoration5.Size = new System.Drawing.Size(93, 85);
             this.decoration5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -305,12 +318,14 @@
             // decoration4
             // 
             this.decoration4.Enabled = false;
-            this.decoration4.Location = new System.Drawing.Point(18, 145);
+            this.decoration4.Image = global::Aquaria_Project.Properties.Resources.sandcastle;
+            this.decoration4.Location = new System.Drawing.Point(352, 3);
             this.decoration4.Name = "decoration4";
             this.decoration4.Size = new System.Drawing.Size(93, 85);
             this.decoration4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.decoration4.TabIndex = 9;
             this.decoration4.TabStop = false;
+            this.decoration4.Click += new System.EventHandler(this.decoration4_Click);
             this.decoration4.MouseDown += new System.Windows.Forms.MouseEventHandler(this.decoration4_MouseDown);
             // 
             // decoration3
@@ -328,9 +343,9 @@
             // 
             // decoration2
             // 
-            this.decoration2.BackgroundImage = global::Aquaria_Project.Properties.Resources.sandcastle;
             this.decoration2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.decoration2.Enabled = false;
+            this.decoration2.Image = global::Aquaria_Project.Properties.Resources.plant;
             this.decoration2.Location = new System.Drawing.Point(128, 3);
             this.decoration2.Name = "decoration2";
             this.decoration2.Size = new System.Drawing.Size(93, 85);
@@ -342,6 +357,7 @@
             // decoration1
             // 
             this.decoration1.Enabled = false;
+            this.decoration1.Image = global::Aquaria_Project.Properties.Resources.StoneDecoration;
             this.decoration1.Location = new System.Drawing.Point(18, 3);
             this.decoration1.Name = "decoration1";
             this.decoration1.Size = new System.Drawing.Size(93, 85);
@@ -352,27 +368,27 @@
             // 
             // Unlock6
             // 
-            this.Unlock6.Location = new System.Drawing.Point(242, 235);
+            this.Unlock6.Location = new System.Drawing.Point(128, 236);
             this.Unlock6.Name = "Unlock6";
             this.Unlock6.Size = new System.Drawing.Size(93, 32);
             this.Unlock6.TabIndex = 5;
-            this.Unlock6.Text = "100";
+            this.Unlock6.Text = "50";
             this.Unlock6.UseVisualStyleBackColor = true;
             this.Unlock6.Click += new System.EventHandler(this.Unlock6_Click);
             // 
             // Unlock5
             // 
-            this.Unlock5.Location = new System.Drawing.Point(128, 235);
+            this.Unlock5.Location = new System.Drawing.Point(18, 236);
             this.Unlock5.Name = "Unlock5";
             this.Unlock5.Size = new System.Drawing.Size(93, 32);
             this.Unlock5.TabIndex = 4;
-            this.Unlock5.Text = "100";
+            this.Unlock5.Text = "40";
             this.Unlock5.UseVisualStyleBackColor = true;
             this.Unlock5.Click += new System.EventHandler(this.Unlock5_Click);
             // 
             // Unlock4
             // 
-            this.Unlock4.Location = new System.Drawing.Point(18, 235);
+            this.Unlock4.Location = new System.Drawing.Point(352, 94);
             this.Unlock4.Name = "Unlock4";
             this.Unlock4.Size = new System.Drawing.Size(93, 32);
             this.Unlock4.TabIndex = 3;
@@ -386,7 +402,7 @@
             this.Unlock3.Name = "Unlock3";
             this.Unlock3.Size = new System.Drawing.Size(93, 32);
             this.Unlock3.TabIndex = 2;
-            this.Unlock3.Text = "100";
+            this.Unlock3.Text = "60";
             this.Unlock3.UseVisualStyleBackColor = true;
             this.Unlock3.Click += new System.EventHandler(this.Unlock3_Click);
             // 
@@ -396,7 +412,7 @@
             this.Unlock2.Name = "Unlock2";
             this.Unlock2.Size = new System.Drawing.Size(93, 32);
             this.Unlock2.TabIndex = 1;
-            this.Unlock2.Text = "150";
+            this.Unlock2.Text = "40";
             this.Unlock2.UseVisualStyleBackColor = true;
             this.Unlock2.Click += new System.EventHandler(this.Unlock2_Click);
             // 
@@ -406,7 +422,7 @@
             this.Unlock1.Name = "Unlock1";
             this.Unlock1.Size = new System.Drawing.Size(93, 32);
             this.Unlock1.TabIndex = 0;
-            this.Unlock1.Text = "100";
+            this.Unlock1.Text = "20";
             this.Unlock1.UseVisualStyleBackColor = true;
             this.Unlock1.Click += new System.EventHandler(this.Unlock1_Click);
             // 
@@ -415,9 +431,9 @@
             this.location2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.location2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.location2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.location2.Location = new System.Drawing.Point(376, 878);
+            this.location2.Location = new System.Drawing.Point(562, 833);
             this.location2.Name = "location2";
-            this.location2.Size = new System.Drawing.Size(178, 134);
+            this.location2.Size = new System.Drawing.Size(162, 131);
             this.location2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.location2.TabIndex = 12;
             this.location2.TabStop = false;
@@ -429,7 +445,7 @@
             this.location1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.location1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.location1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.location1.Location = new System.Drawing.Point(103, 878);
+            this.location1.Location = new System.Drawing.Point(133, 794);
             this.location1.Name = "location1";
             this.location1.Size = new System.Drawing.Size(187, 134);
             this.location1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -444,7 +460,7 @@
             this.AdoptButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("AdoptButton.BackgroundImage")));
             this.AdoptButton.Font = new System.Drawing.Font("Rockwell", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AdoptButton.ForeColor = System.Drawing.Color.White;
-            this.AdoptButton.Location = new System.Drawing.Point(1687, 137);
+            this.AdoptButton.Location = new System.Drawing.Point(1480, 139);
             this.AdoptButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.AdoptButton.Name = "AdoptButton";
             this.AdoptButton.Size = new System.Drawing.Size(200, 100);
@@ -466,53 +482,44 @@
             this.PlayButton.UseVisualStyleBackColor = true;
             this.PlayButton.Click += new System.EventHandler(this.PlayButton_Click);
             // 
-            // location6
+            // location3
             // 
-            this.location6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.location6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.location6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.location6.Location = new System.Drawing.Point(1661, 878);
-            this.location6.Name = "location6";
-            this.location6.Size = new System.Drawing.Size(212, 134);
-            this.location6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.location6.TabIndex = 15;
-            this.location6.TabStop = false;
-            // 
-            // location5
-            // 
-            this.location5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.location5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.location5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.location5.Location = new System.Drawing.Point(1367, 878);
-            this.location5.Name = "location5";
-            this.location5.Size = new System.Drawing.Size(212, 134);
-            this.location5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.location5.TabIndex = 16;
-            this.location5.TabStop = false;
+            this.location3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.location3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.location3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.location3.Location = new System.Drawing.Point(1010, 747);
+            this.location3.Name = "location3";
+            this.location3.Size = new System.Drawing.Size(174, 205);
+            this.location3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.location3.TabIndex = 16;
+            this.location3.TabStop = false;
+            this.location3.DragDrop += new System.Windows.Forms.DragEventHandler(this.location3_DragDrop);
+            this.location3.DragEnter += new System.Windows.Forms.DragEventHandler(this.location3_DragEnter);
             // 
             // location4
             // 
             this.location4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.location4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.location4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.location4.Location = new System.Drawing.Point(1033, 878);
+            this.location4.Location = new System.Drawing.Point(1580, 794);
             this.location4.Name = "location4";
             this.location4.Size = new System.Drawing.Size(212, 134);
             this.location4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.location4.TabIndex = 17;
             this.location4.TabStop = false;
+            this.location4.DragDrop += new System.Windows.Forms.DragEventHandler(this.location4_DragDrop);
+            this.location4.DragEnter += new System.Windows.Forms.DragEventHandler(this.location4_DragEnter);
             // 
-            // location3
+            // sandDecoration
             // 
-            this.location3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.location3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.location3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.location3.Location = new System.Drawing.Point(716, 878);
-            this.location3.Name = "location3";
-            this.location3.Size = new System.Drawing.Size(188, 134);
-            this.location3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.location3.TabIndex = 18;
-            this.location3.TabStop = false;
+            this.sandDecoration.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.sandDecoration.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.sandDecoration.Location = new System.Drawing.Point(-2, 878);
+            this.sandDecoration.Name = "sandDecoration";
+            this.sandDecoration.Size = new System.Drawing.Size(1947, 147);
+            this.sandDecoration.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.sandDecoration.TabIndex = 18;
+            this.sandDecoration.TabStop = false;
             // 
             // rope2
             // 
@@ -611,7 +618,7 @@
             // fish6
             // 
             this.fish6.BackColor = System.Drawing.Color.Transparent;
-            this.fish6.Location = new System.Drawing.Point(1273, 593);
+            this.fish6.Location = new System.Drawing.Point(1306, 614);
             this.fish6.Name = "fish6";
             this.fish6.Size = new System.Drawing.Size(153, 137);
             this.fish6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -622,7 +629,7 @@
             // fish4
             // 
             this.fish4.BackColor = System.Drawing.Color.Transparent;
-            this.fish4.Location = new System.Drawing.Point(1273, 433);
+            this.fish4.Location = new System.Drawing.Point(1195, 450);
             this.fish4.Name = "fish4";
             this.fish4.Size = new System.Drawing.Size(153, 137);
             this.fish4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -633,7 +640,7 @@
             // fish8
             // 
             this.fish8.BackColor = System.Drawing.Color.Transparent;
-            this.fish8.Location = new System.Drawing.Point(603, 725);
+            this.fish8.Location = new System.Drawing.Point(601, 671);
             this.fish8.Name = "fish8";
             this.fish8.Size = new System.Drawing.Size(153, 137);
             this.fish8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -644,7 +651,7 @@
             // fish9
             // 
             this.fish9.BackColor = System.Drawing.Color.Transparent;
-            this.fish9.Location = new System.Drawing.Point(1273, 137);
+            this.fish9.Location = new System.Drawing.Point(1238, 139);
             this.fish9.Name = "fish9";
             this.fish9.Size = new System.Drawing.Size(133, 127);
             this.fish9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -664,6 +671,18 @@
             this.timer2.Interval = 300;
             this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
             // 
+            // decoration6
+            // 
+            this.decoration6.Enabled = false;
+            this.decoration6.Image = global::Aquaria_Project.Properties.Resources.sandOrange;
+            this.decoration6.Location = new System.Drawing.Point(128, 145);
+            this.decoration6.Name = "decoration6";
+            this.decoration6.Size = new System.Drawing.Size(93, 85);
+            this.decoration6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.decoration6.TabIndex = 17;
+            this.decoration6.TabStop = false;
+            this.decoration6.Click += new System.EventHandler(this.decoration6_Click);
+            // 
             // Aquarium
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -681,19 +700,15 @@
             this.Controls.Add(this.fish3);
             this.Controls.Add(this.fish2);
             this.Controls.Add(this.fish1);
-            this.Controls.Add(this.location3);
             this.Controls.Add(this.location4);
-            this.Controls.Add(this.location5);
-            this.Controls.Add(this.location6);
+            this.Controls.Add(this.location3);
             this.Controls.Add(this.PlayButton);
             this.Controls.Add(this.AdoptButton);
             this.Controls.Add(this.location2);
             this.Controls.Add(this.location1);
             this.Controls.Add(this.decorationPanel);
             this.Controls.Add(this.coinLabel);
-            this.Controls.Add(this.SandColorButton);
             this.Controls.Add(this.DecortationStore);
-            this.Controls.Add(this.MysteryFishButton);
             this.Controls.Add(this.BuyFishStore);
             this.Controls.Add(this.CollectionBookOpen);
             this.Controls.Add(this.TriviaGameStart);
@@ -701,6 +716,7 @@
             this.Controls.Add(this.FlappyFishStart);
             this.Controls.Add(this.GuessingGameStart);
             this.Controls.Add(this.CloseButton);
+            this.Controls.Add(this.sandDecoration);
             this.Controls.Add(this.rope1);
             this.Controls.Add(this.rope2);
             this.DoubleBuffered = true;
@@ -709,7 +725,8 @@
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Aquarium_Load);
             this.decorationPanel.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.decoration6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.decoration8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.decoration7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.decoration5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.decoration4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.decoration3)).EndInit();
@@ -717,10 +734,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.decoration1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.location2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.location1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.location6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.location5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.location4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.location3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.location4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sandDecoration)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.rope2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.rope1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.fish1)).EndInit();
@@ -732,6 +748,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.fish4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.fish8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.fish9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.decoration6)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -745,14 +762,11 @@
         private System.Windows.Forms.Button TriviaGameStart;
         private System.Windows.Forms.Button CollectionBookOpen;
         private System.Windows.Forms.Button BuyFishStore;
-        private System.Windows.Forms.Button MysteryFishButton;
         private System.Windows.Forms.Button DecortationStore;
-        private System.Windows.Forms.Button SandColorButton;
         private System.Windows.Forms.Label coinLabel;
         private System.Windows.Forms.Timer timer;
         private System.Windows.Forms.Panel decorationPanel;
         private System.Windows.Forms.Button Unlock1;
-        private System.Windows.Forms.PictureBox decoration6;
         private System.Windows.Forms.PictureBox decoration5;
         private System.Windows.Forms.PictureBox decoration4;
         private System.Windows.Forms.PictureBox decoration3;
@@ -768,10 +782,9 @@
         private System.Windows.Forms.Button ExitDecoration;
         private System.Windows.Forms.Button AdoptButton;
         private System.Windows.Forms.Button PlayButton;
-        private System.Windows.Forms.PictureBox location6;
-        private System.Windows.Forms.PictureBox location5;
-        private System.Windows.Forms.PictureBox location4;
         private System.Windows.Forms.PictureBox location3;
+        private System.Windows.Forms.PictureBox location4;
+        private System.Windows.Forms.PictureBox sandDecoration;
         private System.Windows.Forms.PictureBox rope2;
         private System.Windows.Forms.PictureBox rope1;
         private System.Windows.Forms.Button CloseButton;
@@ -786,6 +799,11 @@
         private System.Windows.Forms.PictureBox fish9;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Timer timer2;
+        private System.Windows.Forms.PictureBox decoration8;
+        private System.Windows.Forms.Button Unlock8;
+        private System.Windows.Forms.Button Unlock7;
+        private System.Windows.Forms.PictureBox decoration7;
+        private System.Windows.Forms.PictureBox decoration6;
     }
 }
 

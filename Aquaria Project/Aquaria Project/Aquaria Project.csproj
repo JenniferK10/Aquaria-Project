@@ -246,5 +246,23 @@
   <ItemGroup>
     <None Include="bin\Debug\cropC.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\StoneDecoration.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\plant.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\sandBrown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\sandOrange.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\sandRed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\sandGreen.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

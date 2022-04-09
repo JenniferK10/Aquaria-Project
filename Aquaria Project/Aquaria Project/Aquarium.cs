@@ -19,7 +19,7 @@ namespace Aquaria_Project
         {
             InitializeComponent();
         }
- 
+
         /*
         //Common
         Fish goby = new Fish("goby");
@@ -38,6 +38,10 @@ namespace Aquaria_Project
         Fish lionfish = new Fish("lionfish");
         Fish mandarinDragonet = new Fish("mandarin dragonet");
         */
+        Image brownSand = Properties.Resources.sandBrown;
+        Image orangeSand = Properties.Resources.sandOrange;
+        Image redSand = Properties.Resources.sandRed;
+        Image greenSand = Properties.Resources.sandGreen;
 
         Image clownPic = Image.FromFile("clownfish.jpg");
         Image gobyPic = Image.FromFile("goby.jpg");
@@ -256,32 +260,68 @@ namespace Aquaria_Project
         {
             location1.AllowDrop = true;//allows for drag and drop
             location2.AllowDrop = true;
+            location3.AllowDrop = true;
+            location4.AllowDrop = true;
         }
 
-        
+
         private void timer_Tick(object sender, EventArgs e)//JK
         {
             coinLabel.Text = c.getCoins().ToString();//updates money label
 
-            if(c.getCoins() < 100) //decides if user has enough money to unlock decoration, user does not
+            if (c.getCoins() < 20) //decides if user has enough money to unlock decoration, user does not
                 Unlock1.Enabled = false;
-            if(c.getCoins() < 150)
-                Unlock2.Enabled = false;
-
-            if (c.getCoins() >= 100)//user has enough money to unlock decoration
+            else
             {
-                if(Unlock1.Text != "Unlocked")
-                 Unlock1.Enabled = true;
+                if (Unlock1.Text != "Unlocked")
+                    Unlock1.Enabled = true;
             }
-            if(c.getCoins() >= 150)
+            if (c.getCoins() < 40) { 
+                Unlock2.Enabled = false;
+                Unlock5.Enabled = false;
+            }
+            else
             {
                 if (Unlock2.Text != "Unlocked")
-                 Unlock2.Enabled = true;
+                    Unlock2.Enabled = true;
+                if(Unlock5.Text != "Unlocked")
+                    Unlock5.Enabled = true;
+            }
+            if (c.getCoins() < 60)
+                Unlock3.Enabled = false;
+            else
+            {
+                if (Unlock3.Text != "Unlocked")
+                    Unlock3.Enabled = true;
+            }
+            if (c.getCoins() < 100)
+                Unlock4.Enabled = false;
+            else
+            {
+                if (Unlock4.Text != "Unlocked")
+                    Unlock4.Enabled = true;
+            }
+            if (c.getCoins() < 50)
+            {
+                Unlock6.Enabled = false;
+                Unlock7.Enabled = false;
+                Unlock8.Enabled = false;
+            }
+            else
+            {
+                if (Unlock6.Text != "Unlocked")
+                    Unlock6.Enabled = true;
+                if(Unlock7.Text != "Unlocked")
+                    Unlock7.Enabled = true;
+                if(Unlock8.Text != "Unlocked")
+                    Unlock8.Enabled = true;
             }
 
+
+
+
             //SP
-          
-                if (f.getFishList().Count >= 1)
+            if (f.getFishList().Count >= 1)
                 {
                     if (f.getFishList()[0] == ("clownfish"))
                     {
@@ -947,30 +987,38 @@ namespace Aquaria_Project
         private void Unlock3_Click(object sender, EventArgs e)
         {
             decoration3.Enabled = true;
+            c.loseCoins(Unlock3.Text);
             Unlock3.Text = "Unlocked";
+            Unlock3.Enabled = false;
         }
 
         private void Unlock4_Click(object sender, EventArgs e)
         {
             decoration4.Enabled = true;
+            c.loseCoins(Unlock4.Text);
             Unlock4.Text = "Unlocked";
+            Unlock4.Enabled = false;
         }
 
         private void decoration5_Click(object sender, EventArgs e)
         {
-
+            sandDecoration.Image = brownSand;
         }
 
         private void Unlock5_Click(object sender, EventArgs e)
         {
             decoration5.Enabled = true;
+            c.loseCoins(Unlock5.Text);
             Unlock5.Text = "Unlocked";
+            Unlock5.Enabled = false;
         }
 
         private void Unlock6_Click(object sender, EventArgs e)
         {
             decoration6.Enabled = true;
+            c.loseCoins(Unlock6.Text);
             Unlock6.Text = "Unlocked";
+            Unlock6.Enabled = false;
         }
 
         //JK
@@ -1026,13 +1074,10 @@ namespace Aquaria_Project
 
         private void decoration5_MouseDown(object sender, MouseEventArgs e)
         {
-            ((PictureBox)sender).DoDragDrop(((PictureBox)sender).Image, DragDropEffects.Copy);
+            
         }
 
-        private void decoration6_Click(object sender, EventArgs e)
-        {
-
-        }
+        
 
         private void decoration6_MouseDown(object sender, MouseEventArgs e)
         {
@@ -1073,10 +1118,76 @@ namespace Aquaria_Project
             fish();
         }
 
+        //SP
         private void timer2_Tick(object sender, EventArgs e)// timer for right moving fish
         {
             fishRight();
         }
-        //SP
+
+        private void decoration4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Unlock7_Click(object sender, EventArgs e)
+        {
+            decoration7.Enabled = true;
+            c.loseCoins(Unlock7.Text);
+            Unlock7.Text = "Unlocked";
+            Unlock7.Enabled = false;
+        }
+
+        private void Unlock8_Click(object sender, EventArgs e)
+        {
+            decoration8.Enabled = true;
+            c.loseCoins(Unlock8.Text);
+            Unlock8.Text = "Unlocked";
+            Unlock8.Enabled = false;
+        }
+
+        private void decoration7_Click(object sender, EventArgs e)
+        {
+            sandDecoration.Image = redSand;
+        }
+
+        private void decoration8_Click(object sender, EventArgs e)
+        {
+            sandDecoration.Image = greenSand;
+        }
+
+        private void decoration6_Click(object sender, EventArgs e)
+        {
+            sandDecoration.Image = orangeSand;
+        }
+
+        private void location3_DragDrop(object sender, DragEventArgs e)
+        {
+            Image getPicture = (Bitmap)e.Data.GetData(DataFormats.Bitmap);
+            location3.Image = getPicture;
+            location3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+        }
+
+        private void location3_DragEnter(object sender, DragEventArgs e)
+        {
+            if (e.Data.GetDataPresent(DataFormats.Bitmap))
+            {
+                e.Effect = DragDropEffects.Copy;
+            }
+        }
+
+        private void location4_DragDrop(object sender, DragEventArgs e)
+        {
+            Image getPicture = (Bitmap)e.Data.GetData(DataFormats.Bitmap);
+            location4.Image = getPicture;
+            location4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+        }
+
+        private void location4_DragEnter(object sender, DragEventArgs e)
+        {
+            if (e.Data.GetDataPresent(DataFormats.Bitmap))
+            {
+                e.Effect = DragDropEffects.Copy;
+            }
+        }
     }
 }
