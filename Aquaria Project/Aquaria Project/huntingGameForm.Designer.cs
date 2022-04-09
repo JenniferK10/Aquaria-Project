@@ -38,16 +38,20 @@
             this.Exit = new System.Windows.Forms.Button();
             this.timer = new System.Windows.Forms.Timer(this.components);
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.fish1 = new System.Windows.Forms.PictureBox();
             this.fish2 = new System.Windows.Forms.PictureBox();
             this.fish3 = new System.Windows.Forms.PictureBox();
             this.fish4 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.fish5 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.fish1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fish2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fish3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fish4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fish5)).BeginInit();
             this.SuspendLayout();
             // 
             // lab_miss
@@ -135,20 +139,10 @@
             this.timer1.Interval = 1000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::Aquaria_Project.Properties.Resources.background;
-            this.pictureBox5.Location = new System.Drawing.Point(882, 464);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(150, 100);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 8;
-            this.pictureBox5.TabStop = false;
-            // 
             // fish1
             // 
             this.fish1.Image = global::Aquaria_Project.Properties.Resources.clown;
-            this.fish1.Location = new System.Drawing.Point(630, 464);
+            this.fish1.Location = new System.Drawing.Point(732, 287);
             this.fish1.Name = "fish1";
             this.fish1.Size = new System.Drawing.Size(156, 85);
             this.fish1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -159,7 +153,7 @@
             // fish2
             // 
             this.fish2.Image = global::Aquaria_Project.Properties.Resources.fish11;
-            this.fish2.Location = new System.Drawing.Point(57, 347);
+            this.fish2.Location = new System.Drawing.Point(35, 320);
             this.fish2.Name = "fish2";
             this.fish2.Size = new System.Drawing.Size(184, 157);
             this.fish2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -170,9 +164,9 @@
             // fish3
             // 
             this.fish3.Image = global::Aquaria_Project.Properties.Resources.crop;
-            this.fish3.Location = new System.Drawing.Point(603, 185);
+            this.fish3.Location = new System.Drawing.Point(558, 127);
             this.fish3.Name = "fish3";
-            this.fish3.Size = new System.Drawing.Size(270, 157);
+            this.fish3.Size = new System.Drawing.Size(216, 108);
             this.fish3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.fish3.TabIndex = 5;
             this.fish3.TabStop = false;
@@ -181,7 +175,7 @@
             // fish4
             // 
             this.fish4.Image = global::Aquaria_Project.Properties.Resources.fish5;
-            this.fish4.Location = new System.Drawing.Point(84, -11);
+            this.fish4.Location = new System.Drawing.Point(81, 12);
             this.fish4.Name = "fish4";
             this.fish4.Size = new System.Drawing.Size(184, 157);
             this.fish4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -189,19 +183,53 @@
             this.fish4.TabStop = false;
             this.fish4.Click += new System.EventHandler(this.fish4_Click_1);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Aquaria_Project.Properties.Resources.sandBrown;
+            this.pictureBox1.Location = new System.Drawing.Point(-2, 471);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(1032, 130);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 11;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Image = global::Aquaria_Project.Properties.Resources.background;
+            this.pictureBox2.Location = new System.Drawing.Point(918, 453);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(112, 138);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 12;
+            this.pictureBox2.TabStop = false;
+            // 
+            // fish5
+            // 
+            this.fish5.Image = global::Aquaria_Project.Properties.Resources.cardinal;
+            this.fish5.Location = new System.Drawing.Point(255, 252);
+            this.fish5.Name = "fish5";
+            this.fish5.Size = new System.Drawing.Size(128, 71);
+            this.fish5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.fish5.TabIndex = 13;
+            this.fish5.TabStop = false;
+            this.fish5.Click += new System.EventHandler(this.fish5_Click);
+            // 
             // huntingGameForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Aqua;
             this.ClientSize = new System.Drawing.Size(1028, 594);
+            this.Controls.Add(this.fish5);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.Restart);
             this.Controls.Add(this.Exit);
             this.Controls.Add(this.lab_score);
             this.Controls.Add(this.lab_hunt);
             this.Controls.Add(this.lab_miss);
             this.Controls.Add(this.lab_over);
-            this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.fish1);
             this.Controls.Add(this.fish2);
             this.Controls.Add(this.fish3);
@@ -212,11 +240,13 @@
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.huntingGameForm_FormClosing);
             this.Load += new System.EventHandler(this.huntingGameForm_Load);
             this.MouseClick += new System.Windows.Forms.MouseEventHandler(this.huntingGameForm_MouseClick);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.fish1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.fish2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.fish3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.fish4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fish5)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -232,11 +262,13 @@
         private System.Windows.Forms.PictureBox fish3;
         private System.Windows.Forms.PictureBox fish2;
         private System.Windows.Forms.PictureBox fish1;
-        private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.Label lab_over;
         private System.Windows.Forms.Button Restart;
         private System.Windows.Forms.Button Exit;
         private System.Windows.Forms.Timer timer;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox fish5;
     }
 }

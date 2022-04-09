@@ -63,13 +63,19 @@ namespace Aquaria_Project
             }
             if (fish4.Left < 0)
             {
-                fish4.Left = -1000;
+                fish4.Left = 1000;
                 fish4.Image = Properties.Resources.fish5;
             }
+            if(fish5.Left < 0)
+            {
+                fish5.Left = 1000;
+                fish5.Image = Properties.Resources.cardinal;
+            }
             fish1.Left -= 5;
-            fish2.Left -= 10;
-            fish3.Left -= 15;
+            fish2.Left -= 7;
+            fish3.Left -= 10;
             fish4.Left -= 13;
+            fish5.Left -= 15;
         }
 
         private void Restart_Click_1(object sender, EventArgs e)
@@ -147,6 +153,15 @@ namespace Aquaria_Project
         {
             string[] score = lab_score.Text.Split();
             c.setCoins(score[1]);
+        }
+
+        private void fish5_Click(object sender, EventArgs e)
+        {
+            hunt++;
+            lab_hunt.Text = "Hunted: " + hunt;
+            fish1.Image = Properties.Resources.fire;
+            score += 8;
+            lab_score.Text = "Score: " + score;
         }
 
         private void timer1_Tick(object sender, EventArgs e)
