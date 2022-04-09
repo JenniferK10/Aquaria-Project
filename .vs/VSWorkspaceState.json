@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Aquaria Project",
+    "\\Aquaria Project\\Aquaria Project",
+    "\\Aquaria Project\\Aquaria Project\\Properties"
   ],
-  "SelectedNode": "\\Aquaria Project.sln",
+  "SelectedNode": "\\Aquaria Project\\Aquaria Project\\Aquarium.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -33,7 +33,7 @@ namespace Aquaria_Project
         Fish clownCollection = new Fish(1);
         Fish gobyCollection = new Fish(2);
         Fish pufferCollection = new Fish(3);
-        Fish butterflyCollection = new Fish(4);
+        Fish butterflyCollection = new Fish(4); 
         Fish blueTangCollection = new Fish(5);
         Fish royalGrammaCollection = new Fish(6);
         Fish cardinalCollection = new Fish(7);

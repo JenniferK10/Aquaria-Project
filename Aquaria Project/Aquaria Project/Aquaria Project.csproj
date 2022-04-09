@@ -243,5 +243,8 @@
   <ItemGroup>
     <None Include="bin\Debug\possumwrasse.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\cropC.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

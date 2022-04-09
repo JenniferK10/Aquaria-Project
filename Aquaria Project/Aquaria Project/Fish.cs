@@ -14,6 +14,8 @@ namespace Aquaria_Project
         string size;
         string fact;
 
+        
+
         public Fish(String name)
         {
             this.name = name;
@@ -167,7 +169,7 @@ namespace Aquaria_Project
                     break;
             }
         }
-
+        //FL
         public string getFact()
         {
             return fact;

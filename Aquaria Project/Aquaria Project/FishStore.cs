@@ -12,6 +12,7 @@ namespace Aquaria_Project
 {
     public partial class FishStore : Form
     {
+
         Coins fishStoreCoin = new Coins();
         List<string> storeFishList = new List<string>();
         Fish store = new Fish("store");
@@ -26,7 +27,7 @@ namespace Aquaria_Project
         Fish puffer = new Fish("puffer fish");
         //Uncommon
         Fish butterfly = new Fish("butterfly fish");
-        Fish blueTang = new Fish("blue tang");
+        Fish blueTang = new Fish("bluetang");
         Fish royalGramma = new Fish("royal gramma");
         //Rare
         Fish cardinal = new Fish("cardinal fish");
@@ -209,7 +210,7 @@ namespace Aquaria_Project
                 storeFishList.Add(clownfish.getName());
                 store.setFishList(storeFishList);
                 fishStoreCoin.loseCoins("20");
-            }
+    }
             else
             {
                 MessageBox.Show("Maximum fishes in the aquarium");
