@@ -171,7 +171,7 @@
             this.CollectionBookOpen.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("CollectionBookOpen.BackgroundImage")));
             this.CollectionBookOpen.Font = new System.Drawing.Font("Rockwell", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CollectionBookOpen.ForeColor = System.Drawing.Color.White;
-            this.CollectionBookOpen.Location = new System.Drawing.Point(2248, 39);
+            this.CollectionBookOpen.Location = new System.Drawing.Point(1611, 39);
             this.CollectionBookOpen.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.CollectionBookOpen.Name = "CollectionBookOpen";
             this.CollectionBookOpen.Size = new System.Drawing.Size(267, 125);
@@ -186,7 +186,7 @@
             this.BuyFishStore.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BuyFishStore.BackgroundImage")));
             this.BuyFishStore.Font = new System.Drawing.Font("Rockwell", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BuyFishStore.ForeColor = System.Drawing.Color.White;
-            this.BuyFishStore.Location = new System.Drawing.Point(1973, 39);
+            this.BuyFishStore.Location = new System.Drawing.Point(1336, 39);
             this.BuyFishStore.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BuyFishStore.Name = "BuyFishStore";
             this.BuyFishStore.Size = new System.Drawing.Size(267, 125);
@@ -201,7 +201,7 @@
             this.DecortationStore.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("DecortationStore.BackgroundImage")));
             this.DecortationStore.Font = new System.Drawing.Font("Rockwell", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DecortationStore.ForeColor = System.Drawing.Color.White;
-            this.DecortationStore.Location = new System.Drawing.Point(2248, 174);
+            this.DecortationStore.Location = new System.Drawing.Point(1611, 174);
             this.DecortationStore.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.DecortationStore.Name = "DecortationStore";
             this.DecortationStore.Size = new System.Drawing.Size(267, 125);
@@ -248,7 +248,7 @@
             this.decorationPanel.Controls.Add(this.Unlock3);
             this.decorationPanel.Controls.Add(this.Unlock2);
             this.decorationPanel.Controls.Add(this.Unlock1);
-            this.decorationPanel.Location = new System.Drawing.Point(1856, 321);
+            this.decorationPanel.Location = new System.Drawing.Point(1219, 321);
             this.decorationPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.decorationPanel.Name = "decorationPanel";
             this.decorationPanel.Size = new System.Drawing.Size(659, 352);
@@ -469,7 +469,7 @@
             this.location2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.location2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.location2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.location2.Location = new System.Drawing.Point(749, 1041);
+            this.location2.Location = new System.Drawing.Point(749, 770);
             this.location2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.location2.Name = "location2";
             this.location2.Size = new System.Drawing.Size(215, 163);
@@ -484,7 +484,7 @@
             this.location1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.location1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.location1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.location1.Location = new System.Drawing.Point(177, 992);
+            this.location1.Location = new System.Drawing.Point(177, 721);
             this.location1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.location1.Name = "location1";
             this.location1.Size = new System.Drawing.Size(248, 166);
@@ -500,7 +500,7 @@
             this.AdoptButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("AdoptButton.BackgroundImage")));
             this.AdoptButton.Font = new System.Drawing.Font("Rockwell", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AdoptButton.ForeColor = System.Drawing.Color.White;
-            this.AdoptButton.Location = new System.Drawing.Point(1973, 174);
+            this.AdoptButton.Location = new System.Drawing.Point(1336, 174);
             this.AdoptButton.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.AdoptButton.Name = "AdoptButton";
             this.AdoptButton.Size = new System.Drawing.Size(267, 125);
@@ -528,7 +528,7 @@
             this.location3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.location3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.location3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.location3.Location = new System.Drawing.Point(1347, 934);
+            this.location3.Location = new System.Drawing.Point(1347, 663);
             this.location3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.location3.Name = "location3";
             this.location3.Size = new System.Drawing.Size(231, 255);
@@ -543,7 +543,7 @@
             this.location4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.location4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.location4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.location4.Location = new System.Drawing.Point(2107, 992);
+            this.location4.Location = new System.Drawing.Point(2107, 721);
             this.location4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.location4.Name = "location4";
             this.location4.Size = new System.Drawing.Size(281, 166);
@@ -557,7 +557,7 @@
             // 
             this.sandDecoration.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.sandDecoration.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.sandDecoration.Location = new System.Drawing.Point(-3, 1098);
+            this.sandDecoration.Location = new System.Drawing.Point(-3, 827);
             this.sandDecoration.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.sandDecoration.Name = "sandDecoration";
             this.sandDecoration.Size = new System.Drawing.Size(2596, 184);
@@ -731,7 +731,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(181)))), ((int)(((byte)(232)))));
             this.BackgroundImage = global::Aquaria_Project.Properties.Resources.waterGuessingGame;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(2531, 1280);
+            this.ClientSize = new System.Drawing.Size(1894, 1009);
             this.Controls.Add(this.fish9);
             this.Controls.Add(this.fish8);
             this.Controls.Add(this.fish4);
