@@ -157,6 +157,15 @@ namespace Aquaria_Project
             {
                 fish8.Location = new Point(fish8.Location.X + 100, fish8.Location.Y);
             }
+            //picturebox9
+            if(fish9.Location.X > width - fish9.Width)
+            {
+                fish9.Location = new Point(1, fish9.Location.Y);
+            }
+            else
+            {
+                fish9.Location = new Point(fish9.Location.X + 100, fish9.Location.Y);
+            }
         }
         //SP
         /*
@@ -271,69 +280,576 @@ namespace Aquaria_Project
             }
 
             //SP
-            for(int i = 0; i < f.getFishList().Count; i++)
+          
+                if (f.getFishList().Count >= 1)
+                {
+                    if (f.getFishList()[0] == ("clownfish"))
+                    {
+                        fish1.Image = clown;
+                        fish1.Visible = true;
+                    }
+                    if (f.getFishList()[0] == ("goby"))
+                    {
+                        fish1.Image = gobyfish;
+                        fish1.Visible = true;
+                    }
+                    if (f.getFishList()[0] == ("puffer fish"))
+                    {
+                        fish1.Image = pufferfish;
+                        fish1.Visible = true;
+                    }
+                    if (f.getFishList()[0] == ("butterfly fish"))
+                    {
+                        fish1.Image = butterflyfish;
+                        fish1.Visible = true;
+                    }
+                    if (f.getFishList()[0] == ("bluetang"))
+                    {
+                        fish1.Image = bluetang;
+                        fish1.Visible = true;
+                    }
+                    if (f.getFishList()[0] == ("royal gramma"))
+                    {
+                        fish1.Image = royalgramma;
+                        fish1.Visible = true;
+                    }
+                    if (f.getFishList()[0] == ("cardinal fish"))
+                    {
+                        fish1.Image = cardinalfish;
+                        fish1.Visible = true;
+                    }
+                    if (f.getFishList()[0] == ("blue dot jawfish"))
+                    {
+                        fish1.Image = bluedotjawfish;
+                        fish1.Visible = true;
+                    }
+                    if (f.getFishList()[0] == ("seahorse"))
+                    {
+                        fish1.Image = seaHorse;
+                        fish1.Visible = true;
+                    }
+                    if (f.getFishList()[0] == ("possum wrasse"))
+                    {
+                        fish1.Image = possumwarsse;
+                        fish1.Visible = true;
+                    }
+                    if (f.getFishList()[0] == ("lionfish"))
+                    {
+                        fish1.Image = lionFish;
+                        fish1.Visible = true;
+                    }
+                    if (f.getFishList()[0] == ("mandarin dragonet"))
+                    {
+                        fish1.Image = mandarindragon;
+                        fish1.Visible = true;
+                    }
+                }
+            
+            if (f.getFishList().Count >= 2)
             {
-                if (f.getFishList()[i] == ("clownfish"))
+                if (f.getFishList()[1] == ("clownfish"))
                 {
-                    fish1.Image = clown;
-                    fish1.Visible = true;
+                    fish2.Image = clown;
+                    fish2.Visible = true;
                 }
-                if (f.getFishList()[i] == ("goby"))
+                if (f.getFishList()[1] == ("goby"))
                 {
-                    fish1.Image = gobyfish;
-                    fish1.Visible=true;
+                    fish2.Image = gobyfish;
+                    fish2.Visible = true;
                 }
-                if (f.getFishList()[i] == ("pufferfish"))
+                if (f.getFishList()[1] == ("puffer fish"))
                 {
-                    fish1.Image = pufferfish;
-                    fish1.Visible = true;
+                    fish2.Image = pufferfish;
+                    fish2.Visible = true;
                 }
-                if (f.getFishList()[i] == ("butterfly fish"))
+                if (f.getFishList()[1] == ("butterfly fish"))
                 {
-                    fish1.Image = butterflyfish;
-                    fish1.Visible = true;
+                    fish2.Image = butterflyfish;
+                    fish2.Visible = true;
                 }
-                if (f.getFishList()[i] == ("bluetang"))
+                if (f.getFishList()[1] == ("bluetang"))
                 {
-                    fish1.Image = bluetang;
-                    fish1.Visible = true;
+                    fish2.Image = bluetang;
+                    fish2.Visible = true;
                 }
-                if (f.getFishList()[i] == ("royalgramma"))
+                if (f.getFishList()[1] == ("royal gramma"))
                 {
-                    fish1.Image = royalgramma;
-                    fish1.Visible = true;
+                    fish2.Image = royalgramma;
+                    fish2.Visible = true;
                 }
-                if (f.getFishList()[i] == ("cardinal"))
+                if (f.getFishList()[1] == ("cardinal fish"))
                 {
-                    fish1.Image = cardinalfish;
-                    fish1.Visible = true;
+                    fish2.Image = cardinalfish;
+                    fish2.Visible = true;
                 }
-                if (f.getFishList()[i] == ("jawfish"))
+                if (f.getFishList()[1] == ("blue dot jawfish"))
                 {
-                    fish1.Image = bluedotjawfish;
-                    fish1.Visible = true;
+                    fish2.Image = bluedotjawfish;
+                    fish2.Visible = true;
                 }
-                if (f.getFishList()[i] == ("seahorse"))
+                if (f.getFishList()[1] == ("seahorse"))
                 {
-                    fish1.Image = seaHorse;
-                    fish1.Visible = true;
+                    fish2.Image = seaHorse;
+                    fish2.Visible = true;
                 }
-                if (f.getFishList()[i] == ("possumrasse"))
+                if (f.getFishList()[1] == ("possum wrasse"))
                 {
-                    fish1.Image = possumwarsse;
-                    fish1.Visible = true;
+                    fish2.Image = possumwarsse;
+                    fish2.Visible = true;
                 }
-                if (f.getFishList()[i] == ("lionfish"))
+                if (f.getFishList()[1] == ("lionfish"))
                 {
-                    fish1.Image = lionFish;
-                    fish1.Visible = true;
+                    fish2.Image = lionFish;
+                    fish2.Visible = true;
                 }
-                if (f.getFishList()[i] == ("mandarindrogan"))
+                if (f.getFishList()[1] == ("mandarin dragonet"))
                 {
-                    fish1.Image = mandarindragon;
-                    fish1.Visible = true;
+                    fish2.Image = mandarindragon;
+                    fish2.Visible = true;
                 }
             }
+            if (f.getFishList().Count >= 3)
+            {
+                if (f.getFishList()[2] == ("clownfish"))
+                {
+                    fish3.Image = clown;
+                    fish3.Visible = true;
+                }
+                if (f.getFishList()[2] == ("goby"))
+                {
+                    fish3.Image = gobyfish;
+                    fish3.Visible = true;
+                }
+                if (f.getFishList()[2] == ("puffer fish"))
+                {
+                    fish3.Image = pufferfish;
+                    fish3.Visible = true;
+                }
+                if (f.getFishList()[2] == ("butterfly fish"))
+                {
+                    fish3.Image = butterflyfish;
+                    fish3.Visible = true;
+                }
+                if (f.getFishList()[2] == ("bluetang"))
+                {
+                    fish3.Image = bluetang;
+                    fish3.Visible = true;
+                }
+                if (f.getFishList()[2] == ("royal gramma"))
+                {
+                    fish3.Image = royalgramma;
+                    fish3.Visible = true;
+                }
+                if (f.getFishList()[2] == ("cardinal fish"))
+                {
+                    fish3.Image = cardinalfish;
+                    fish3.Visible = true;
+                }
+                if (f.getFishList()[2] == ("blue dot jawfish"))
+                {
+                    fish3.Image = bluedotjawfish;
+                    fish3.Visible = true;
+                }
+                if (f.getFishList()[2] == ("seahorse"))
+                {
+                    fish3.Image = seaHorse;
+                    fish3.Visible = true;
+                }
+                if (f.getFishList()[2] == ("possum wrasse"))
+                {
+                    fish3.Image = possumwarsse;
+                    fish3.Visible = true;
+                }
+                if (f.getFishList()[2] == ("lionfish"))
+                {
+                    fish3.Image = lionFish;
+                    fish3.Visible = true;
+                }
+                if (f.getFishList()[2] == ("mandarin dragonet"))
+                {
+                    fish3.Image = mandarindragon;
+                    fish3.Visible = true;
+                }
+            }
+            if (f.getFishList().Count >= 4)
+            {
+                if (f.getFishList()[3] == ("clownfish"))
+                {
+                    fish4.Image = clown;
+                    fish4.Visible = true;
+                }
+                if (f.getFishList()[3] == ("goby"))
+                {
+                    fish4.Image = gobyfish;
+                    fish4.Visible = true;
+                }
+                if (f.getFishList()[3] == ("puffer fish"))
+                {
+                    fish4.Image = pufferfish;
+                    fish4.Visible = true;
+                }
+                if (f.getFishList()[3] == ("butterfly fish"))
+                {
+                    fish4.Image = butterflyfish;
+                    fish4.Visible = true;
+                }
+                if (f.getFishList()[3] == ("bluetang"))
+                {
+                    fish4.Image = bluetang;
+                    fish4.Visible = true;
+                }
+                if (f.getFishList()[3] == ("royal gramma"))
+                {
+                    fish4.Image = royalgramma;
+                    fish4.Visible = true;
+                }
+                if (f.getFishList()[3] == ("cardinal fish"))
+                {
+                    fish4.Image = cardinalfish;
+                    fish4.Visible = true;
+                }
+                if (f.getFishList()[3] == ("blue dot jawfish"))
+                {
+                    fish4.Image = bluedotjawfish;
+                    fish4.Visible = true;
+                }
+                if (f.getFishList()[3] == ("seahorse"))
+                {
+                    fish4.Image = seaHorse;
+                    fish4.Visible = true;
+                }
+                if (f.getFishList()[3] == ("possum wrasse"))
+                {
+                    fish4.Image = possumwarsse;
+                    fish4.Visible = true;
+                }
+                if (f.getFishList()[3] == ("lionfish"))
+                {
+                    fish4.Image = lionFish;
+                    fish4.Visible = true;
+                }
+                if (f.getFishList()[3] == ("mandarin dragonet"))
+                {
+                    fish4.Image = mandarindragon;
+                    fish4.Visible = true;
+                }
+            }
+            if (f.getFishList().Count >= 5)
+            {
+                if (f.getFishList()[4] == ("clownfish"))
+                {
+                    fish5.Image = clown;
+                    fish5.Visible = true;
+                }
+                if (f.getFishList()[4] == ("goby"))
+                {
+                    fish5.Image = gobyfish;
+                    fish5.Visible = true;
+                }
+                if (f.getFishList()[4] == ("puffer fish"))
+                {
+                    fish5.Image = pufferfish;
+                    fish5.Visible = true;
+                }
+                if (f.getFishList()[4] == ("butterfly fish"))
+                {
+                    fish5.Image = butterflyfish;
+                    fish5.Visible = true;
+                }
+                if (f.getFishList()[4] == ("bluetang"))
+                {
+                    fish5.Image = bluetang;
+                    fish5.Visible = true;
+                }
+                if (f.getFishList()[4] == ("royal gramma"))
+                {
+                    fish5.Image = royalgramma;
+                    fish5.Visible = true;
+                }
+                if (f.getFishList()[4] == ("cardinal fish"))
+                {
+                    fish5.Image = cardinalfish;
+                    fish5.Visible = true;
+                }
+                if (f.getFishList()[4] == ("blue dot jawfish"))
+                {
+                    fish5.Image = bluedotjawfish;
+                    fish5.Visible = true;
+                }
+                if (f.getFishList()[4] == ("seahorse"))
+                {
+                    fish5.Image = seaHorse;
+                    fish5.Visible = true;
+                }
+                if (f.getFishList()[4] == ("possum wrasse"))
+                {
+                    fish5.Image = possumwarsse;
+                    fish5.Visible = true;
+                }
+                if (f.getFishList()[4] == ("lionfish"))
+                {
+                    fish5.Image = lionFish;
+                    fish5.Visible = true;
+                }
+                if (f.getFishList()[4] == ("mandarin dragonet"))
+                {
+                    fish5.Image = mandarindragon;
+                    fish5.Visible = true;
+                }
+            }
+            if (f.getFishList().Count >= 6)
+            {
+                if (f.getFishList()[5] == ("clownfish"))
+                {
+                    fish6.Image = clown;
+                    fish6.Visible = true;
+                }
+                if (f.getFishList()[5] == ("goby"))
+                {
+                    fish6.Image = gobyfish;
+                    fish6.Visible = true;
+                }
+                if (f.getFishList()[5] == ("puffer fish"))
+                {
+                    fish6.Image = pufferfish;
+                    fish6.Visible = true;
+                }
+                if (f.getFishList()[5] == ("butterfly fish"))
+                {
+                    fish6.Image = butterflyfish;
+                    fish6.Visible = true;
+                }
+                if (f.getFishList()[5] == ("bluetang"))
+                {
+                    fish6.Image = bluetang;
+                    fish6.Visible = true;
+                }
+                if (f.getFishList()[5] == ("royal gramma"))
+                {
+                    fish6.Image = royalgramma;
+                    fish6.Visible = true;
+                }
+                if (f.getFishList()[5] == ("cardinal fish"))
+                {
+                    fish6.Image = cardinalfish;
+                    fish6.Visible = true;
+                }
+                if (f.getFishList()[5] == ("blue dot jawfish"))
+                {
+                    fish6.Image = bluedotjawfish;
+                    fish6.Visible = true;
+                }
+                if (f.getFishList()[5] == ("seahorse"))
+                {
+                    fish6.Image = seaHorse;
+                    fish6.Visible = true;
+                }
+                if (f.getFishList()[5] == ("possum wrasse"))
+                {
+                    fish6.Image = possumwarsse;
+                    fish6.Visible = true;
+                }
+                if (f.getFishList()[5] == ("lionfish"))
+                {
+                    fish6.Image = lionFish;
+                    fish6.Visible = true;
+                }
+                if (f.getFishList()[5] == ("mandarin dragonet"))
+                {
+                    fish6.Image = mandarindragon;
+                    fish6.Visible = true;
+                }
+            }
+            if (f.getFishList().Count >= 7)
+            {
+                if (f.getFishList()[6] == ("clownfish"))
+                {
+                    fish7.Image = clown;
+                    fish7.Visible = true;
+                }
+                if (f.getFishList()[6] == ("goby"))
+                {
+                    fish7.Image = gobyfish;
+                    fish7.Visible = true;
+                }
+                if (f.getFishList()[6] == ("puffer fish"))
+                {
+                    fish7.Image = pufferfish;
+                    fish7.Visible = true;
+                }
+                if (f.getFishList()[6] == ("butterfly fish"))
+                {
+                    fish7.Image = butterflyfish;
+                    fish7.Visible = true;
+                }
+                if (f.getFishList()[6] == ("bluetang"))
+                {
+                    fish7.Image = bluetang;
+                    fish7.Visible = true;
+                }
+                if (f.getFishList()[6] == ("royal gramma"))
+                {
+                    fish7.Image = royalgramma;
+                    fish7.Visible = true;
+                }
+                if (f.getFishList()[6] == ("cardinal fish"))
+                {
+                    fish7.Image = cardinalfish;
+                    fish7.Visible = true;
+                }
+                if (f.getFishList()[6] == ("blue dot jawfish"))
+                {
+                    fish7.Image = bluedotjawfish;
+                    fish7.Visible = true;
+                }
+                if (f.getFishList()[6] == ("seahorse"))
+                {
+                    fish7.Image = seaHorse;
+                    fish7.Visible = true;
+                }
+                if (f.getFishList()[6] == ("possum wrasse"))
+                {
+                    fish7.Image = possumwarsse;
+                    fish7.Visible = true;
+                }
+                if (f.getFishList()[6] == ("lionfish"))
+                {
+                    fish7.Image = lionFish;
+                    fish7.Visible = true;
+                }
+                if (f.getFishList()[6] == ("mandarin dragonet"))
+                {
+                    fish7.Image = mandarindragon;
+                    fish7.Visible = true;
+                }
+            }
+            if (f.getFishList().Count >= 8)
+            {
+                if (f.getFishList()[7] == ("clownfish"))
+                {
+                    fish8.Image = clown;
+                    fish8.Visible = true;
+                }
+                if (f.getFishList()[7] == ("goby"))
+                {
+                    fish8.Image = gobyfish;
+                    fish8.Visible = true;
+                }
+                if (f.getFishList()[7] == ("puffer fish"))
+                {
+                    fish8.Image = pufferfish;
+                    fish8.Visible = true;
+                }
+                if (f.getFishList()[7] == ("butterfly fish"))
+                {
+                    fish8.Image = butterflyfish;
+                    fish8.Visible = true;
+                }
+                if (f.getFishList()[7] == ("bluetang"))
+                {
+                    fish8.Image = bluetang;
+                    fish8.Visible = true;
+                }
+                if (f.getFishList()[7] == ("royal gramma"))
+                {
+                    fish8.Image = royalgramma;
+                    fish8.Visible = true;
+                }
+                if (f.getFishList()[7] == ("cardinal fish"))
+                {
+                    fish8.Image = cardinalfish;
+                    fish8.Visible = true;
+                }
+                if (f.getFishList()[7] == ("blue dot jawfish"))
+                {
+                    fish8.Image = bluedotjawfish;
+                    fish8.Visible = true;
+                }
+                if (f.getFishList()[7] == ("seahorse"))
+                {
+                    fish8.Image = seaHorse;
+                    fish8.Visible = true;
+                }
+                if (f.getFishList()[7] == ("possum wrasse"))
+                {
+                    fish8.Image = possumwarsse;
+                    fish8.Visible = true;
+                }
+                if (f.getFishList()[7] == ("lionfish"))
+                {
+                    fish8.Image = lionFish;
+                    fish8.Visible = true;
+                }
+                if (f.getFishList()[7] == ("mandarin dragonet"))
+                { 
+                    fish8.Image = mandarindragon;
+                    fish8.Visible = true;
+                }
+            }
+            if (f.getFishList().Count >= 9)
+            {
+                if (f.getFishList()[8] == ("clownfish"))
+                {
+                    fish9.Image = clown;
+                    fish9.Visible = true;
+                }
+                if (f.getFishList()[8] == ("goby"))
+                {
+                    fish9.Image = gobyfish;
+                    fish9.Visible = true;
+                }
+                if (f.getFishList()[8] == ("puffer fish"))
+                {
+                    fish9.Image = pufferfish;
+                    fish9.Visible = true;
+                }
+                if (f.getFishList()[8] == ("butterfly fish"))
+                {
+                    fish9.Image = butterflyfish;
+                    fish9.Visible = true;
+                }
+                if (f.getFishList()[8] == ("bluetang"))
+                {
+                    fish9.Image = bluetang;
+                    fish9.Visible = true;
+                }
+                if (f.getFishList()[8] == ("royal gramma"))
+                {
+                    fish9.Image = royalgramma;
+                    fish9.Visible = true;
+                }
+                if (f.getFishList()[8] == ("cardinal fish"))
+                {
+                    fish9.Image = cardinalfish;
+                    fish9.Visible = true;
+                }
+                if (f.getFishList()[8] == ("blue dot jawfish"))
+                {
+                    fish9.Image = bluedotjawfish;
+                    fish9.Visible = true;
+                }
+                if (f.getFishList()[8] == ("seahorse"))
+                {
+                    fish9.Image = seaHorse;
+                    fish9.Visible = true;
+                }
+                if (f.getFishList()[8] == ("possum wrasse"))
+                {
+                    fish9.Image = possumwarsse;
+                    fish9.Visible = true;
+                }
+                if (f.getFishList()[8] == ("lionfish"))
+                {
+                    fish9.Image = lionFish;
+                    fish9.Visible = true;
+                }
+                if (f.getFishList()[8] == ("mandarin dragonet"))
+                {
+                    fish9.Image = mandarindragon;
+                    fish9.Visible = true;
+                }
+            }
+
             /*for (int i = 0; i < f.getFishList().Count; i++)
             {
                 if (f.getFishList()[i] == ("clownfish"))

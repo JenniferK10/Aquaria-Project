@@ -566,72 +566,88 @@
             // 
             // fish2
             // 
+            this.fish2.BackColor = System.Drawing.Color.Transparent;
             this.fish2.Location = new System.Drawing.Point(789, 90);
             this.fish2.Name = "fish2";
             this.fish2.Size = new System.Drawing.Size(204, 174);
+            this.fish2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.fish2.TabIndex = 23;
             this.fish2.TabStop = false;
             this.fish2.Visible = false;
             // 
             // fish3
             // 
+            this.fish3.BackColor = System.Drawing.Color.Transparent;
             this.fish3.Location = new System.Drawing.Point(960, 295);
             this.fish3.Name = "fish3";
             this.fish3.Size = new System.Drawing.Size(196, 133);
+            this.fish3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.fish3.TabIndex = 24;
             this.fish3.TabStop = false;
             this.fish3.Visible = false;
             // 
             // fish5
             // 
+            this.fish5.BackColor = System.Drawing.Color.Transparent;
             this.fish5.Location = new System.Drawing.Point(447, 450);
             this.fish5.Name = "fish5";
             this.fish5.Size = new System.Drawing.Size(219, 137);
+            this.fish5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.fish5.TabIndex = 25;
             this.fish5.TabStop = false;
             this.fish5.Visible = false;
             // 
             // fish7
             // 
+            this.fish7.BackColor = System.Drawing.Color.Transparent;
             this.fish7.Location = new System.Drawing.Point(158, 547);
             this.fish7.Name = "fish7";
             this.fish7.Size = new System.Drawing.Size(153, 137);
+            this.fish7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.fish7.TabIndex = 26;
             this.fish7.TabStop = false;
             this.fish7.Visible = false;
             // 
             // fish6
             // 
+            this.fish6.BackColor = System.Drawing.Color.Transparent;
             this.fish6.Location = new System.Drawing.Point(1273, 593);
             this.fish6.Name = "fish6";
             this.fish6.Size = new System.Drawing.Size(153, 137);
+            this.fish6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.fish6.TabIndex = 27;
             this.fish6.TabStop = false;
             this.fish6.Visible = false;
             // 
             // fish4
             // 
+            this.fish4.BackColor = System.Drawing.Color.Transparent;
             this.fish4.Location = new System.Drawing.Point(1273, 433);
             this.fish4.Name = "fish4";
             this.fish4.Size = new System.Drawing.Size(153, 137);
+            this.fish4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.fish4.TabIndex = 28;
             this.fish4.TabStop = false;
             this.fish4.Visible = false;
             // 
             // fish8
             // 
+            this.fish8.BackColor = System.Drawing.Color.Transparent;
             this.fish8.Location = new System.Drawing.Point(603, 725);
             this.fish8.Name = "fish8";
             this.fish8.Size = new System.Drawing.Size(153, 137);
+            this.fish8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.fish8.TabIndex = 29;
             this.fish8.TabStop = false;
             this.fish8.Visible = false;
             // 
             // fish9
             // 
+            this.fish9.BackColor = System.Drawing.Color.Transparent;
             this.fish9.Location = new System.Drawing.Point(1273, 137);
             this.fish9.Name = "fish9";
             this.fish9.Size = new System.Drawing.Size(133, 127);
+            this.fish9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.fish9.TabIndex = 30;
             this.fish9.TabStop = false;
             this.fish9.Visible = false;
