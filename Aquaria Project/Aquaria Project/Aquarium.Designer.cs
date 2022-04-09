@@ -40,6 +40,7 @@
             this.coinLabel = new System.Windows.Forms.Label();
             this.timer = new System.Windows.Forms.Timer(this.components);
             this.decorationPanel = new System.Windows.Forms.Panel();
+            this.decoration6 = new System.Windows.Forms.PictureBox();
             this.decoration8 = new System.Windows.Forms.PictureBox();
             this.Unlock8 = new System.Windows.Forms.Button();
             this.Unlock7 = new System.Windows.Forms.Button();
@@ -77,8 +78,8 @@
             this.fish9 = new System.Windows.Forms.PictureBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.timer2 = new System.Windows.Forms.Timer(this.components);
-            this.decoration6 = new System.Windows.Forms.PictureBox();
             this.decorationPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.decoration6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.decoration8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.decoration7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.decoration5)).BeginInit();
@@ -102,7 +103,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.fish4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fish8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fish9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.decoration6)).BeginInit();
             this.SuspendLayout();
             // 
             // GuessingGameStart
@@ -245,6 +245,18 @@
             this.decorationPanel.Size = new System.Drawing.Size(494, 282);
             this.decorationPanel.TabIndex = 10;
             this.decorationPanel.Visible = false;
+            // 
+            // decoration6
+            // 
+            this.decoration6.Enabled = false;
+            this.decoration6.Image = global::Aquaria_Project.Properties.Resources.sandOrange;
+            this.decoration6.Location = new System.Drawing.Point(128, 145);
+            this.decoration6.Name = "decoration6";
+            this.decoration6.Size = new System.Drawing.Size(93, 85);
+            this.decoration6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.decoration6.TabIndex = 17;
+            this.decoration6.TabStop = false;
+            this.decoration6.Click += new System.EventHandler(this.decoration6_Click);
             // 
             // decoration8
             // 
@@ -467,6 +479,7 @@
             this.AdoptButton.TabIndex = 13;
             this.AdoptButton.Text = "Adopt Fish";
             this.AdoptButton.UseVisualStyleBackColor = true;
+            this.AdoptButton.Click += new System.EventHandler(this.AdoptButton_Click);
             // 
             // PlayButton
             // 
@@ -514,7 +527,7 @@
             // 
             this.sandDecoration.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.sandDecoration.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.sandDecoration.Location = new System.Drawing.Point(-2, 878);
+            this.sandDecoration.Location = new System.Drawing.Point(-2, 879);
             this.sandDecoration.Name = "sandDecoration";
             this.sandDecoration.Size = new System.Drawing.Size(1947, 147);
             this.sandDecoration.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -671,18 +684,6 @@
             this.timer2.Interval = 300;
             this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
             // 
-            // decoration6
-            // 
-            this.decoration6.Enabled = false;
-            this.decoration6.Image = global::Aquaria_Project.Properties.Resources.sandOrange;
-            this.decoration6.Location = new System.Drawing.Point(128, 145);
-            this.decoration6.Name = "decoration6";
-            this.decoration6.Size = new System.Drawing.Size(93, 85);
-            this.decoration6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.decoration6.TabIndex = 17;
-            this.decoration6.TabStop = false;
-            this.decoration6.Click += new System.EventHandler(this.decoration6_Click);
-            // 
             // Aquarium
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -725,6 +726,7 @@
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Aquarium_Load);
             this.decorationPanel.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.decoration6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.decoration8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.decoration7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.decoration5)).EndInit();
@@ -748,7 +750,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.fish4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.fish8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.fish9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.decoration6)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
