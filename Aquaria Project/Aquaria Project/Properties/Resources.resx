@@ -118,40 +118,8 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-<<<<<<< Updated upstream
   <data name="fish11" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\fish11.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-=======
-  <data name="sadfish" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\sadfish.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="crop" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\crop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="possumwrasse" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\possumwrasse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="sandOrange" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\sandOrange.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="sandGreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\sandGreen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="crop1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\crop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="StoneDecoration" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\StoneDecoration.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="jawfish" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\jawfish.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="sandRed" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\sandRed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="background" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\background.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
->>>>>>> Stashed changes
   </data>
   <data name="clown" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\clown.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -159,63 +127,20 @@
   <data name="goby" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\goby.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="butterfly" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\butterfly.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="bookBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\bookBackground.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-<<<<<<< Updated upstream
   <data name="background" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\background.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="sadfish" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\sadfish.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-=======
-  <data name="puffer" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\puffer.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="rope1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\rope1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="cardinal" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\cardinal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="happyfish" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\happyfish.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="clownfish" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\clownfish.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="fire" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\fire.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pipedown" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\pipedown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="fish11" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\fish11.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="sandcastle" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\sandcastle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pipe" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\pipe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
->>>>>>> Stashed changes
   </data>
   <data name="waterGuessingGame" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\waterGuessingGame.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-<<<<<<< Updated upstream
   <data name="crop" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\crop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-=======
-  <data name="mandarindragonet" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\mandarindragonet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="royalgamma" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\royalgamma.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
->>>>>>> Stashed changes
   </data>
   <data name="puffer" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\puffer.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -235,32 +160,16 @@
   <data name="woodGuessingGame" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\woodGuessingGame.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-<<<<<<< Updated upstream
   <data name="bird" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\bird.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-=======
-  <data name="goby1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\goby.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="rope2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\rope2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
->>>>>>> Stashed changes
   </data>
   <data name="ground" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\ground.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-<<<<<<< Updated upstream
   <data name="pipe" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\pipe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pipedown" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\pipedown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-=======
-  <data name="puffer1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\puffer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="FlappyFishCrop" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\FlappyFishCrop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
->>>>>>> Stashed changes
   </data>
 </root>
