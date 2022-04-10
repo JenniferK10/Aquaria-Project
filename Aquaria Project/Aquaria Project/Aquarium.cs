@@ -155,5 +155,239 @@ namespace Aquaria_Project
             FlappyFishForm FlappyFishForm = new FlappyFishForm();//opening Flappy Fish form
             FlappyFishForm.ShowDialog();
         }
+<<<<<<< Updated upstream
+=======
+
+        private void Unlock1_Click(object sender, EventArgs e)//JK
+        {
+            decoration1.Enabled = true;//enable decoration1 because user paid for it
+            c.loseCoins(Unlock1.Text);//pay for decoration
+            Unlock1.Text = "Unlocked";
+            Unlock1.Enabled = false;
+        }
+
+        private void DecortationStore_Click(object sender, EventArgs e)//opens decoration store //JK
+        {
+            decorationPanel.Visible = true;
+            
+        }
+
+        private void Unlock2_Click(object sender, EventArgs e) //JK
+        {
+            decoration2.Enabled = true;
+            c.loseCoins(Unlock2.Text);
+            Unlock2.Text = "Unlocked";
+            Unlock2.Enabled = false;
+        }
+
+        private void Unlock3_Click(object sender, EventArgs e)
+        {
+            decoration3.Enabled = true;
+            c.loseCoins(Unlock3.Text);
+            Unlock3.Text = "Unlocked";
+            Unlock3.Enabled = false;
+        }
+
+        private void Unlock4_Click(object sender, EventArgs e)
+        {
+            decoration4.Enabled = true;
+            c.loseCoins(Unlock4.Text);
+            Unlock4.Text = "Unlocked";
+            Unlock4.Enabled = false;
+        }
+
+        private void decoration5_Click(object sender, EventArgs e)
+        {
+            sandDecoration.Image = brownSand;
+        }
+
+        private void Unlock5_Click(object sender, EventArgs e)
+        {
+            decoration5.Enabled = true;
+            c.loseCoins(Unlock5.Text);
+            Unlock5.Text = "Unlocked";
+            Unlock5.Enabled = false;
+        }
+
+        private void Unlock6_Click(object sender, EventArgs e)
+        {
+            decoration6.Enabled = true;
+            c.loseCoins(Unlock6.Text);
+            Unlock6.Text = "Unlocked";
+            Unlock6.Enabled = false;
+        }
+
+        //JK
+        private void location1_DragDrop(object sender, DragEventArgs e)//update the picture of target picturebox after darg and drop
+        {
+            Image getPicture = (Bitmap)e.Data.GetData(DataFormats.Bitmap);
+            location1.Image = getPicture;
+            location1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+        }
+
+        private void location1_DragEnter(object sender, DragEventArgs e)//allows fort drag drop effect //JK
+        {
+            if (e.Data.GetDataPresent(DataFormats.Bitmap))
+            {
+                e.Effect = DragDropEffects.Copy;
+            }
+        }
+
+        private void decoration1_MouseDown(object sender, MouseEventArgs e)//copying pciture from source pciturebox //JK
+        {
+            ((PictureBox)sender).DoDragDrop(((PictureBox)sender).Image, DragDropEffects.Copy);
+        }
+
+        private void location2_DragDrop(object sender, DragEventArgs e)
+        {
+            Image getPicture = (Bitmap)e.Data.GetData(DataFormats.Bitmap);
+            location2.Image = getPicture;
+            location2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+        }
+
+        private void location2_DragEnter(object sender, DragEventArgs e)
+        {
+            if (e.Data.GetDataPresent(DataFormats.Bitmap))
+            {
+                e.Effect = DragDropEffects.Copy;
+            }
+        }
+
+        private void decoration2_MouseDown(object sender, MouseEventArgs e)
+        {
+            ((PictureBox)sender).DoDragDrop(((PictureBox)sender).Image, DragDropEffects.Copy);
+        }
+
+        private void decoration3_MouseDown(object sender, MouseEventArgs e)
+        {
+            ((PictureBox)sender).DoDragDrop(((PictureBox)sender).Image, DragDropEffects.Copy);
+        }
+
+        private void decoration4_MouseDown(object sender, MouseEventArgs e)
+        {
+            ((PictureBox)sender).DoDragDrop(((PictureBox)sender).Image, DragDropEffects.Copy);
+        }
+
+        private void decoration5_MouseDown(object sender, MouseEventArgs e)
+        {
+            
+        }
+
+        
+
+        private void decoration6_MouseDown(object sender, MouseEventArgs e)
+        {
+            ((PictureBox)sender).DoDragDrop(((PictureBox)sender).Image, DragDropEffects.Copy);
+        }
+
+        private void ExitDecoration_Click(object sender, EventArgs e)
+        {
+            decorationPanel.Visible = false;
+        }
+
+        private void PlayButton_Click(object sender, EventArgs e)
+        {
+            //MF
+            TriviaGameStart.Visible = true; //game options become visible in drop down
+            GuessingGameStart.Visible = true;
+            FlappyFishStart.Visible = true;
+            HuntingGameStart.Visible = true;
+            rope1.Visible = true;
+            rope2.Visible = true;
+            CloseButton.Visible = true;
+            PlayButton.Visible = false;
+        }
+
+        private void CloseButton_Click(object sender, EventArgs e)
+        {
+            //MF
+            TriviaGameStart.Visible = false; //Game options go away
+            GuessingGameStart.Visible = false;
+            FlappyFishStart.Visible = false;
+            HuntingGameStart.Visible = false;
+            rope1.Visible = false;
+            rope2.Visible = false;
+            CloseButton.Visible = false;
+            PlayButton.Visible = true;
+        }
+        //SP
+        private void timer1_Tick(object sender, EventArgs e)// timer for left moving fish
+        {
+            fish();
+        }
+
+        //SP
+        private void timer2_Tick(object sender, EventArgs e)// timer for right moving fish
+        {
+            fishRight();
+        }
+
+        private void decoration4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Unlock7_Click(object sender, EventArgs e)
+        {
+            decoration7.Enabled = true;
+            c.loseCoins(Unlock7.Text);
+            Unlock7.Text = "Unlocked";
+            Unlock7.Enabled = false;
+        }
+
+        private void Unlock8_Click(object sender, EventArgs e)
+        {
+            decoration8.Enabled = true;
+            c.loseCoins(Unlock8.Text);
+            Unlock8.Text = "Unlocked";
+            Unlock8.Enabled = false;
+        }
+
+        private void decoration7_Click(object sender, EventArgs e)
+        {
+            sandDecoration.Image = redSand;
+        }
+
+        private void decoration8_Click(object sender, EventArgs e)
+        {
+            sandDecoration.Image = greenSand;
+        }
+
+        private void decoration6_Click(object sender, EventArgs e)
+        {
+            sandDecoration.Image = orangeSand;
+        }
+
+        private void location3_DragDrop(object sender, DragEventArgs e)
+        {
+            Image getPicture = (Bitmap)e.Data.GetData(DataFormats.Bitmap);
+            location3.Image = getPicture;
+            location3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+        }
+
+        private void location3_DragEnter(object sender, DragEventArgs e)
+        {
+            if (e.Data.GetDataPresent(DataFormats.Bitmap))
+            {
+                e.Effect = DragDropEffects.Copy;
+            }
+        }
+
+        private void location4_DragDrop(object sender, DragEventArgs e)
+        {
+            Image getPicture = (Bitmap)e.Data.GetData(DataFormats.Bitmap);
+            location4.Image = getPicture;
+            location4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+        }
+
+        private void location4_DragEnter(object sender, DragEventArgs e)
+        {
+            if (e.Data.GetDataPresent(DataFormats.Bitmap))
+            {
+                e.Effect = DragDropEffects.Copy;
+            }
+        }
+        
+>>>>>>> Stashed changes
     }
 }

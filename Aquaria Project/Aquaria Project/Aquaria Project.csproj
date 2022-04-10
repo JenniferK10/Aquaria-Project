@@ -192,5 +192,74 @@
   <ItemGroup>
     <None Include="bin\Debug\pipedown.png" />
   </ItemGroup>
+<<<<<<< Updated upstream
+=======
+  <ItemGroup>
+    <None Include="bin\Debug\sandcastle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\rope1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\rope2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\bluetang.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\butterfly.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\cardinal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\goby.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\jawfish.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\lionfish.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\mandarindragonet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\puffer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\royalgamma.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\seahorse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\possumwrasse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\cropC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\StoneDecoration.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\plant.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\sandBrown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\sandOrange.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\sandRed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\sandGreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\FlappyFishCrop.png" />
+  </ItemGroup>
+>>>>>>> Stashed changes
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
