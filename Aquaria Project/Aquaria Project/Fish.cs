@@ -13,6 +13,24 @@ namespace Aquaria_Project
         string kind;
         string size;
         string fact;
+        static bool clownOptained = false;
+        static bool gobyOptained = false;
+        static bool pufferObtained = false;
+        static bool butterflyObtained = false;
+        static bool blueTangObtained = false;
+        static bool royalGrammaObtained = false;
+        static bool cardinalObtained = false;
+        static bool jawfishObtained = false;
+        static bool seahorseObtained = false;
+        static bool possumObtained = false;
+        static bool lionfishObatined = false;
+        static bool madarinObtained = false;
+
+
+        public Fish()
+        {
+
+        }
 
         public Fish(String name)
         {
@@ -133,7 +151,7 @@ namespace Aquaria_Project
                     this.fact = "Fun Fact: All clownfishes are born male. As they mature, the dominant male in the group will become a female.";
                     break;
                 case 2:
-                    this.fact = "Fun Fact: Bottom-dwellers have a weak suction cup formed by the fusion of their pelvic fins used to shift sand.";
+                    this.fact = "Fun Fact: Gobies are bottom-dwellers who have a weak suction cup formed by the fusion of their pelvic fins used to shift sand.";
                     break;
                 case 3:
                     this.fact = "Fun Fact: They are the most poisonous fish in the sea. They don’t have scales, and will inflate as a self defense mechanism.";
@@ -168,18 +186,96 @@ namespace Aquaria_Project
             }
         }
 
+        public void setObtained(string fish)
+        {
+            if (fish == "clownfish")
+                clownOptained = true;
+            if (fish == "goby")
+                gobyOptained = true;
+            if(fish == "puffer fish")
+                pufferObtained = true;
+            if (fish == "butterfly fish")
+                butterflyObtained = true;
+            if (fish == "bluetang")
+                blueTangObtained = true;
+            if(fish == "royal gramma")
+                royalGrammaObtained = true;
+            if (fish == "cardinal fish")
+                cardinalObtained = true;
+            if(fish == "blue dot jawfish")
+                jawfishObtained = true;
+            if(fish == "seahorse")
+                seahorseObtained = true;
+            if(fish == "possum wrasse")
+                possumObtained = true;
+            if(fish == "lionfish")
+                lionfishObatined = true;
+            if (fish == "mandarin dragonet")
+                madarinObtained = true;
+        }
+
+        public bool getObtained(string fish)
+        {
+            if (fish == "clownfish")
+                return clownOptained;
+            if (fish == "goby")
+                return gobyOptained;
+            if (fish == "puffer fish")
+                return pufferObtained;
+            if (fish == "butterfly fish")
+                return butterflyObtained;
+            if (fish == "bluetang")
+                return blueTangObtained;
+            if (fish == "royal gramma")
+                return royalGrammaObtained;
+            if (fish == "cardinal fish")
+                return cardinalObtained;
+            if (fish == "blue dot jawfish")
+                return jawfishObtained;
+            if (fish == "seahorse")
+                return seahorseObtained;
+            if (fish == "possum wrasse")
+                return possumObtained;
+            if (fish == "lionfish")
+                return lionfishObatined;
+            if (fish == "mandarin dragonet")
+                return madarinObtained;
+            else
+                return false;
+        }
+        //FL
         public string getFact()
         {
             return fact;
         }
 
-        public String getName()
+        public string getName()
         {
             return name;
         }
 
-        List<Fish> fishList = new List<Fish>();
+        static List<string> fishList = new List<string>();
 
+        public void setFishList(List<string> list)
+        {
+            fishList = list;
+        }
+
+        public List<string> getFishList()
+        {
+            return fishList;
+        }
+
+        /*
+        public void setFishList(List<Fish> list)
+        {
+            fishList = list;
+        }
+
+        public List<Fish> getFishList()
+        {
+            return fishList;
+        }
         public void AddFish(Fish fishType)
         {
             fishList.Add(fishType);
@@ -189,5 +285,6 @@ namespace Aquaria_Project
         {
             fishList.Remove(fishType);
         }
+        */
     }
 }

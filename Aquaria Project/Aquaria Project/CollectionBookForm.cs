@@ -24,7 +24,8 @@ namespace Aquaria_Project
         }
         
         int page = 1;
-        
+
+        Fish f = new Fish();
         
         Image clownpic, gobyPic, pufferPic, butterflyPic, blueTangPic, royalGrammaPic, cardinalPic; //variable for each picture
         Image jawfishPic, seahorsePic, possumWrassePic, lionfishPic, mandarinDragonetPic;
@@ -33,7 +34,7 @@ namespace Aquaria_Project
         Fish clownCollection = new Fish(1);
         Fish gobyCollection = new Fish(2);
         Fish pufferCollection = new Fish(3);
-        Fish butterflyCollection = new Fish(4);
+        Fish butterflyCollection = new Fish(4); 
         Fish blueTangCollection = new Fish(5);
         Fish royalGrammaCollection = new Fish(6);
         Fish cardinalCollection = new Fish(7);
@@ -69,7 +70,52 @@ namespace Aquaria_Project
 
         private void CollectionBookForm_Load(object sender, EventArgs e)
         {
+            RarityLabel.Text = "Common";//changes label to show which rarity fish are
 
+            if (f.getObtained("clownfish"))
+            {
+                fishPicture1.Image = clownpic; //chnages image in the picture box
+                Name1.Text = clownCollection.getKind(); //chnages name/kind of the fish
+                Size1.Text = clownCollection.getSize(); //changes size label
+                FunFact1.Text = clownCollection.getFact();//displays appropriate fun fact
+            }
+            else
+            {
+                fishPicture1.Image = null;
+                Name1.Text = " ";
+                Size1.Text = " ";
+                FunFact1.Text = " ";
+            }
+
+            if (f.getObtained("goby"))
+            {
+                fishPicture2.Image = gobyPic;
+                Name2.Text = gobyCollection.getKind();
+                Size2.Text = gobyCollection.getSize();
+                FunFact2.Text = gobyCollection.getFact();
+            }
+            else
+            {
+                fishPicture2.Image = null;
+                Name2.Text = " ";
+                Size2.Text = " ";
+                FunFact2.Text = " ";
+            }
+
+            if (f.getObtained("puffer fish"))
+            {
+                fishPicture3.Image = pufferPic;
+                Name3.Text = pufferCollection.getKind();
+                Size3.Text = pufferCollection.getSize();
+                FunFact3.Text = pufferCollection.getFact();
+            }
+            else
+            {
+                fishPicture3.Image = null;
+                Name3.Text = " ";
+                Size3.Text = " ";
+                FunFact3.Text = " ";
+            }
         }
 
         private void Name3_Click(object sender, EventArgs e)
@@ -90,20 +136,50 @@ namespace Aquaria_Project
             {
                 RarityLabel.Text = "Common";//changes label to show which rarity fish are
 
-                fishPicture1.Image = clownpic; //chnages image in the picture box
-                Name1.Text = clownCollection.getKind(); //chnages name/kind of the fish
-                Size1.Text = clownCollection.getSize(); //changes size label
-                FunFact1.Text = clownCollection.getFact();//displays appropriate fun fact
+                if (f.getObtained("clownfish"))
+                {
+                    fishPicture1.Image = clownpic; //chnages image in the picture box
+                    Name1.Text = clownCollection.getKind(); //chnages name/kind of the fish
+                    Size1.Text = clownCollection.getSize(); //changes size label
+                    FunFact1.Text = clownCollection.getFact();//displays appropriate fun fact
+                }
+                else
+                {
+                    fishPicture1.Image = null;
+                    Name1.Text = " ";
+                    Size1.Text = " ";
+                    FunFact1.Text = " ";
+                }
 
-                fishPicture2.Image = gobyPic;
-                Name2.Text = gobyCollection.getKind();
-                Size2.Text = gobyCollection.getSize();
-                FunFact2.Text = gobyCollection.getFact();
+                if (f.getObtained("goby"))
+                {
+                    fishPicture2.Image = gobyPic;
+                    Name2.Text = gobyCollection.getKind();
+                    Size2.Text = gobyCollection.getSize();
+                    FunFact2.Text = gobyCollection.getFact();
+                }
+                else
+                {
+                    fishPicture2.Image = null;
+                    Name2.Text = " ";
+                    Size2.Text = " ";
+                    FunFact2.Text = " ";
+                }
 
-                fishPicture3.Image = pufferPic;
-                Name3.Text = pufferCollection.getKind();
-                Size3.Text = pufferCollection.getSize();
-                FunFact3.Text = pufferCollection.getFact();
+                if (f.getObtained("puffer fish"))
+                {
+                    fishPicture3.Image = pufferPic;
+                    Name3.Text = pufferCollection.getKind();
+                    Size3.Text = pufferCollection.getSize();
+                    FunFact3.Text = pufferCollection.getFact();
+                }
+                else
+                {
+                    fishPicture3.Image = null;
+                    Name3.Text = " ";
+                    Size3.Text = " ";
+                    FunFact3.Text = " ";
+                }
 
                 
             }
@@ -112,20 +188,50 @@ namespace Aquaria_Project
             {
                 RarityLabel.Text = "Uncommon";
 
-                fishPicture1.Image = butterflyPic;
-                Name1.Text = butterflyCollection.getKind();
-                Size1.Text = butterflyCollection.getSize();
-                FunFact1.Text = butterflyCollection.getFact();
+                if (f.getObtained("butterfly fish"))
+                {
+                    fishPicture1.Image = butterflyPic;
+                    Name1.Text = butterflyCollection.getKind();
+                    Size1.Text = butterflyCollection.getSize();
+                    FunFact1.Text = butterflyCollection.getFact();
+                }
+                else
+                {
+                    fishPicture1.Image = null;
+                    Name1.Text = " ";
+                    Size1.Text = " ";
+                    FunFact1.Text = " ";
+                }
 
-                fishPicture2.Image = blueTangPic;
-                Name2.Text = blueTangCollection.getKind();
-                Size2.Text = blueTangCollection.getSize();
-                FunFact2.Text = blueTangCollection.getFact();
+                if (f.getObtained("bluetang"))
+                {
+                    fishPicture2.Image = blueTangPic;
+                    Name2.Text = blueTangCollection.getKind();
+                    Size2.Text = blueTangCollection.getSize();
+                    FunFact2.Text = blueTangCollection.getFact();
+                }
+                else
+                {
+                    fishPicture2.Image = null;
+                    Name2.Text = " ";
+                    Size2.Text = " ";
+                    FunFact2.Text = " ";
+                }
 
-                fishPicture3.Image = royalGrammaPic;
-                Name3.Text = royalGrammaCollection.getKind();
-                Size3.Text = royalGrammaCollection.getSize();
-                FunFact3.Text = royalGrammaCollection.getFact();
+                if (f.getObtained("royal gramma"))
+                {
+                    fishPicture3.Image = royalGrammaPic;
+                    Name3.Text = royalGrammaCollection.getKind();
+                    Size3.Text = royalGrammaCollection.getSize();
+                    FunFact3.Text = royalGrammaCollection.getFact();
+                }
+                else
+                {
+                    fishPicture3.Image = null;
+                    Name3.Text = " ";
+                    Size3.Text = " ";
+                    FunFact3.Text = " ";
+                }
 
                 
             }
@@ -134,15 +240,35 @@ namespace Aquaria_Project
             {
                 RarityLabel.Text = "Rare";
 
-                fishPicture1.Image = cardinalPic;
-                Name1.Text = cardinalCollection.getKind();
-                Size1.Text = cardinalCollection.getSize();
-                FunFact1.Text = cardinalCollection.getFact();
+                if (f.getObtained("cardinal fish"))
+                {
+                    fishPicture1.Image = cardinalPic;
+                    Name1.Text = cardinalCollection.getKind();
+                    Size1.Text = cardinalCollection.getSize();
+                    FunFact1.Text = cardinalCollection.getFact();
+                }
+                else
+                {
+                    fishPicture1.Image = null;
+                    Name1.Text = " ";
+                    Size1.Text = " ";
+                    FunFact1.Text = " ";
+                }
 
-                fishPicture2.Image = jawfishPic;
-                Name2.Text = jawfishCollection.getKind();
-                Size2.Text = jawfishCollection.getSize();
-                FunFact2.Text = jawfishCollection.getFact();
+                if (f.getObtained("blue dot jawfish"))
+                {
+                    fishPicture2.Image = jawfishPic;
+                    Name2.Text = jawfishCollection.getKind();
+                    Size2.Text = jawfishCollection.getSize();
+                    FunFact2.Text = jawfishCollection.getFact();
+                }
+                else
+                {
+                    fishPicture2.Image = null;
+                    Name2.Text = " ";
+                    Size2.Text = " ";
+                    FunFact2.Text = " ";
+                }
 
                 fishPicture3.Image = null;
                 Name3.Text = " ";
@@ -156,15 +282,35 @@ namespace Aquaria_Project
             {
                 RarityLabel.Text = "Epic";
 
-                fishPicture1.Image = seahorsePic;
-                Name1.Text = seahorseCollection.getKind();
-                Size1.Text = seahorseCollection.getSize();
-                FunFact1.Text = seahorseCollection.getFact();
+                if (f.getObtained("seahorse"))
+                {
+                    fishPicture1.Image = seahorsePic;
+                    Name1.Text = seahorseCollection.getKind();
+                    Size1.Text = seahorseCollection.getSize();
+                    FunFact1.Text = seahorseCollection.getFact();
+                }
+                else
+                {
+                    fishPicture1.Image = null;
+                    Name1.Text = " ";
+                    Size1.Text = " ";
+                    FunFact1.Text = " ";
+                }
 
-                fishPicture2.Image = possumWrassePic;
-                Name2.Text = possumWrasseCollection.getKind();
-                Size2.Text = possumWrasseCollection.getSize();
-                FunFact2.Text = possumWrasseCollection.getFact();
+                if (f.getObtained("possum wrasse"))
+                {
+                    fishPicture2.Image = possumWrassePic;
+                    Name2.Text = possumWrasseCollection.getKind();
+                    Size2.Text = possumWrasseCollection.getSize();
+                    FunFact2.Text = possumWrasseCollection.getFact();
+                }
+                else
+                {
+                    fishPicture2.Image = null;
+                    Name2.Text = " ";
+                    Size2.Text = " ";
+                    FunFact2.Text = " ";
+                }
 
                 fishPicture3.Image = null;
                 Name3.Text = " ";
@@ -177,15 +323,36 @@ namespace Aquaria_Project
             {
                 RarityLabel.Text = "Legendary";
 
-                fishPicture1.Image = lionfishPic;
-                Name1.Text = lionfishCollection.getKind();
-                Size1.Text = lionfishCollection.getSize();
-                FunFact1.Text = lionfishCollection.getFact();
+                if (f.getObtained("lionfish"))
+                {
+                    fishPicture1.Image = lionfishPic;
+                    Name1.Text = lionfishCollection.getKind();
+                    Size1.Text = lionfishCollection.getSize();
+                    FunFact1.Text = lionfishCollection.getFact();
+                }
+                else
+                {
+                    fishPicture1.Image = null;
+                    Name1.Text = " ";
+                    Size1.Text = " ";
+                    FunFact1.Text = " ";
+                }
 
-                fishPicture2.Image = mandarinDragonetPic;
-                Name2.Text = mandarinCollection.getKind();
-                Size2.Text = mandarinCollection.getSize();
-                FunFact2.Text = mandarinCollection.getFact();
+                if (f.getObtained("mandarin dragonet"))
+                {
+                    fishPicture2.Image = mandarinDragonetPic;
+                    Name2.Text = mandarinCollection.getKind();
+                    Size2.Text = mandarinCollection.getSize();
+                    FunFact2.Text = mandarinCollection.getFact();
+                }
+                else
+                {
+                    fishPicture2.Image = null;
+                    Name2.Text = " ";
+                    Size2.Text = " ";
+                    FunFact2.Text = " ";
+                }
+
 
                 fishPicture3.Image = null;
                 Name3.Text = " ";

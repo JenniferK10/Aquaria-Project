@@ -70,7 +70,7 @@
             this.Name1.AutoSize = true;
             this.Name1.BackColor = System.Drawing.Color.Transparent;
             this.Name1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Name1.Location = new System.Drawing.Point(510, 66);
+            this.Name1.Location = new System.Drawing.Point(332, 66);
             this.Name1.Name = "Name1";
             this.Name1.Size = new System.Drawing.Size(138, 32);
             this.Name1.TabIndex = 1;
@@ -81,7 +81,7 @@
             this.Size1.AutoSize = true;
             this.Size1.BackColor = System.Drawing.Color.Transparent;
             this.Size1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Size1.Location = new System.Drawing.Point(510, 122);
+            this.Size1.Location = new System.Drawing.Point(339, 122);
             this.Size1.Name = "Size1";
             this.Size1.Size = new System.Drawing.Size(131, 32);
             this.Size1.TabIndex = 2;
@@ -92,7 +92,7 @@
             this.FunFact1.BackColor = System.Drawing.Color.FloralWhite;
             this.FunFact1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FunFact1.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.FunFact1.Location = new System.Drawing.Point(174, 227);
+            this.FunFact1.Location = new System.Drawing.Point(66, 227);
             this.FunFact1.Multiline = true;
             this.FunFact1.Name = "FunFact1";
             this.FunFact1.ReadOnly = true;
@@ -106,7 +106,7 @@
             this.Name2.AutoSize = true;
             this.Name2.BackColor = System.Drawing.Color.Transparent;
             this.Name2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Name2.Location = new System.Drawing.Point(498, 351);
+            this.Name2.Location = new System.Drawing.Point(327, 364);
             this.Name2.Name = "Name2";
             this.Name2.Size = new System.Drawing.Size(143, 32);
             this.Name2.TabIndex = 4;
@@ -117,7 +117,7 @@
             this.Size2.AutoSize = true;
             this.Size2.BackColor = System.Drawing.Color.Transparent;
             this.Size2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Size2.Location = new System.Drawing.Point(510, 415);
+            this.Size2.Location = new System.Drawing.Point(327, 408);
             this.Size2.Name = "Size2";
             this.Size2.Size = new System.Drawing.Size(131, 32);
             this.Size2.TabIndex = 5;
@@ -127,7 +127,7 @@
             // 
             this.FunFact2.BackColor = System.Drawing.Color.FloralWhite;
             this.FunFact2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FunFact2.Location = new System.Drawing.Point(174, 534);
+            this.FunFact2.Location = new System.Drawing.Point(66, 530);
             this.FunFact2.Multiline = true;
             this.FunFact2.Name = "FunFact2";
             this.FunFact2.ReadOnly = true;
@@ -141,7 +141,7 @@
             this.Name3.AutoSize = true;
             this.Name3.BackColor = System.Drawing.Color.Transparent;
             this.Name3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Name3.Location = new System.Drawing.Point(1092, 66);
+            this.Name3.Location = new System.Drawing.Point(1001, 66);
             this.Name3.Name = "Name3";
             this.Name3.Size = new System.Drawing.Size(151, 32);
             this.Name3.TabIndex = 7;
@@ -153,7 +153,7 @@
             this.Size3.AutoSize = true;
             this.Size3.BackColor = System.Drawing.Color.Transparent;
             this.Size3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Size3.Location = new System.Drawing.Point(1035, 122);
+            this.Size3.Location = new System.Drawing.Point(1001, 122);
             this.Size3.Name = "Size3";
             this.Size3.Size = new System.Drawing.Size(208, 32);
             this.Size3.TabIndex = 8;
@@ -163,7 +163,7 @@
             // 
             this.FunFact3.BackColor = System.Drawing.Color.FloralWhite;
             this.FunFact3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FunFact3.Location = new System.Drawing.Point(795, 227);
+            this.FunFact3.Location = new System.Drawing.Point(732, 227);
             this.FunFact3.Multiline = true;
             this.FunFact3.Name = "FunFact3";
             this.FunFact3.ReadOnly = true;
@@ -177,7 +177,7 @@
             this.NextButton.BackColor = System.Drawing.Color.Transparent;
             this.NextButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NextButton.ForeColor = System.Drawing.Color.ForestGreen;
-            this.NextButton.Location = new System.Drawing.Point(1200, 490);
+            this.NextButton.Location = new System.Drawing.Point(1137, 470);
             this.NextButton.Name = "NextButton";
             this.NextButton.Size = new System.Drawing.Size(60, 60);
             this.NextButton.TabIndex = 13;
@@ -190,7 +190,7 @@
             this.previousButton.BackColor = System.Drawing.Color.Transparent;
             this.previousButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.previousButton.ForeColor = System.Drawing.Color.DarkRed;
-            this.previousButton.Location = new System.Drawing.Point(1200, 397);
+            this.previousButton.Location = new System.Drawing.Point(1137, 397);
             this.previousButton.Name = "previousButton";
             this.previousButton.Size = new System.Drawing.Size(60, 60);
             this.previousButton.TabIndex = 14;
@@ -203,7 +203,7 @@
             this.CommonButton.BackColor = System.Drawing.Color.Transparent;
             this.CommonButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CommonButton.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.CommonButton.Location = new System.Drawing.Point(795, 402);
+            this.CommonButton.Location = new System.Drawing.Point(732, 408);
             this.CommonButton.Name = "CommonButton";
             this.CommonButton.Size = new System.Drawing.Size(100, 50);
             this.CommonButton.TabIndex = 15;
@@ -217,7 +217,7 @@
             this.UncommonButton.BackColor = System.Drawing.Color.Transparent;
             this.UncommonButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.UncommonButton.ForeColor = System.Drawing.Color.DarkGreen;
-            this.UncommonButton.Location = new System.Drawing.Point(928, 402);
+            this.UncommonButton.Location = new System.Drawing.Point(851, 408);
             this.UncommonButton.Name = "UncommonButton";
             this.UncommonButton.Size = new System.Drawing.Size(120, 50);
             this.UncommonButton.TabIndex = 16;
@@ -230,7 +230,7 @@
             this.RareButton.BackColor = System.Drawing.Color.Transparent;
             this.RareButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RareButton.ForeColor = System.Drawing.Color.Blue;
-            this.RareButton.Location = new System.Drawing.Point(1065, 402);
+            this.RareButton.Location = new System.Drawing.Point(991, 408);
             this.RareButton.Name = "RareButton";
             this.RareButton.Size = new System.Drawing.Size(100, 50);
             this.RareButton.TabIndex = 17;
@@ -243,7 +243,7 @@
             this.EpicButton.BackColor = System.Drawing.Color.Transparent;
             this.EpicButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EpicButton.ForeColor = System.Drawing.Color.DarkViolet;
-            this.EpicButton.Location = new System.Drawing.Point(861, 470);
+            this.EpicButton.Location = new System.Drawing.Point(797, 470);
             this.EpicButton.Name = "EpicButton";
             this.EpicButton.Size = new System.Drawing.Size(100, 50);
             this.EpicButton.TabIndex = 18;
@@ -256,7 +256,7 @@
             this.LegendaryButton.BackColor = System.Drawing.Color.Transparent;
             this.LegendaryButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LegendaryButton.ForeColor = System.Drawing.Color.Gold;
-            this.LegendaryButton.Location = new System.Drawing.Point(1007, 470);
+            this.LegendaryButton.Location = new System.Drawing.Point(934, 470);
             this.LegendaryButton.Name = "LegendaryButton";
             this.LegendaryButton.Size = new System.Drawing.Size(110, 50);
             this.LegendaryButton.TabIndex = 19;
@@ -266,8 +266,9 @@
             // 
             // fishPicture2
             // 
+            this.fishPicture2.BackColor = System.Drawing.Color.Transparent;
             this.fishPicture2.Image = global::Aquaria_Project.Properties.Resources.goby;
-            this.fishPicture2.Location = new System.Drawing.Point(187, 362);
+            this.fishPicture2.Location = new System.Drawing.Point(66, 364);
             this.fishPicture2.Name = "fishPicture2";
             this.fishPicture2.Size = new System.Drawing.Size(244, 147);
             this.fishPicture2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -278,7 +279,7 @@
             // 
             this.fishPicture3.BackColor = System.Drawing.Color.Transparent;
             this.fishPicture3.Image = global::Aquaria_Project.Properties.Resources.puffer;
-            this.fishPicture3.Location = new System.Drawing.Point(795, 44);
+            this.fishPicture3.Location = new System.Drawing.Point(732, 66);
             this.fishPicture3.Name = "fishPicture3";
             this.fishPicture3.Size = new System.Drawing.Size(212, 145);
             this.fishPicture3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -288,8 +289,9 @@
             // 
             // fishPicture1
             // 
+            this.fishPicture1.BackColor = System.Drawing.Color.Transparent;
             this.fishPicture1.Image = global::Aquaria_Project.Properties.Resources.clownfish;
-            this.fishPicture1.Location = new System.Drawing.Point(187, 44);
+            this.fishPicture1.Location = new System.Drawing.Point(66, 66);
             this.fishPicture1.Name = "fishPicture1";
             this.fishPicture1.Size = new System.Drawing.Size(248, 145);
             this.fishPicture1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -302,6 +304,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Lavender;
             this.BackgroundImage = global::Aquaria_Project.Properties.Resources.bookBackground;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1345, 670);
             this.Controls.Add(this.fishPicture2);
             this.Controls.Add(this.fishPicture3);

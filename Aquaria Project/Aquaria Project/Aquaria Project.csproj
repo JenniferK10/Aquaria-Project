@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Adoption.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Adoption.Designer.cs">
+      <DependentUpon>Adoption.cs</DependentUpon>
+    </Compile>
     <Compile Include="badGuessForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +72,12 @@
       <DependentUpon>Aquarium.cs</DependentUpon>
     </Compile>
     <Compile Include="Fish.cs" />
+    <Compile Include="FishStore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FishStore.Designer.cs">
+      <DependentUpon>FishStore.cs</DependentUpon>
+    </Compile>
     <Compile Include="FlappyFishForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -87,6 +99,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Trivia.cs" />
     <Compile Include="TriviaGame.cs">
       <SubType>Form</SubType>
@@ -94,6 +111,9 @@
     <Compile Include="TriviaGame.Designer.cs">
       <DependentUpon>TriviaGame.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Adoption.resx">
+      <DependentUpon>Adoption.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="badGuessForm.resx">
       <DependentUpon>badGuessForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -102,6 +122,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Aquarium.resx">
       <DependentUpon>Aquarium.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FishStore.resx">
+      <DependentUpon>FishStore.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FlappyFishForm.resx">
       <DependentUpon>FlappyFishForm.cs</DependentUpon>
@@ -114,14 +137,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <EmbeddedResource Include="TriviaGame.resx">
       <DependentUpon>TriviaGame.cs</DependentUpon>
     </EmbeddedResource>
@@ -191,6 +209,69 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="bin\Debug\pipedown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\sandcastle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\rope1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\rope2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\bluetang.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\butterfly.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\cardinal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\goby.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\jawfish.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\lionfish.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\mandarindragonet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\puffer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\royalgamma.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\seahorse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\possumwrasse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\cropC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\StoneDecoration.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\plant.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\sandBrown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\sandOrange.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\sandRed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\sandGreen.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

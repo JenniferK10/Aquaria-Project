@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+//Florence Lourdes
 
 namespace Aquaria_Project
 {
@@ -119,8 +120,13 @@ namespace Aquaria_Project
 
         private void ExitButton_Click(object sender, EventArgs e)
         {
-            c.setCoins((correct * 10).ToString());
+            
             this.Close();
+        }
+
+        private void TriviaGame_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            c.setCoins((correct * 10).ToString());
         }
     }
 }

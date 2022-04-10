@@ -205,6 +205,7 @@ namespace Aquaria_Project
             this.Controls.Add(this.PipeBottomHigh);
             this.Name = "FlappyFishForm";
             this.Text = "v";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FlappyFishForm_FormClosing);
             this.Load += new System.EventHandler(this.FlappyFishForm_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.SpaceKeyDown);
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.SpaceKeyUp);
