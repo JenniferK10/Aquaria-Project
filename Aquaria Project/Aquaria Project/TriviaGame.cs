@@ -1,4 +1,11 @@
-﻿using System;
+﻿/**************************************
+ * Name: TriviaGame.cs
+ * Purpose: To display the trivia game form
+ * Author: Florence Lourdes
+ * Note: Adds score and money for each correct answer
+ *************************************/
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,7 +14,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-//Florence Lourdes
 
 namespace Aquaria_Project
 {

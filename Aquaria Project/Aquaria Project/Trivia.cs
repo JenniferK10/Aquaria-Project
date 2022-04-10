@@ -1,9 +1,15 @@
-﻿using System;
+﻿/**************************************
+ * Name: Trivia.cs
+ * Purpose: to hold an array of 20 questions and generate a random question
+ * Author: Florence Lourdes
+ * Note: Contains methods that return questions and choices to TriviaGame form designer
+ *************************************/
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-//Florence Lourdes
 
 namespace Aquaria_Project
 {

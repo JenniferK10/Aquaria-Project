@@ -1,4 +1,11 @@
-﻿using System;
+﻿/**************************************
+ * Name: Fish.cs
+ * Purpose: To contain information for each fish
+ * Author: Jennifer Kalies and Florence Lourdes
+ * Note: Holds a continuously updated fish array list
+ *************************************/
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -243,48 +250,29 @@ namespace Aquaria_Project
             else
                 return false;
         }
-        //FL
+        
         public string getFact()
         {
             return fact;
         }
 
-        public string getName()
+        //Florence Lourdes start
+        public string getName() //returns fish name as a string
         {
-            return name;
+            return name; 
+        }
+    
+        static List<string> fishList = new List<string>(); //array list to hold fishes
+
+        public void setFishList(List<string> list) //set fish list function
+        {
+            fishList = list; 
         }
 
-        static List<string> fishList = new List<string>();
-
-        public void setFishList(List<string> list)
+        public List<string> getFishList() //get fish list function
         {
-            fishList = list;
+            return fishList; 
         }
-
-        public List<string> getFishList()
-        {
-            return fishList;
-        }
-
-        /*
-        public void setFishList(List<Fish> list)
-        {
-            fishList = list;
-        }
-
-        public List<Fish> getFishList()
-        {
-            return fishList;
-        }
-        public void AddFish(Fish fishType)
-        {
-            fishList.Add(fishType);
-        }
-
-        public void RemoveFish(Fish fishType)
-        {
-            fishList.Remove(fishType);
-        }
-        */
+        //Florence Lourdes end
     }
 }

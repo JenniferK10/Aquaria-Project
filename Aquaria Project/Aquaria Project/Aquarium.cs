@@ -1,4 +1,11 @@
-﻿using System;
+﻿/**************************************
+ * Name: Aquaria
+ * Purpose: A fish collecting game with aquarium display and multiple mini games
+ * Author: Jennifer Kalies, Suhali Patel, Matthew Fisher, Florence Lourdes
+ * Date: March 1, 2022
+ *************************************/
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -228,7 +235,7 @@ namespace Aquaria_Project
 
         private void button1_Click(object sender, EventArgs e)
         {
-            FishStore fishStore = new FishStore();
+            FishStore fishStore = new FishStore();//opening fish store form
             fishStore.ShowDialog();
         }
 
@@ -257,7 +264,7 @@ namespace Aquaria_Project
         }
         private void AdoptButton_Click(object sender, EventArgs e)
         {
-            Adoption adoption = new Adoption();
+            Adoption adoption = new Adoption();//opening adoption form
             adoption.ShowDialog();
         }
         private void Aquarium_Load(object sender, EventArgs e)

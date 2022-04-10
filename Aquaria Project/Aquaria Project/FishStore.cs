@@ -1,4 +1,11 @@
-﻿using System;
+﻿/**************************************
+ * Name: FishStore.cs
+ * Purpose: To display the fish store form and add fishes
+ * Author: Florence Lourdes
+ * Note: Uses the Coins class and temporary array list to hold fishes
+ *************************************/
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,7 +14,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-//Florence Lourdes
 
 namespace Aquaria_Project
 {
