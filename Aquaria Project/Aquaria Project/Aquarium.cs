@@ -1149,8 +1149,8 @@ namespace Aquaria_Project
         }
 
         private void PlayButton_Click(object sender, EventArgs e)
-        {
-            TriviaGameStart.Visible = true;
+        {//MF
+            TriviaGameStart.Visible = true; //game options drop down
             GuessingGameStart.Visible = true;
             FlappyFishStart.Visible = true;
             HuntingGameStart.Visible = true;
@@ -1161,8 +1161,8 @@ namespace Aquaria_Project
         }
 
         private void CloseButton_Click(object sender, EventArgs e)
-        {
-            TriviaGameStart.Visible = false;
+        {//MF
+            TriviaGameStart.Visible = false; //game options go away
             GuessingGameStart.Visible = false;
             FlappyFishStart.Visible = false;
             HuntingGameStart.Visible = false;

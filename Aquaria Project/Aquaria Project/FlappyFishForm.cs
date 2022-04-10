@@ -11,11 +11,11 @@ using System.Windows.Forms;
 namespace Aquaria_Project
 {
     public partial class FlappyFishForm : Form
-    {
+    {//MF
         int pipeSpeed = 5; //sets speed at which pipes move
         int gravity = 13;  // makes bird fall
         int score = 0;     //keeps track of how many points you get, may turn to coins
-        Random rnd = new Random();
+        Random rnd = new Random(); //random number generator
         int rand = 0;
 
         Coins c = new Coins();
@@ -41,11 +41,11 @@ namespace Aquaria_Project
             PipeTopLow.Left -= pipeSpeed;//top and bottom
             score1.Text = "Score: " + score;  //keeps track of score
 
-            rand = rnd.Next(0, 2);
+            rand = rnd.Next(0, 2); //generates number 0-2, chooses pipe hight
 
             if (PipeBottom.Left < -150 || PipeBottomHigh.Left < -150 || PipeBottomLow.Left < -150)
             {
-                if (rand == 0)
+                if (rand == 0) //bottom pipe middle
                 {
                     PipeBottom.Visible = true;
                     PipeBottom.Left = 800;
@@ -55,7 +55,7 @@ namespace Aquaria_Project
                     PipeBottomLow.Left = 800;
 
                 }
-                if (rand == 1)
+                if (rand == 1) //bottom pipe high
                 {
                     PipeBottomHigh.Visible = true;
                     PipeBottomHigh.Left = 800;
@@ -66,7 +66,7 @@ namespace Aquaria_Project
 
 
                 }
-                if (rand == 2)
+                if (rand == 2) //bottom pipe low
                 {
                     PipeBottomLow.Visible = true;
                     PipeBottomLow.Left = 800;
@@ -80,7 +80,7 @@ namespace Aquaria_Project
             }
             if (PipeTop.Left < -150 || PipeTopHigh.Left < -150 || PipeTopLow.Left < -150) //-180
             {
-                if (rand == 0)
+                if (rand == 0) //same as bottom but for top
                 {
                     PipeTop.Visible = true;
                     PipeTop.Left = 800;
@@ -110,7 +110,7 @@ namespace Aquaria_Project
                     PipeTop.Left = 800;
                 }
             }
-            if (PipeTop.Visible == true)
+            if (PipeTop.Visible == true) //fish only collides with visible pipes
             {
                 if (Fish.Bounds.IntersectsWith(PipeBottom.Bounds) ||
                 Fish.Bounds.IntersectsWith(PipeTop.Bounds) ||
@@ -145,7 +145,7 @@ namespace Aquaria_Project
         }
         private void endGame()
         {
-            GameTimer.Stop();
+            GameTimer.Stop(); //ends game
             score1.Text += " Game over!!!"; //score text box says messge
             Restart.Visible = true; //button to restart game shows
             ExitButton.Visible = true;  //button to exit game shows
@@ -155,15 +155,24 @@ namespace Aquaria_Project
 
         private void Restart_Click(object sender, EventArgs e)
         {
-            //Application.Restart(); //restarts game
-
+            PipeTop.Left = 800; //resets all pies
+            PipeTopLow.Left = 800;
+            PipeTopHigh.Left = 800;
+            PipeBottomLow.Left = 800;
+            PipeBottom.Left = 800;
+            PipeBottomHigh.Left = 800;
+            Fish.Location = new Point(91, 207); //resets fish
+            StartButton.Visible = true; 
+            Restart.Visible = false;
+            ExitButton.Visible = false;
+        
         }
 
         private void SpaceKeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Space)
             {
-                // if the space key is pressed then the gravity will be set to -15
+                // if the space key is down fish goes up
                 gravity = -13;
             }
         }
@@ -172,7 +181,7 @@ namespace Aquaria_Project
         {
             if (e.KeyCode == Keys.Space)
             {
-                // if the space key is pressed then the gravity will be set to -15
+                // if the space key is up fish goes down
                 gravity = 13;
             }
         }
@@ -180,6 +189,17 @@ namespace Aquaria_Project
         private void FlappyFishForm_FormClosing(object sender, FormClosingEventArgs e)
         {
             c.setCoins(score.ToString());
+        }
+
+        private void ExitButton_Click(object sender, EventArgs e)
+        {
+            this.Close(); //close form
+        }
+
+        private void StartButton_Click(object sender, EventArgs e)
+        {
+            GameTimer.Start(); //starts game
+            StartButton.Visible = false;
         }
     }
 }
