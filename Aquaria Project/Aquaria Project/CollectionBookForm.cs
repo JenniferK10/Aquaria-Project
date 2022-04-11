@@ -7,16 +7,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-/*
- * ****************
- Jennifer Kalies
-********************
- */
+/**************************************
+ * Name: CollectionBookForm.cs
+ * Purpose: Include all functionalities for collection book
+ * Author: Jennifer Kalies
+ * Note: checks if fish was obtained before it becomes visible
+ *************************************/
 
 namespace Aquaria_Project
 {
     public partial class CollectionBookForm : Form
     {
+        //JK begin
         public CollectionBookForm(Image []fishPictures)
         {
             InitializeComponent();
@@ -136,7 +138,7 @@ namespace Aquaria_Project
             {
                 RarityLabel.Text = "Common";//changes label to show which rarity fish are
 
-                if (f.getObtained("clownfish"))
+                if (f.getObtained("clownfish"))//checks if fish was obtained before displaying
                 {
                     fishPicture1.Image = clownpic; //chnages image in the picture box
                     Name1.Text = clownCollection.getKind(); //chnages name/kind of the fish
@@ -399,5 +401,6 @@ namespace Aquaria_Project
             page = 5;
             ChangeLabels();
         }
+        //JK end
     }
 }

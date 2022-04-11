@@ -50,6 +50,7 @@ namespace Aquaria_Project
             else
             {
                 //resets the game after 5 rounds
+                c.setCoins((correct * 10).ToString());//sends score to money
                 MessageBox.Show("correct answer: " + correct + ". Game is reset.");
                 game.reset();
                 questionBox.Text = "Question";
@@ -113,7 +114,7 @@ namespace Aquaria_Project
         //reset function
         private void resetButton_Click(object sender, EventArgs e)
         {
-            c.setCoins((correct * 10).ToString());
+            c.setCoins((correct * 10).ToString());//sends score to money
             MessageBox.Show("correct answer: " + correct + ". Game is reset.");
             game.reset();
             questionBox.Text = "Question";
@@ -130,9 +131,11 @@ namespace Aquaria_Project
             this.Close();
         }
 
+        //JK begin
         private void TriviaGame_FormClosing(object sender, FormClosingEventArgs e)
         {
-            c.setCoins((correct * 10).ToString());
+            c.setCoins((correct * 10).ToString());//adds score to money
         }
+        //JK end
     }
 }

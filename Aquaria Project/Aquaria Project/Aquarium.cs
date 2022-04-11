@@ -26,30 +26,16 @@ namespace Aquaria_Project
         {
             InitializeComponent();
         }
+     
 
-        /*
-        //Common
-        Fish goby = new Fish("goby");
-        Fish puffer = new Fish("puffer fish");
-        //Uncommon
-        Fish butterfly = new Fish("butterfly fish");
-        Fish blueTang = new Fish("blue tang");
-        Fish royalGramma = new Fish("royal gramma");
-        //Rare
-        Fish cardinal = new Fish("cardinal fish");
-        Fish blueDotJawfish = new Fish("blue dot jawfish");
-        //Epic
-        Fish seahorse = new Fish("seahorse");
-        Fish possumWrasse = new Fish("possum wrasse");
-        //Legendary
-        Fish lionfish = new Fish("lionfish");
-        Fish mandarinDragonet = new Fish("mandarin dragonet");
-        */
+        //JK begin
+        //declaring pcitures for sand decoration
         Image brownSand = Properties.Resources.sandBrown;
         Image orangeSand = Properties.Resources.sandOrange;
         Image redSand = Properties.Resources.sandRed;
         Image greenSand = Properties.Resources.sandGreen;
 
+        //pciture that will be send to collection book form
         Image clownPic = Image.FromFile("clownfish.jpg");
         Image gobyPic = Image.FromFile("goby.jpg");
         Image pufferPic = Image.FromFile("puffer.jpg");
@@ -69,7 +55,9 @@ namespace Aquaria_Project
             Image.FromFile("butterfly.jpg"), Image.FromFile("bluetang.jpg"), Image.FromFile("royalgramma.jpg"),
             Image.FromFile("cardinal.jpg"), Image.FromFile("jawfish.jpg"), Image.FromFile("seahorse.jpg"), Image.FromFile("possumwrasse.jpg"),
             Image.FromFile("lionfish.jpg"), Image.FromFile("mandarindragonet.jpg")};
-        //SP
+        //JK end
+
+        //SP begin
         Image clown = Image.FromFile("clown.gif");
         Image gobyfish = Properties.Resources.goby1;
         Image pufferfish = Image.FromFile("cropC.png");
@@ -131,15 +119,15 @@ namespace Aquaria_Project
         }
         void fishRight()// fisah moving to the right
         {
-            int width = this.Width;
-            //picturebox5
-            if (fish5.Location.X > width - fish5.Width)
+            int width = this.Width; //get the width of the form
+            //picturebox5 
+            if (fish5.Location.X > width - fish5.Width) //check to see if the picture box touch the end of the form
             {
-                fish5.Location = new Point(1, fish5.Location.Y);
+                fish5.Location = new Point(1, fish5.Location.Y);// box is set to a new point, 1 is the x coordinate
             }
             else
             {
-                fish5.Location = new Point(fish5.Location.X + 100, fish5.Location.Y);
+                fish5.Location = new Point(fish5.Location.X + 100, fish5.Location.Y);// to move the picture box from x by 100 points
             }
             //picturebox6
             if (fish6.Location.X > width - fish6.Width)
@@ -178,60 +166,8 @@ namespace Aquaria_Project
                 fish9.Location = new Point(fish9.Location.X + 100, fish9.Location.Y);
             }
         }
-        //SP
-        /*
-        public Image getImage(String fish)
-        {
-            if(fish.Equals("clownfish"))
-            {
-                return clownPic;
-            }
-            else if (fish.Equals("goby"))
-            {
-                return gobyPic;
-            }
-            else if (fish.Equals("puffer"))
-            {
-                return pufferPic;
-            }
-            else if (fish.Equals("butterfly"))
-            {
-                return butterflyPic;
-            }
-            else if (fish.Equals("bluetang"))
-            {
-                return blueTangPic;
-            }
-            else if (fish.Equals("royalgramma"))
-            {
-                return royalGrammaPic;
-            }
-            else if (fish.Equals("cardinal"))
-            {
-                return cardinalPic;
-            }
-            else if (fish.Equals("jawfish"))
-            {
-                return jawfishPic;
-            }
-            else if (fish.Equals("seahorse"))
-            {
-                return seahorsePic;
-            }
-            else if (fish.Equals("possumwrasse"))
-            {
-                return possumWrassePic;
-            }
-            else if (fish.Equals("lionfish"))
-            {
-                return lionfishPic;
-            }
-            else
-            {
-                return mandarinDragonetPic;
-            }           
-        }
-        */
+        //SP end
+       
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -239,12 +175,14 @@ namespace Aquaria_Project
             fishStore.ShowDialog();
         }
 
+        //JK
         private void CollectionBookOpen_Click(object sender, EventArgs e)
         {
             CollectionBookForm CollectionBook = new CollectionBookForm(fishPictures);//showing collection box form and sending array of pictures
             CollectionBook.ShowDialog();
         }
 
+        //JK
         private void GuessingGameStart_Click(object sender, EventArgs e)
         {
             GuessingGameForm GuessingGame = new GuessingGameForm();//opening guessing game form
@@ -256,7 +194,7 @@ namespace Aquaria_Project
             TriviaGame TriviaGame = new TriviaGame();//opening trivia game form
             TriviaGame.ShowDialog();
         }
-
+        //SP
         private void HuntingGameStart_Click(object sender, EventArgs e)
         {
             huntingGameForm huntingGameForm = new huntingGameForm();
@@ -267,6 +205,8 @@ namespace Aquaria_Project
             Adoption adoption = new Adoption();//opening adoption form
             adoption.ShowDialog();
         }
+
+        //JK begin
         private void Aquarium_Load(object sender, EventArgs e)
         {
             location1.AllowDrop = true;//allows for drag and drop
@@ -276,7 +216,7 @@ namespace Aquaria_Project
         }
 
 
-        private void timer_Tick(object sender, EventArgs e)//JK
+        private void timer_Tick(object sender, EventArgs e)
         {
             coinLabel.Text = c.getCoins().ToString();//updates money label
 
@@ -327,14 +267,14 @@ namespace Aquaria_Project
                 if(Unlock8.Text != "Unlocked")
                     Unlock8.Enabled = true;
             }
+            //JK end
 
 
 
-
-            //SP
-            if (f.getFishList().Count >= 1)
+            //SP & JK begin
+            if (f.getFishList().Count >= 1)//checks that at least one fish is bought
                 {
-                    if (f.getFishList()[0] == ("clownfish"))
+                    if (f.getFishList()[0] == ("clownfish"))//if first index of list is a clownfish then change fish1 picturebox to clownfish
                     {
                         fish1.Image = clown;
                         fish1.Visible = true;
@@ -395,7 +335,7 @@ namespace Aquaria_Project
                         fish1.Visible = true;
                     }
                 }
-            else
+            else//no picture in the list will remove any displayed fish after adoption
             {
                 fish1.Image = null;
                 fish1.Visible = false;
@@ -955,71 +895,9 @@ namespace Aquaria_Project
                 fish9.Image = null;
                 fish9.Visible = false;
             }
+            //SP & JK end
 
-            /*for (int i = 0; i < f.getFishList().Count; i++)
-            {
-                if (f.getFishList()[i] == ("clownfish"))
-                {
-                    fish2.Image = clown;
-                    fish2.Visible = true;
-                }
-                if (f.getFishList()[i] == ("goby"))
-                {
-                    fish2.Image = gobyfish;
-                    fish2.Visible = true;
-                }
-                if (f.getFishList()[i] == ("pufferfish"))
-                {
-                    fish2.Image = pufferfish;
-                    fish2.Visible = true;
-                }
-                if (f.getFishList()[i] == ("butterfly fish"))
-                {
-                    fish3.Image = butterflyfish;
-                    fish3.Visible = true;
-                }
-                if (f.getFishList()[i] == ("bluetang"))
-                {
-                    fish4.Image = bluetang;
-                    fish4.Visible = true;
-                }
-                if (f.getFishList()[i] == ("royalgramma"))
-                {
-                    fish5.Image = royalgramma;
-                    fish5.Visible = true;
-                }
-                if (f.getFishList()[i] == ("cardinal"))
-                {
-                    fish6.Image = cardinalfish;
-                    fish6.Visible = true;
-                }
-                if (f.getFishList()[i] == ("jawfish"))
-                {
-                    fish7.Image = bluedotjawfish;
-                    fish7.Visible = true;
-                }
-                if (f.getFishList()[i] == ("seahorse"))
-                {
-                    fish8.Image = seaHorse;
-                    fish8.Visible = true;
-                }
-                if (f.getFishList()[i] == ("possumrasse"))
-                {
-                    fish9.Image = possumwarsse;
-                    fish9.Visible = true;
-                }
-                if (f.getFishList()[i] == ("lionfish"))
-                {
-                    fish1.Image = lionFish;
-                    fish1.Visible = true;
-                }
-                if (f.getFishList()[i] == ("mandarindrogan"))
-                {
-                    fish1.Image = mandarindragon;
-                    fish1.Visible = true;
-                }
-            }*/
-            //SP
+           
         }
 
         private void FlappyFishStart_Click(object sender, EventArgs e)
@@ -1028,7 +906,8 @@ namespace Aquaria_Project
             FlappyFishForm.ShowDialog();
         }
 
-        private void Unlock1_Click(object sender, EventArgs e)//JK
+        //JK begin
+        private void Unlock1_Click(object sender, EventArgs e)
         {
             decoration1.Enabled = true;//enable decoration1 because user paid for it
             c.loseCoins(Unlock1.Text);//pay for decoration
@@ -1036,7 +915,7 @@ namespace Aquaria_Project
             Unlock1.Enabled = false;
         }
 
-        private void DecortationStore_Click(object sender, EventArgs e)//opens decoration store //JK
+        private void DecortationStore_Click(object sender, EventArgs e)//opens decoration store 
         {
             decorationPanel.Visible = true;
             
@@ -1087,7 +966,7 @@ namespace Aquaria_Project
             Unlock6.Enabled = false;
         }
 
-        //JK
+        
         private void location1_DragDrop(object sender, DragEventArgs e)//update the picture of target picturebox after darg and drop
         {
             Image getPicture = (Bitmap)e.Data.GetData(DataFormats.Bitmap);
@@ -1154,6 +1033,7 @@ namespace Aquaria_Project
         {
             decorationPanel.Visible = false;
         }
+        //JK end
 
         private void PlayButton_Click(object sender, EventArgs e)
         {//MF
@@ -1178,23 +1058,24 @@ namespace Aquaria_Project
             CloseButton.Visible = false;
             PlayButton.Visible = true;
         }
-        //SP
+        //SP begin
+        // set timer cand change the interval to change the spead of the timer
         private void timer1_Tick(object sender, EventArgs e)// timer for left moving fish
         {
             fish();
         }
 
-        //SP
         private void timer2_Tick(object sender, EventArgs e)// timer for right moving fish
         {
             fishRight();
         }
-
+        //SP end
         private void decoration4_Click(object sender, EventArgs e)
         {
 
         }
 
+        //JK begin
         private void Unlock7_Click(object sender, EventArgs e)
         {
             decoration7.Enabled = true;
@@ -1211,7 +1092,7 @@ namespace Aquaria_Project
             Unlock8.Enabled = false;
         }
 
-        private void decoration7_Click(object sender, EventArgs e)
+        private void decoration7_Click(object sender, EventArgs e)//if picture box is enabled and clicked set pciturebox to sand picture
         {
             sandDecoration.Image = redSand;
         }
@@ -1255,6 +1136,7 @@ namespace Aquaria_Project
                 e.Effect = DragDropEffects.Copy;
             }
         }
+        //JK end
         
     }
 }

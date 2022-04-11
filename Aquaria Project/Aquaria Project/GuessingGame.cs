@@ -6,11 +6,15 @@ using System.Threading.Tasks;
 
 namespace Aquaria_Project
 {
-    /*
-     Jennifer Kalies
-    */
+    /**************************************
+ * Name: GuessingGame.cs
+ * Purpose: Determines bad boxes and keeps track of them, keeps track of score and correct guesses
+ * Author: Jennifer Kalies
+ * Note: Is used by the guessing game form
+ *************************************/
     internal class GuessingGame
     {
+        //JK begin
         Coins c;
         
         bool goodBox1 = true;// booleans to determine if the box is good or bad
@@ -396,5 +400,6 @@ namespace Aquaria_Project
             badNumber = "";
             corrcetGuesses = 0;
         }
+        //JK end
     }
 }

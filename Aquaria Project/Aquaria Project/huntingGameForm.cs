@@ -1,4 +1,9 @@
-﻿using System;
+﻿/**************************************
+ * Name: huntingGameForm.cs
+ * Purpose: To create a game where users can hunt fishes and earn points to buy fishes later
+ * Author: Suhali Patel
+ *************************************/
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -23,8 +28,6 @@ namespace Aquaria_Project
 
         int miss, hunt, score;
         private int duration = 60;
-        //Random r = new Random();
-        
         void game_Status()
         {
             if (lab_miss.Text == "Missed: 5")
@@ -33,14 +36,7 @@ namespace Aquaria_Project
                 timer.Stop();
                 Restart.Visible = true;
                 Exit.Visible = true;
-            } // game over is 5 fish missed
-            /*if (lab_hunt.Text == "Hunted: 10")// game over is 10 fish is hunted
-            {
-                lab_over.Visible = true;
-                timer.Stop();
-                Restart.Visible=true;
-                Exit.Visible=true;
-            }*/
+            } 
         }
 
 
@@ -130,11 +126,6 @@ namespace Aquaria_Project
         {
             fish();
             game_Status();
-
-            /*int x, y;
-            x = r.Next(100, 300);
-            y = r.Next(100, 300);
-            fish1.Location = new Point(x, y);*/
         }
 
         private void huntingGameForm_MouseClick(object sender, MouseEventArgs e)
@@ -149,11 +140,13 @@ namespace Aquaria_Project
             this.Close();
         }
 
+        //JK begin
         private void huntingGameForm_FormClosing(object sender, FormClosingEventArgs e)
         {
             string[] score = lab_score.Text.Split();
-            c.setCoins(score[1]);
+            c.setCoins(score[1]);//adds score to money
         }
+        //JK end
 
         private void fish5_Click(object sender, EventArgs e)
         {
