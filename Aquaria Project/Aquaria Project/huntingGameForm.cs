@@ -149,11 +149,13 @@ namespace Aquaria_Project
             this.Close();
         }
 
+        //JK begin
         private void huntingGameForm_FormClosing(object sender, FormClosingEventArgs e)
         {
             string[] score = lab_score.Text.Split();
-            c.setCoins(score[1]);
+            c.setCoins(score[1]);//adds score to money
         }
+        //JK end
 
         private void fish5_Click(object sender, EventArgs e)
         {

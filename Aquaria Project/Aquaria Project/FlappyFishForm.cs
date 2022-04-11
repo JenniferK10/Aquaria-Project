@@ -186,10 +186,12 @@ namespace Aquaria_Project
             }
         }
 
+        //JK begin
         private void FlappyFishForm_FormClosing(object sender, FormClosingEventArgs e)
         {
-            c.setCoins(score.ToString());
+            c.setCoins((score * 20).ToString());//add score to money
         }
+        //JK end 
 
         private void ExitButton_Click(object sender, EventArgs e)
         {

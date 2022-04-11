@@ -219,7 +219,7 @@ namespace Aquaria_Project
                 storeFishList.Add(clownfish.getName());
                 store.setFishList(storeFishList);
                 fishStoreCoin.loseCoins("20");
-                store.setObtained(clownfish.getName());
+                store.setObtained(clownfish.getName());//JK
                 
     }
             else
@@ -236,7 +236,7 @@ namespace Aquaria_Project
                 storeFishList.Add(goby.getName());
                 store.setFishList(storeFishList);
                 fishStoreCoin.loseCoins("20");
-                store.setObtained(goby.getName());
+                store.setObtained(goby.getName());//JK
             }
             else
             {
@@ -251,7 +251,7 @@ namespace Aquaria_Project
                 storeFishList.Add(puffer.getName());
                 store.setFishList(storeFishList);
                 fishStoreCoin.loseCoins("20");
-                store.setObtained(puffer.getName());
+                store.setObtained(puffer.getName());//JK
                 
             }
             else
@@ -267,7 +267,7 @@ namespace Aquaria_Project
                 storeFishList.Add(butterfly.getName());
                 store.setFishList(storeFishList);
                 fishStoreCoin.loseCoins("30");
-                store.setObtained(butterfly.getName());
+                store.setObtained(butterfly.getName());//JK
             }
             else
             {
@@ -282,7 +282,7 @@ namespace Aquaria_Project
                 storeFishList.Add(blueTang.getName());
                 store.setFishList(storeFishList);
                 fishStoreCoin.loseCoins("30");
-                store.setObtained(blueTang.getName());
+                store.setObtained(blueTang.getName());//JK
             }
             else
             {
@@ -297,7 +297,7 @@ namespace Aquaria_Project
                 storeFishList.Add(royalGramma.getName());
                 store.setFishList(storeFishList);
                 fishStoreCoin.loseCoins("30");
-                store.setObtained(royalGramma.getName());
+                store.setObtained(royalGramma.getName());//JK
             }
             else
             {
@@ -312,7 +312,7 @@ namespace Aquaria_Project
                 storeFishList.Add(cardinal.getName());
                 store.setFishList(storeFishList);
                 fishStoreCoin.loseCoins("50");
-                store.setObtained(cardinal.getName());
+                store.setObtained(cardinal.getName());//JK
             }
             else
             {
@@ -327,7 +327,7 @@ namespace Aquaria_Project
                 storeFishList.Add(blueDotJawfish.getName());
                 store.setFishList(storeFishList);
                 fishStoreCoin.loseCoins("50");
-                store.setObtained(blueDotJawfish.getName());
+                store.setObtained(blueDotJawfish.getName());//JK
             }
             else
             {
@@ -342,7 +342,7 @@ namespace Aquaria_Project
                 storeFishList.Add(seahorse.getName());
                 store.setFishList(storeFishList);
                 fishStoreCoin.loseCoins("70");
-                store.setObtained(seahorse.getName());
+                store.setObtained(seahorse.getName());//JK
             }
             else
             {
@@ -357,7 +357,7 @@ namespace Aquaria_Project
                 storeFishList.Add(possumWrasse.getName());
                 store.setFishList(storeFishList);
                 fishStoreCoin.loseCoins("70");
-                store.setObtained(possumWrasse.getName());
+                store.setObtained(possumWrasse.getName());//JK
             }
             else
             {
@@ -372,7 +372,7 @@ namespace Aquaria_Project
                 storeFishList.Add(lionfish.getName());
                 store.setFishList(storeFishList);
                 fishStoreCoin.loseCoins("100");
-                store.setObtained(lionfish.getName());
+                store.setObtained(lionfish.getName());//JK
             }
             else
             {
@@ -387,7 +387,7 @@ namespace Aquaria_Project
                 storeFishList.Add(mandarinDragonet.getName());
                 store.setFishList(storeFishList);
                 fishStoreCoin.loseCoins("100");
-                store.setObtained(mandarinDragonet.getName());
+                store.setObtained(mandarinDragonet.getName());//JK
             }
             else
             {
@@ -404,7 +404,7 @@ namespace Aquaria_Project
                 store.setFishList(storeFishList);
                 fishStoreCoin.loseCoins("50");
                 MessageBox.Show("You got a " + mysteryFish);
-                store.setObtained(mysteryFish);
+                store.setObtained(mysteryFish);//JK
             }
             else
             {

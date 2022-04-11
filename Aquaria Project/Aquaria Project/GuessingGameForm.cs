@@ -7,14 +7,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-/*
- Jennifer Kalies
-*/
+/**************************************
+ * Name: GuessingGameForm.cs
+ * Purpose: Includes functionalities of guessign game form
+ * Author: Jennifer Kalies
+ * Note: uses guessing game class
+ *************************************/
 
 namespace Aquaria_Project
 {
     public partial class GuessingGameForm : Form
     {
+        //JK begin
         GuessingGame g = new GuessingGame(); //creating instance of guessing game class
         Coins c = new Coins(); //adding coins class to send score to aquarium form
         public GuessingGameForm()
@@ -161,7 +165,8 @@ namespace Aquaria_Project
 
         private void GuessingGameForm_FormClosing(object sender, FormClosingEventArgs e)
         {
-            c.setCoins(g.GetScore());
+            c.setCoins(g.GetScore());//adds score to money
         }
+        //JK end
     }
 }

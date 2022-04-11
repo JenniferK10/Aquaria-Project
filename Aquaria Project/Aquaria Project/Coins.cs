@@ -3,9 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-/*
- * Jennifer Kalies
- */
+/**************************************
+ * Name: Coins.cs
+ * Purpose: Keeping track of money and allow to add, substract and get money
+ * Author: Jennifer Kalies
+ * Note: starting coins can be changed when inizializing money
+ *************************************/
 namespace Aquaria_Project
 {
     internal class Coins

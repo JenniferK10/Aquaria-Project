@@ -17,9 +17,11 @@ namespace Aquaria_Project
     {
 
         String name;
-        string kind;
-        string size;
-        string fact;
+        string kind;//keeps track of kind
+        string size;//keeps track of size
+        string fact;//keeps track of fun fact
+
+        //booleans to dtermine if a fish kind was obtained yet
         static bool clownOptained = false;
         static bool gobyOptained = false;
         static bool pufferObtained = false;
@@ -51,7 +53,7 @@ namespace Aquaria_Project
             setFact(kind);
         }
 
-        //JK
+        //JK begin
         public void setKind(int k)//sets kind for collection book
         {
             switch (k)
@@ -100,7 +102,7 @@ namespace Aquaria_Project
             return kind;
         }
 
-        //JK
+        
         public void setSize(int k)//Sets size for collection book
         {
             switch (k)
@@ -192,8 +194,12 @@ namespace Aquaria_Project
                     break;
             }
         }
+        public string getFact()
+        {
+            return fact;
+        }
 
-        public void setObtained(string fish)
+        public void setObtained(string fish)//if fish was obtained than function sets accoridng boolean to true
         {
             if (fish == "clownfish")
                 clownOptained = true;
@@ -221,7 +227,7 @@ namespace Aquaria_Project
                 madarinObtained = true;
         }
 
-        public bool getObtained(string fish)
+        public bool getObtained(string fish)//returns if fish kind was obtained
         {
             if (fish == "clownfish")
                 return clownOptained;
@@ -250,11 +256,8 @@ namespace Aquaria_Project
             else
                 return false;
         }
+        //JK end
         
-        public string getFact()
-        {
-            return fact;
-        }
 
         //Florence Lourdes start
         public string getName() //returns fish name as a string
