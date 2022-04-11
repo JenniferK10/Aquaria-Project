@@ -10,6 +10,11 @@ using System.Windows.Forms;
 
 namespace Aquaria_Project
 {
+ /**************************************
+ * Name: FlappyFishForm.cs
+ * Purpose: Create flappy bird type game, using picture boxes
+ * Author: Matthew Fisher
+ *************************************/
     public partial class FlappyFishForm : Form
     {//MF
         int pipeSpeed = 5; //sets speed at which pipes move
@@ -155,7 +160,7 @@ namespace Aquaria_Project
 
         private void Restart_Click(object sender, EventArgs e)
         {
-            PipeTop.Left = 800; //resets all pies
+            PipeTop.Left = 800; //resets all pipes
             PipeTopLow.Left = 800;
             PipeTopHigh.Left = 800;
             PipeBottomLow.Left = 800;
@@ -186,12 +191,10 @@ namespace Aquaria_Project
             }
         }
 
-        //JK begin
         private void FlappyFishForm_FormClosing(object sender, FormClosingEventArgs e)
         {
-            c.setCoins((score * 20).ToString());//add score to money
+            c.setCoins(score.ToString());
         }
-        //JK end 
 
         private void ExitButton_Click(object sender, EventArgs e)
         {
