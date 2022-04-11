@@ -57,7 +57,7 @@ namespace Aquaria_Project
             Image.FromFile("lionfish.jpg"), Image.FromFile("mandarindragonet.jpg")};
         //JK end
 
-        //SP
+        //SP begin
         Image clown = Image.FromFile("clown.gif");
         Image gobyfish = Properties.Resources.goby1;
         Image pufferfish = Image.FromFile("cropC.png");
@@ -119,15 +119,15 @@ namespace Aquaria_Project
         }
         void fishRight()// fisah moving to the right
         {
-            int width = this.Width;
-            //picturebox5
-            if (fish5.Location.X > width - fish5.Width)
+            int width = this.Width; //get the width of the form
+            //picturebox5 
+            if (fish5.Location.X > width - fish5.Width) //check to see if the picture box touch the end of the form
             {
-                fish5.Location = new Point(1, fish5.Location.Y);
+                fish5.Location = new Point(1, fish5.Location.Y);// box is set to a new point, 1 is the x coordinate
             }
             else
             {
-                fish5.Location = new Point(fish5.Location.X + 100, fish5.Location.Y);
+                fish5.Location = new Point(fish5.Location.X + 100, fish5.Location.Y);// to move the picture box from x by 100 points
             }
             //picturebox6
             if (fish6.Location.X > width - fish6.Width)
@@ -166,7 +166,7 @@ namespace Aquaria_Project
                 fish9.Location = new Point(fish9.Location.X + 100, fish9.Location.Y);
             }
         }
-        //SP
+        //SP end
        
 
         private void button1_Click(object sender, EventArgs e)
@@ -194,7 +194,7 @@ namespace Aquaria_Project
             TriviaGame TriviaGame = new TriviaGame();//opening trivia game form
             TriviaGame.ShowDialog();
         }
-
+        //SP
         private void HuntingGameStart_Click(object sender, EventArgs e)
         {
             huntingGameForm huntingGameForm = new huntingGameForm();
@@ -1058,18 +1058,18 @@ namespace Aquaria_Project
             CloseButton.Visible = false;
             PlayButton.Visible = true;
         }
-        //SP
+        //SP begin
+        // set timer cand change the interval to change the spead of the timer
         private void timer1_Tick(object sender, EventArgs e)// timer for left moving fish
         {
             fish();
         }
 
-        //SP
         private void timer2_Tick(object sender, EventArgs e)// timer for right moving fish
         {
             fishRight();
         }
-
+        //SP end
         private void decoration4_Click(object sender, EventArgs e)
         {
 
