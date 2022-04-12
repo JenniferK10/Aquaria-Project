@@ -221,10 +221,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Aqua;
             this.ClientSize = new System.Drawing.Size(1028, 594);
+            this.Controls.Add(this.lab_timer);
             this.Controls.Add(this.Restart);
             this.Controls.Add(this.Exit);
-            this.Controls.Add(this.lab_over);
-            this.Controls.Add(this.fish5);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lab_score);
@@ -234,7 +233,8 @@
             this.Controls.Add(this.fish2);
             this.Controls.Add(this.fish3);
             this.Controls.Add(this.fish4);
-            this.Controls.Add(this.lab_timer);
+            this.Controls.Add(this.lab_over);
+            this.Controls.Add(this.fish5);
             this.Name = "huntingGameForm";
             this.Text = "huntingGameForm";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.huntingGameForm_FormClosing);
