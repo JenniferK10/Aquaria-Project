@@ -152,7 +152,7 @@ namespace Aquaria_Project
         {
             hunt++;
             lab_hunt.Text = "Hunted: " + hunt;
-            fish1.Image = Properties.Resources.fire;
+            fish5.Image = Properties.Resources.fire;
             score += 8;
             lab_score.Text = "Score: " + score;
         }
